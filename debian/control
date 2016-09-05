@@ -5,8 +5,8 @@ Maintainer: David Mohammed <fossfreedom@ubuntu.com>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.7
 Homepage: https://github.com/budgie-remix
-Vcs-Git: https://github.com/budgie-remix/budgie-remix-lightdm-theme.git
-Vcs-Browser: https://github.com/budgie-remix/budgie-remix-lightdm-theme
+Vcs-Git: https://github.com/budgie-remix/budgie-desktop-environment.git
+Vcs-Browser: https://github.com/budgie-remix/budgie-desktop-environment
 
 Package: budgie-desktop-environment
 Architecture: all
@@ -17,8 +17,8 @@ Depends: budgie-desktop,
  budgie-lightdm-theme,
  dmz-cursor-theme,
  xdg-user-dirs-gtk,
- plymouth-theme-ubuntu-budgie-logo,
- plymouth-theme-ubuntu-budgie-text,
+ plymouth-theme-budgie-remix-logo,
+ plymouth-theme-budgie-remix-text,
  plymouth-themes,
  ${misc:Depends}
 Recommends:

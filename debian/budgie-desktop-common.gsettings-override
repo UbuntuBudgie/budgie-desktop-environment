@@ -42,6 +42,9 @@ default-zoom-level='small'
 [org.gnome.rhythmbox.plugins]
 active-plugins=['dbus-media-server', 'artsearch', 'generic-player', 'audiocd', 'alternative-toolbar', 'mtpdevice', 'daap', 'android', 'rb', 'power-manager', 'notification', 'ipod', 'mpris', 'iradio', 'audioscrobbler', 'mmkeys']
 
+[org.gnome.rhythmbox.plugins.alternative_toolbar]
+dark-theme=true
+
 [org.gnome.desktop.peripherals.touchpad]
 tap-to-click = true
 
@@ -53,7 +56,7 @@ theme-regions=false
 
 [net.launchpad.plank.dock.settings]
 position='left'
-theme='Arc-Plank'
+theme='Gtk+'
 icon-size=48
 
 [org.freedesktop.ibus.panel]
