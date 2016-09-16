@@ -23,7 +23,9 @@ Depends: budgie-desktop,
  ${misc:Depends}
 Recommends:
  arc-theme,
+ arc-firefox-theme,
  pocillo-icon-theme,
+ budgie-welcome,
  gnome-software,
  nautilus,
  gnome-terminal,
