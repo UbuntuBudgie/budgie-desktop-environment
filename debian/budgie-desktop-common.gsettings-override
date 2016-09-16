@@ -15,7 +15,7 @@ gtk-theme='Arc-Darker'
 monospace-font-name='Ubuntu Mono 13'
 font-name='Ubuntu 11'
 document-font-name='Sans 11'
-icon-theme='Moka'
+icon-theme='Pocillo'
 cursor-theme='DMZ-White'
 scaling-factor=1
 
@@ -57,7 +57,7 @@ theme-regions=false
 [net.launchpad.plank.dock.settings]
 position='left'
 theme='Gtk+'
-icon-size=48
+icon-size=32
 
 [org.freedesktop.ibus.panel]
 show-icon-on-systray=false
