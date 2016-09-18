@@ -44,6 +44,7 @@ active-plugins=['dbus-media-server', 'artsearch', 'generic-player', 'audiocd', '
 
 [org.gnome.rhythmbox.plugins.alternative_toolbar]
 dark-theme=true
+display-type=1
 
 [org.gnome.desktop.peripherals.touchpad]
 tap-to-click = true
