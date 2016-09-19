@@ -59,6 +59,8 @@ theme-regions=false
 position='left'
 theme='Gtk+'
 icon-size=32
+hide-delay=500
+hide-mode='dodge-maximized'
 
 [org.freedesktop.ibus.panel]
 show-icon-on-systray=false

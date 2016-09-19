@@ -1,6 +1,11 @@
+budgie-desktop-environment (0.4.14.2) yakkety; urgency=medium
+
+  * rhythmbox should start with headerbars
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 18 Sep 2016 20:20:01 +0100
+
 budgie-desktop-environment (0.4.14.1) yakkety; urgency=medium
 
-  * test version
   * pocillo, plank size
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 16 Sep 2016 23:17:06 +0100
