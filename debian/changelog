@@ -1,3 +1,10 @@
+budgie-desktop-environment (0.4.14.3) yakkety; urgency=medium
+
+  * change plank to dodge-maximized
+  * fix wireless display popup box
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 19 Sep 2016 22:51:13 +0100
+
 budgie-desktop-environment (0.4.14.2) yakkety; urgency=medium
 
   * rhythmbox should start with headerbars
