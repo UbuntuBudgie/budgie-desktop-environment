@@ -55,6 +55,9 @@ pinned-launchers=['firefox.desktop', 'nautilus.desktop', 'libreoffice-writer.des
 [com.solus-project.budgie-panel.panel]
 theme-regions=false
 
+[com.solus-project.budgie-menu]
+menu-headers=false
+
 [net.launchpad.plank.dock.settings]
 position='left'
 theme='Gtk+'
