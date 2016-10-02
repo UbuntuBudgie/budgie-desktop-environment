@@ -1,3 +1,9 @@
+budgie-desktop-environment (0.4.14.4) yakkety; urgency=medium
+
+  * add gnome-logs, baobab and fix for update-manager
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 02 Oct 2016 16:04:50 +0100
+
 budgie-desktop-environment (0.4.14.3) yakkety; urgency=medium
 
   * change plank to dodge-maximized

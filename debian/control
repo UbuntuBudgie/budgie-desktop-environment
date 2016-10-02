@@ -69,7 +69,10 @@ Recommends:
  ibus-table,
  laptop-detect,
  acpi-support,
- bash-completion
+ bash-completion,
+ gir1.2-unity-5.0,
+ gnome-logs,
+ baobab
 Description: Desktop environment for budgie-remix
  Installs all budgie-remix packages, both essential dependencies
  as well as recommended packages and applications.
