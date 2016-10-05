@@ -21,6 +21,8 @@ Depends: budgie-desktop,
  plymouth-theme-budgie-remix-text,
  plymouth-themes,
  ${misc:Depends}
+Conflicts: budgie-remix-lightdm-theme
+Replaces: budgie-remix-lightdm-theme
 Recommends:
  arc-theme,
  arc-firefox-theme,
@@ -83,6 +85,8 @@ Section: misc
 Depends: 
     ${misc:Depends},
     plank
+Conflicts: budgie-plank,
+Replaces: budgie-plank
 Description: Common budgie-remix desktop components
  budgie-desktop common components i.e.
  gsettings overrides
