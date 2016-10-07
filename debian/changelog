@@ -1,3 +1,16 @@
+budgie-desktop-environment (0.4.14.8) yakkety; urgency=medium
+
+  * rejig of the default apps
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 08 Oct 2016 00:14:06 +0100
+
+budgie-desktop-environment (0.4.14.7) yakkety; urgency=medium
+
+  * uninstall budgie-remix-lightdm-theme when installing
+    budgie-desktop-common
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 05 Oct 2016 23:38:04 +0100
+
 budgie-desktop-environment (0.4.14.6) yakkety; urgency=medium
 
   * force uninstall of xenial conflicting packages

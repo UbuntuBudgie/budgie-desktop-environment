@@ -55,8 +55,10 @@ Recommends:
  menulibre,
  totem,
  transmission,
- libreoffice,
- libreoffice-style-breeze,
+ libreoffice-writer,
+ libreoffice-calc,
+ libreoffice-draw,
+ libreoffice-impress,
  apport-gtk,
  tlp,
  thermald,
@@ -67,14 +69,17 @@ Recommends:
  nautilus-share,
  ppa-purge,
  gvfs-fuse,
- ibus-pinyin,
- ibus-table,
  laptop-detect,
  acpi-support,
  bash-completion,
  gir1.2-unity-5.0,
  gnome-logs,
- baobab
+ baobab,
+ gnome-characters,
+ cheese,
+ gnome-font-viewer,
+ gnome-maps,
+ gnome-weather
 Description: Desktop environment for budgie-remix
  Installs all budgie-remix packages, both essential dependencies
  as well as recommended packages and applications.
@@ -85,8 +90,8 @@ Section: misc
 Depends: 
     ${misc:Depends},
     plank
-Conflicts: budgie-plank,
-Replaces: budgie-plank
+Conflicts: budgie-plank, budgie-remix-lightdm-theme
+Replaces: budgie-plank, budgie-remix-lightdm-theme
 Description: Common budgie-remix desktop components
  budgie-desktop common components i.e.
  gsettings overrides
