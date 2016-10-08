@@ -55,6 +55,7 @@ Recommends:
  menulibre,
  totem,
  transmission,
+ libreoffice-gnome,
  libreoffice-writer,
  libreoffice-calc,
  libreoffice-draw,

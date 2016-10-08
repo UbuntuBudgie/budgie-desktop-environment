@@ -1,3 +1,9 @@
+budgie-desktop-environment (0.4.14.9) yakkety; urgency=medium
+
+  * readd missing libreoffice-gnome
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 08 Oct 2016 09:28:44 +0100
+
 budgie-desktop-environment (0.4.14.8) yakkety; urgency=medium
 
   * rejig of the default apps
