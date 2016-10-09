@@ -1,3 +1,9 @@
+budgie-desktop-environment (0.4.14.10) yakkety; urgency=medium
+
+  * hide spurious imagemagick menu entries
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 09 Oct 2016 09:23:08 +0100
+
 budgie-desktop-environment (0.4.14.9) yakkety; urgency=medium
 
   * readd missing libreoffice-gnome
