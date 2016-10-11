@@ -24,7 +24,10 @@ Depends: budgie-desktop,
 Conflicts: budgie-remix-lightdm-theme
 Replaces: budgie-remix-lightdm-theme
 Recommends:
+ arc-firefox-theme,
  arc-theme,
+ pocillo-icon-theme,
+ vertex-theme,
  gnome-software,
  nautilus,
  gnome-terminal,
@@ -40,17 +43,18 @@ Recommends:
  gnome-screenshot,
  gnome-sushi,
  gnome-photos,
+ gthumb,
  gnome-disk-utility,
+ totem,
  gnome-sudoku,
  gnome-mines,
  gnome-mahjongg,
- geary,
  aisleriot,
  app-install-data,
  rhythmbox,
  rhythmbox-plugin-alternative-toolbar,
+ rhythmbox-plugin-tray-icon,
  menulibre,
- totem,
  transmission,
  libreoffice-gnome,
  libreoffice-writer,
@@ -62,6 +66,7 @@ Recommends:
  thermald,
  nano,
  snapd,
+ budgie-welcome,
  gnome-system-monitor,
  policykit-desktop-privileges,
  nautilus-share,
@@ -69,15 +74,7 @@ Recommends:
  gvfs-fuse,
  laptop-detect,
  acpi-support,
- bash-completion,
- gir1.2-unity-5.0,
- gnome-logs,
- baobab,
- gnome-characters,
- cheese,
- gnome-font-viewer,
- gnome-maps,
- gnome-weather
+ bash-completion
 Description: Desktop environment for budgie-remix
  Installs all budgie-remix packages, both essential dependencies
  as well as recommended packages and applications.

@@ -1,5 +1,5 @@
-budgie-desktop-environment (0.4.17) yakkety; urgency=medium
+budgie-desktop-environment (0.3.11) xenial; urgency=medium
 
-  * Initial release (LP: #1594603)
+  * merge from yakkety
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 11 Oct 2016 15:19:23 +0100
