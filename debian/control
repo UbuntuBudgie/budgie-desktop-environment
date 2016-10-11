@@ -25,9 +25,6 @@ Conflicts: budgie-remix-lightdm-theme
 Replaces: budgie-remix-lightdm-theme
 Recommends:
  arc-theme,
- arc-firefox-theme,
- pocillo-icon-theme,
- budgie-welcome,
  gnome-software,
  nautilus,
  gnome-terminal,
