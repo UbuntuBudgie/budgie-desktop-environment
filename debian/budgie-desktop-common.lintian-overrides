@@ -1,1 +1,4 @@
+# false warning - we are installing a desktop file that plank does not ship by default
+# its not a fault of plank - we just want to expose this capability rather than
+# making users use the command line
 budgie-desktop-common: desktop-command-not-in-package usr/share/applications/budgie-plank-prefs.desktop plank

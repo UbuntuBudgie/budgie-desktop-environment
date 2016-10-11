@@ -97,5 +97,5 @@ Description: Common budgie-remix desktop components
  budgie-desktop common components i.e.
  gsettings overrides
  budgie-remix panel configuration
- make QT apps look like GTK apps
- plank dock
+ make QT apps look like GTK+ apps
+ plank dock preferences desktop shortcut
