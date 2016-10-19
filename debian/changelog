@@ -1,3 +1,9 @@
+budgie-desktop-environment (0.4.14.12) yakkety; urgency=medium
+
+  * reupload and build
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 19 Oct 2016 19:29:56 +0100
+
 budgie-desktop-environment (0.4.14.11) yakkety; urgency=medium
 
   * add gnome-screensaver as a dependency
