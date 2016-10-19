@@ -1,3 +1,9 @@
+budgie-desktop-environment (0.4.14.11) yakkety; urgency=medium
+
+  * add gnome-screensaver as a dependency
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 19 Oct 2016 19:08:45 +0100
+
 budgie-desktop-environment (0.4.14.10) yakkety; urgency=medium
 
   * hide spurious imagemagick menu entries
