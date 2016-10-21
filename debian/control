@@ -13,9 +13,7 @@ Architecture: all
 Section: metapackages
 Depends: budgie-desktop,
  budgie-desktop-common,
- gnome-screensaver,
  lightdm,
- budgie-lightdm-theme,
  dmz-cursor-theme,
  xdg-user-dirs-gtk,
  plymouth-theme-budgie-remix-logo,
@@ -28,6 +26,7 @@ Recommends:
  arc-theme,
  arc-firefox-theme,
  pocillo-icon-theme,
+ budgie-lightdm-theme,
  budgie-welcome,
  gnome-software,
  nautilus,
