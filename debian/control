@@ -14,17 +14,15 @@ Section: metapackages
 Depends: budgie-desktop,
  budgie-desktop-common,
  lightdm,
- budgie-lightdm-theme,
  dmz-cursor-theme,
  xdg-user-dirs-gtk,
  plymouth-theme-budgie-remix-logo,
  plymouth-theme-budgie-remix-text,
  plymouth-themes,
  ${misc:Depends}
-Conflicts: budgie-remix-lightdm-theme
-Replaces: budgie-remix-lightdm-theme
 Recommends:
  arc-theme,
+ budgie-lightdm-theme,
  gnome-software,
  nautilus,
  gnome-terminal,
@@ -88,8 +86,6 @@ Section: misc
 Depends: 
     ${misc:Depends},
     plank
-Conflicts: budgie-plank, budgie-remix-lightdm-theme
-Replaces: budgie-plank, budgie-remix-lightdm-theme
 Description: Common budgie-remix desktop components
  budgie-desktop common components i.e.
  gsettings overrides

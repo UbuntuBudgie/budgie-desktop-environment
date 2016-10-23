@@ -1,5 +1,5 @@
-budgie-desktop-environment (0.4.17) yakkety; urgency=medium
+budgie-desktop-environment (0.5.0) zesty; urgency=medium
 
   * Initial release (LP: #1594603)
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 11 Oct 2016 15:19:23 +0100
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 23 Oct 2016 15:19:23 +0100
