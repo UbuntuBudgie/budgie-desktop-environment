@@ -1,3 +1,11 @@
+budgie-desktop-environment (0.5.1) zesty; urgency=medium
+
+  * Default Panel Indicators
+    - add Places
+  * Style GNOME Terminal using transparency
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 03 Nov 2016 21:04:08 +0000
+
 budgie-desktop-environment (0.5.0) zesty; urgency=medium
 
   * Initial release (LP: #1594603)

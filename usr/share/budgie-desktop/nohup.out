@@ -1,0 +1,8 @@
+** Message: libsession.vala:50: DESKTOP_AUTOSTART_ID not set, session registration may be broken (not running budgie-desktop?)
+
+** (budgie-panel:4658): WARNING **: BudgieMenuWindow.vala:217: Ubuntu Software Centre has no parent directory, not adding to menu
+
+
+** (budgie-panel:4658): WARNING **: PlaceItem.vala:24: The specified location is not supported
+
+** (budgie-panel:4658): WARNING **: PlaceItem.vala:24: Error when getting information for file '/home/dad/Downloads/remix/budgie-wallpapers-16.04.1.0/debian': No such file or directory
