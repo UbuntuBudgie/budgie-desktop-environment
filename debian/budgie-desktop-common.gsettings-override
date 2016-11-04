@@ -50,7 +50,7 @@ display-type=1
 tap-to-click = true
 
 [com.solus-project.icon-tasklist]
-pinned-launchers=['firefox.desktop', 'nautilus.desktop', 'libreoffice-writer.desktop', 'org.gnome.Software.desktop']
+pinned-launchers=['firefox.desktop', 'nautilus.desktop', 'libreoffice-writer.desktop', 'budgie-welcome.desktop', 'org.gnome.Software.desktop']
 
 [com.solus-project.budgie-panel.panel]
 theme-regions=false
@@ -64,12 +64,17 @@ theme='Gtk+'
 icon-size=32
 hide-delay=500
 hide-mode='dodge-maximized'
+dock-items=['nautilus.dockitem', 'firefox.dockitem', 'rhythmbox.dockitem', 'libreoffice-writer.dockitem', 'libreoffice-calc.dockitem', 'org.gnome.Totem.dockitem', 'gnome-terminal.dockitem', 'budgie-welcome.dockitem', 'org.gnome.Software.dockitem']
 
 [org.freedesktop.ibus.panel]
 show-icon-on-systray=false
 
+[org.gnome.Terminal.Legacy]
+default-show-menubar=false
+
 [org.gnome.Terminal.Legacy.Profile]
 use-transparent-background=true
-background-transparency-percent=10
+background-transparency-percent=13
+scrollbar-policy='never'
 use-theme-colors=false
 palette=['rgb(0,0,0)', 'rgb(204,0,0)', 'rgb(78,154,6)', 'rgb(196,160,0)', 'rgb(52,101,164)', 'rgb(117,80,123)', 'rgb(6,152,154)', 'rgb(211,215,207)', 'rgb(85,87,83)', 'rgb(239,41,41)', 'rgb(138,226,52)', 'rgb(252,233,79)', 'rgb(114,159,207)', 'rgb(173,127,168)', 'rgb(52,226,226)', 'rgb(238,238,236)']

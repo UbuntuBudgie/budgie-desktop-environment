@@ -1,8 +1,12 @@
 budgie-desktop-environment (0.5.1) zesty; urgency=medium
 
-  * Default Panel Indicators
-    - add Places
-  * Style GNOME Terminal using transparency
+  * Update user defaults:
+    - Default Panel Indicators: add Places
+    - Style GNOME Terminal using transparency, no menubar, scrollbar
+    - Default Plank dock-items
+    - Add budgie-welcome to icon-tasklist applet
+  * Packaging Changes:
+    - add to recommendations: budgie-welcome, pocillo-icon-theme
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 03 Nov 2016 21:04:08 +0000
 
