@@ -1,3 +1,9 @@
+budgie-desktop-environment (0.3.13) xenial; urgency=medium
+
+  * add budgie-indicator-applet as a recommendation
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 06 Nov 2016 11:38:16 +0000
+
 budgie-desktop-environment (0.3.12) xenial; urgency=medium
 
   * make pocillo the default icon theme

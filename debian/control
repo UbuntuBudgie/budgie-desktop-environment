@@ -27,6 +27,7 @@ Recommends:
  arc-firefox-theme,
  arc-theme,
  pocillo-icon-theme,
+ budgie-indicator-applet,
  vertex-theme,
  gnome-software,
  nautilus,
