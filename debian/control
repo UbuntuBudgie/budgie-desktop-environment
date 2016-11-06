@@ -28,6 +28,7 @@ Recommends:
  pocillo-icon-theme,
  budgie-lightdm-theme,
  budgie-welcome,
+ budgie-indicator-applet,
  gnome-software,
  nautilus,
  gnome-terminal,
