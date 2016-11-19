@@ -4,9 +4,9 @@ Priority: optional
 Maintainer: David Mohammed <fossfreedom@ubuntu.com>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.7
-Homepage: https://github.com/budgie-remix
-Vcs-Git: https://github.com/budgie-remix/budgie-desktop-environment.git
-Vcs-Browser: https://github.com/budgie-remix/budgie-desktop-environment
+Homepage: https://github.com/UbuntuBudgie
+Vcs-Git: https://github.com/UbuntuBudgie/budgie-desktop-environment.git
+Vcs-Browser: https://github.com/UbuntuBudgie/budgie-desktop-environment
 
 Package: budgie-desktop-environment
 Architecture: all
@@ -16,8 +16,8 @@ Depends: budgie-desktop,
  lightdm,
  dmz-cursor-theme,
  xdg-user-dirs-gtk,
- plymouth-theme-budgie-remix-logo,
- plymouth-theme-budgie-remix-text,
+ plymouth-theme-ubuntu-budgie-logo,
+ plymouth-theme-ubuntu-budgie-text,
  plymouth-themes,
  ${misc:Depends}
 Recommends:
@@ -79,8 +79,8 @@ Recommends:
  gnome-font-viewer,
  gnome-maps,
  gnome-weather
-Description: Desktop environment for budgie-remix
- Installs all budgie-remix packages, both essential dependencies
+Description: Desktop environment for Ubuntu Budgie
+ Installs all Ubuntu Budgie packages, both essential dependencies
  as well as recommended packages and applications.
  
 Package: budgie-desktop-common
@@ -89,9 +89,9 @@ Section: misc
 Depends: 
     ${misc:Depends},
     plank
-Description: Common budgie-remix desktop components
+Description: Common Ubuntu Budgie desktop components
  budgie-desktop common components i.e.
  gsettings overrides
- budgie-remix panel configuration
+ ubuntu budgie panel configuration
  make QT apps look like GTK+ apps
  plank dock preferences desktop shortcut

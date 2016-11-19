@@ -1,7 +1,7 @@
 # budgie-desktop-environment
-Metapackage to install all components of the budgie-remix desktop environment
+Metapackage to install all components of the Ubuntu Budgie desktop environment
 
-budgie-remix consists of a series of sub-projects
+Ubuntu Budgie consists of a series of sub-projects
 
 MASTER branch is for the latest version of Ubuntu
 Branches are used for latest stable Ubuntu

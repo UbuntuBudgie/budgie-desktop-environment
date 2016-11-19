@@ -1,4 +1,4 @@
-budgie-desktop-environment (0.5.1) zesty; urgency=medium
+budgie-desktop-environment (0.6.0) zesty; urgency=medium
 
   * New upstream release (LP: #0000000)
   * Update user defaults:
@@ -10,6 +10,11 @@ budgie-desktop-environment (0.5.1) zesty; urgency=medium
   * Packaging Changes:
     - add to recommendations: budgie-welcome, pocillo-icon-theme,
       breeze-cursor-theme
+    - change plymouth package names for Ubuntu Budgie
+    - update budgie-remix to Ubuntu Budgie github repo rename
+    - update budgie-remix to Ubuntu Budgie distro rename
+    - corrected David Mohammed email address in debian/copyright
+    - update debian/copyright to reflect distro rename
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 03 Nov 2016 21:04:08 +0000
 
