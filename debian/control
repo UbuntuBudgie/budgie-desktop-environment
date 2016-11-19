@@ -51,7 +51,7 @@ Recommends:
  rhythmbox,
  rhythmbox-plugin-alternative-toolbar,
  menulibre,
- totem,
+ gnome-mpv,
  transmission,
  libreoffice-gnome,
  libreoffice-writer,

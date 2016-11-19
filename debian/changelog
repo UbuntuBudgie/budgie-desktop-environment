@@ -10,6 +10,7 @@ budgie-desktop-environment (0.6.0) zesty; urgency=medium
   * Packaging Changes:
     - add to recommendations: budgie-welcome, pocillo-icon-theme,
       breeze-cursor-theme
+    - substitute totem with gnome-mpv
     - change plymouth package names for Ubuntu Budgie
     - update budgie-remix to Ubuntu Budgie github repo rename
     - update budgie-remix to Ubuntu Budgie distro rename
