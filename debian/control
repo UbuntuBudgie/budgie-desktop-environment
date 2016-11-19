@@ -25,6 +25,7 @@ Recommends:
  budgie-welcome,
  pocillo-icon-theme,
  budgie-lightdm-theme,
+ breeze-cursor-theme,
  gnome-software,
  nautilus,
  gnome-terminal,

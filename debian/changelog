@@ -8,7 +8,8 @@ budgie-desktop-environment (0.5.1) zesty; urgency=medium
     - Add budgie-welcome to icon-tasklist applet
     - Default desktop icon-set to Pocillo
   * Packaging Changes:
-    - add to recommendations: budgie-welcome, pocillo-icon-theme
+    - add to recommendations: budgie-welcome, pocillo-icon-theme,
+      breeze-cursor-theme
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 03 Nov 2016 21:04:08 +0000
 
