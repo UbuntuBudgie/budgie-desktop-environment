@@ -1,6 +1,6 @@
 budgie-desktop-environment (0.6.0) zesty; urgency=medium
 
-  * New upstream release (LP: #0000000)
+  * New upstream release (LP: #1645005)
   * Update user defaults:
     - Default Panel Indicators: add Places
     - Style GNOME Terminal use dark theme and no menubar
