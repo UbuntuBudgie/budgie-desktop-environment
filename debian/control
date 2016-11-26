@@ -26,7 +26,7 @@ Recommends:
  pocillo-icon-theme,
  budgie-lightdm-theme,
  breeze-cursor-theme,
- chromium,
+ chromium-browser,
  gnome-software,
  nautilus,
  gnome-terminal,

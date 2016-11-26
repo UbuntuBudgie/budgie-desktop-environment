@@ -9,7 +9,7 @@ budgie-desktop-environment (0.6.0) zesty; urgency=medium
     - Default desktop icon-set to Pocillo
   * Packaging Changes:
     - add to recommendations: budgie-welcome, pocillo-icon-theme,
-      breeze-cursor-theme, chromium
+      breeze-cursor-theme, chromium-browser
     - substitute totem with gnome-mpv
     - change plymouth package names for Ubuntu Budgie
     - update budgie-remix to Ubuntu Budgie github repo rename
