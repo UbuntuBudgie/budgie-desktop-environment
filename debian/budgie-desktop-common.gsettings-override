@@ -50,7 +50,7 @@ display-type=1
 tap-to-click = true
 
 [com.solus-project.icon-tasklist]
-pinned-launchers=['firefox.desktop', 'nautilus.desktop', 'libreoffice-writer.desktop', 'budgie-welcome.desktop', 'org.gnome.Software.desktop']
+pinned-launchers=['chromium-browser.desktop', 'nautilus.desktop', 'libreoffice-writer.desktop', 'budgie-welcome.desktop', 'org.gnome.Software.desktop']
 
 [com.solus-project.budgie-panel.panel]
 theme-regions=false
@@ -64,7 +64,7 @@ theme='Gtk+'
 icon-size=32
 hide-delay=500
 hide-mode='dodge-maximized'
-dock-items=['nautilus.dockitem', 'firefox.dockitem', 'rhythmbox.dockitem', 'libreoffice-writer.dockitem', 'libreoffice-calc.dockitem', 'org.gnome.Totem.dockitem', 'gnome-terminal.dockitem', 'budgie-welcome.dockitem', 'org.gnome.Software.dockitem']
+dock-items=['nautilus.dockitem', 'chromium-browser.dockitem', 'rhythmbox.dockitem', 'libreoffice-writer.dockitem', 'libreoffice-calc.dockitem', 'org.gnome.Totem.dockitem', 'gnome-terminal.dockitem', 'budgie-welcome.dockitem', 'org.gnome.Software.dockitem']
 
 [org.freedesktop.ibus.panel]
 show-icon-on-systray=false
