@@ -6,64 +6,21 @@ antialiasing='rgba'
 keyservers=['hkp://keyserver.ubuntu.com:11371', 'hkp://pool.sks-keyservers.net', 'ldap://keyserver.pgp.com']
 
 [org.gnome.desktop.wm.preferences]
-theme='Arc-Darker'
 titlebar-font='Ubuntu Bold 11'
 titlebar-uses-system-font=false
 
 [org.gnome.desktop.interface]
-gtk-theme='Arc-Darker'
 monospace-font-name='Ubuntu Mono 13'
 font-name='Ubuntu 11'
 document-font-name='Sans 11'
-icon-theme='Pocillo'
 cursor-theme='DMZ-White'
 scaling-factor=1
-
-[org.gnome.desktop.background]
-show-desktop-icons=true
-picture-uri='file:///usr/share/backgrounds/Xplo_by_Hugo_Cliff.png'
-
-[org.gnome.desktop.screensaver]
-picture-uri='file:///usr/share/backgrounds/Xplo_by_Hugo_Cliff.png'
-
-[org.gnome.nautilus.desktop]
-home-icon-visible=false
-trash-icon-visible=false
-volumes-visible=false
-font='Ubuntu 10'
-
-[org.gnome.nautilus.preferences]
-sort-directories-first=true
-enable-interactive-search=true
-
-[org.gnome.nautilus.icon-view]
-default-zoom-level='small'
-
-[org.gnome.rhythmbox.plugins]
-active-plugins=['dbus-media-server', 'artsearch', 'generic-player', 'audiocd', 'alternative-toolbar', 'mtpdevice', 'daap', 'android', 'rb', 'power-manager', 'notification', 'ipod', 'mpris', 'iradio', 'audioscrobbler', 'mmkeys']
-
-[org.gnome.rhythmbox.plugins.alternative_toolbar]
-dark-theme=true
-display-type=1
 
 [org.gnome.desktop.peripherals.touchpad]
 tap-to-click = true
 
-[com.solus-project.icon-tasklist]
-pinned-launchers=['firefox.desktop', 'nautilus.desktop', 'libreoffice-writer.desktop', 'org.gnome.Software.desktop']
-
-[com.solus-project.budgie-panel.panel]
-theme-regions=false
-
 [com.solus-project.budgie-menu]
 menu-headers=false
-
-[net.launchpad.plank.dock.settings]
-position='left'
-theme='Gtk+'
-icon-size=32
-hide-delay=500
-hide-mode='dodge-maximized'
 
 [org.freedesktop.ibus.panel]
 show-icon-on-systray=false

@@ -1,3 +1,39 @@
+budgie-desktop-environment (0.4.15.5) yakkety; urgency=medium
+
+  * rename plank files to back what they were
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 10 Dec 2016 09:40:13 +0000
+
+budgie-desktop-environment (0.4.15.4) yakkety; urgency=medium
+
+  * add conflicts with budgie-desktop-common
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 10 Dec 2016 09:31:23 +0000
+
+budgie-desktop-environment (0.4.15.3) yakkety; urgency=medium
+
+  * extraneous folder
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 10 Dec 2016 00:33:42 +0000
+
+budgie-desktop-environment (0.4.15.2) yakkety; urgency=medium
+
+  * another rename
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 10 Dec 2016 00:11:40 +0000
+
+budgie-desktop-environment (0.4.15.1) yakkety; urgency=medium
+
+  * rename autostart file
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 09 Dec 2016 23:59:36 +0000
+
+budgie-desktop-environment (0.4.15) yakkety; urgency=medium
+
+  * restructure to accommodate minimal packaging
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 09 Dec 2016 22:20:03 +0000
+
 budgie-desktop-environment (0.4.14.15) yakkety; urgency=medium
 
   * add budgie-indicator-applet

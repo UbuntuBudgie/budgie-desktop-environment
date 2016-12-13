@@ -1,3 +1,2 @@
-/etc
-applications/* /usr/share/applications/
+/etc/profile.d
 /usr

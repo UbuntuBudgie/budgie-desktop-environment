@@ -20,8 +20,8 @@ Depends: budgie-desktop,
  plymouth-theme-budgie-remix-text,
  plymouth-themes,
  ${misc:Depends}
-Conflicts: budgie-remix-lightdm-theme
-Replaces: budgie-remix-lightdm-theme
+Conflicts: budgie-remix-lightdm-theme, budgie-plank, budgie-desktop-common (<= 0.4.15)
+Replaces: budgie-remix-lightdm-theme, budgie-plank
 Recommends:
  arc-theme,
  arc-firefox-theme,
@@ -81,22 +81,53 @@ Recommends:
  cheese,
  gnome-font-viewer,
  gnome-maps,
- gnome-weather
+ gnome-weather,
+ plank
 Description: Desktop environment for budgie-remix
  Installs all budgie-remix packages, both essential dependencies
  as well as recommended packages and applications.
+ Installs:
+  - budgie-remix panel configuration
+  - plank dock
+  - gsettings overrides
+ 
+Package: budgie-desktop-minimal
+Architecture: all
+Section: metapackages
+Depends: budgie-desktop,
+ budgie-desktop-common,
+ lightdm,
+ dmz-cursor-theme,
+ xdg-user-dirs-gtk,
+ plymouth-theme-budgie-remix-logo,
+ plymouth-theme-budgie-remix-text,
+ plymouth-themes,
+ ${misc:Depends}
+Recommends:
+ budgie-lightdm-theme-base,
+ app-install-data,
+ apport-gtk,
+ tlp,
+ thermald,
+ nano,
+ policykit-desktop-privileges,
+ ppa-purge,
+ gvfs-fuse,
+ laptop-detect,
+ acpi-support,
+ bash-completion
+Description: Minimal desktop environment for budgie-remix
+ Installs a minimal set of budgie-remix packages, both essential dependencies
+ as well as recommended packages and applications.  The package is useful
+ for system builders who want budgie-desktop without the full set of 
+ applications recommended in budgie-remix
  
 Package: budgie-desktop-common
 Architecture: all
 Section: misc
 Depends: 
-    ${misc:Depends},
-    plank
-Conflicts: budgie-plank, budgie-remix-lightdm-theme
-Replaces: budgie-plank, budgie-remix-lightdm-theme
+    ${misc:Depends}
 Description: Common budgie-remix desktop components
  budgie-desktop common components i.e.
  gsettings overrides
- budgie-remix panel configuration
  make QT apps look like GTK apps
- plank dock
