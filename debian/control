@@ -11,15 +11,9 @@ Vcs-Browser: https://github.com/UbuntuBudgie/budgie-desktop-environment
 Package: budgie-desktop-environment
 Architecture: all
 Section: metapackages
-Depends: budgie-desktop,
- budgie-desktop-common,
- lightdm,
- dmz-cursor-theme,
- xdg-user-dirs-gtk,
- plymouth-theme-ubuntu-budgie-logo,
- plymouth-theme-ubuntu-budgie-text,
- plymouth-themes,
+Depends: budgie-desktop-common,
  ${misc:Depends}
+Conflicts: budgie-desktop-common (<= 0.4.15)
 Recommends:
  arc-theme,
  budgie-welcome,
@@ -48,7 +42,6 @@ Recommends:
  gnome-mahjongg,
  geary,
  aisleriot,
- app-install-data,
  rhythmbox,
  rhythmbox-plugin-alternative-toolbar,
  menulibre,
@@ -59,19 +52,11 @@ Recommends:
  libreoffice-calc,
  libreoffice-draw,
  libreoffice-impress,
- apport-gtk,
- tlp,
- thermald,
  nano,
  snapd,
  gnome-system-monitor,
- policykit-desktop-privileges,
  nautilus-share,
- ppa-purge,
  gvfs-fuse,
- laptop-detect,
- acpi-support,
- bash-completion,
  gir1.2-unity-5.0,
  gnome-logs,
  baobab,
@@ -79,20 +64,52 @@ Recommends:
  cheese,
  gnome-font-viewer,
  gnome-maps,
- gnome-weather
+ gnome-weather,
+ plank,
+ budgie-indicator-applet
 Description: Desktop environment for Ubuntu Budgie
  Installs all Ubuntu Budgie packages, both essential dependencies
  as well as recommended packages and applications.
+ Installs:
+  - Ubuntu Budgie panel configuration
+  - plank dock
+  - gsettings overrides
+ 
+Package: budgie-desktop-minimal
+Architecture: all
+Section: metapackages
+Depends: budgie-desktop-common,
+ ${misc:Depends}
+Recommends:
+ budgie-lightdm-theme-base
+Description: Minimal desktop environment for Ubuntu Budgie
+ Installs a minimal set of Ubuntu Budgie packages, both essential
+ dependencies as well as recommended packages and applications.
+ The package is useful for system builders who want budgie-desktop 
+ without the full set of applications recommended in Ubuntu Budgie.
  
 Package: budgie-desktop-common
 Architecture: all
 Section: misc
-Depends: 
-    ${misc:Depends},
-    plank
+Depends: ${misc:Depends},
+ budgie-desktop,
+ lightdm,
+ dmz-cursor-theme,
+ xdg-user-dirs-gtk,
+ plymouth-theme-ubuntu-budgie-logo,
+ plymouth-theme-ubuntu-budgie-text,
+ plymouth-themes
+Recommends: app-install-data,
+ apport-gtk,
+ tlp,
+ thermald,
+ nano,
+ policykit-desktop-privileges,
+ ppa-purge,
+ laptop-detect,
+ acpi-support,
+ bash-completion
 Description: Common Ubuntu Budgie desktop components
  budgie-desktop common components i.e.
  gsettings overrides
- ubuntu budgie panel configuration
- make QT apps look like GTK+ apps
- plank dock preferences desktop shortcut
+ make QT apps look like GTK apps
