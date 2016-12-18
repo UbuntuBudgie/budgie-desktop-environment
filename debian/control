@@ -20,7 +20,7 @@ Depends: budgie-desktop,
  plymouth-theme-budgie-remix-text,
  plymouth-themes,
  ${misc:Depends}
-Conflicts: budgie-remix-lightdm-theme, budgie-plank, budgie-desktop-common (<= 0.4.15)
+Conflicts: budgie-remix-lightdm-theme (<= 0.5.5.4), budgie-plank (<= 0.1), budgie-desktop-common (<= 0.4.15)
 Replaces: budgie-remix-lightdm-theme, budgie-plank
 Recommends:
  arc-theme,
