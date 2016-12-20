@@ -1,3 +1,27 @@
+budgie-desktop-environment (0.3.13ubuntu4) xenial; urgency=medium
+
+  * add version to depends
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 19 Dec 2016 12:56:29 +0000
+
+budgie-desktop-environment (0.3.13ubuntu3) xenial; urgency=medium
+
+  * remove one conflict
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 19 Dec 2016 12:09:40 +0000
+
+budgie-desktop-environment (0.3.13ubuntu2) xenial; urgency=medium
+
+  * rearrange conflicts
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 19 Dec 2016 00:17:11 +0000
+
+budgie-desktop-environment (0.3.13ubuntu1) xenial; urgency=medium
+
+  * add version to conflicts
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 18 Dec 2016 23:51:25 +0000
+
 budgie-desktop-environment (0.3.13) xenial; urgency=medium
 
   * add budgie-indicator-applet as a recommendation
