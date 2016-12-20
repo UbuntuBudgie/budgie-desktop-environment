@@ -3,6 +3,7 @@ budgie-desktop-environment (0.7.0) zesty; urgency=medium
   * New upstream release (LP: #)
   * Updated Panel configuration
     - AppIndicator Applet is now a default applet
+  * Hide ImageMagick Icon
   * Packaging Changes:
     - Rework packaging to accommodate a minimal budgie-desktop installation
       panel.ini installed only for the standard installer; file moved
