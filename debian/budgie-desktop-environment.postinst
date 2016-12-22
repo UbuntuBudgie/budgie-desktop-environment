@@ -25,7 +25,7 @@ case "$1" in
     # be safe - if TERMINIX_ID already exists in .bashrc lets assume
     # another package has made similar changes in this area
     
-    if !grep -q "TERMINIX_ID" /etc/skel/.bashrc; then 
+    if ! grep -q "TERMINIX_ID" /etc/skel/.bashrc; then 
         cat /usr/share/budgie-desktop/vteprompt.txt >> /etc/skel/.bashrc
     fi
 	;;

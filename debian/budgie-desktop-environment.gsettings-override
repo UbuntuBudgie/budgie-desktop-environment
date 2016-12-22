@@ -9,6 +9,10 @@ icon-theme='Pocillo'
 show-desktop-icons=true
 picture-uri='file:///usr/share/backgrounds/Xplo_by_Hugo_Cliff.png'
 
+[org.gnome.desktop.default-applications.terminal]
+exec='terminix'
+exec-arg='-e'
+
 [org.gnome.desktop.screensaver]
 picture-uri='file:///usr/share/backgrounds/Xplo_by_Hugo_Cliff.png'
 
@@ -44,7 +48,3 @@ theme='Gtk+'
 icon-size=32
 hide-delay=500
 hide-mode='dodge-maximized'
-
-[org.gnome.Terminal.Legacy]
-default-show-menubar=false
-theme-variant='dark'

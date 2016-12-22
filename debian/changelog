@@ -5,6 +5,8 @@ budgie-desktop-environment (0.7.0) zesty; urgency=medium
     - AppIndicator Applet is now a default applet
   * Hide ImageMagick Icon
   * Replace gnome-terminal with Terminix
+    - update plank dockitems to switch from gnome-terminal to Terminix
+    - update budgie-desktop-environment gsettings override
   * Packaging Changes:
     - Rework packaging to accommodate a minimal budgie-desktop installation
       panel.ini installed only for the standard installer; file moved
