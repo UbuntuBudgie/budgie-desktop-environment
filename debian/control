@@ -2,8 +2,8 @@ Source: budgie-desktop-environment
 Section: x11
 Priority: optional
 Maintainer: David Mohammed <fossfreedom@ubuntu.com>
-Build-Depends: debhelper (>= 9)
-Standards-Version: 3.9.7
+Build-Depends: debhelper (>= 10)
+Standards-Version: 3.9.8
 Homepage: https://github.com/UbuntuBudgie
 Vcs-Git: https://github.com/UbuntuBudgie/budgie-desktop-environment.git
 Vcs-Browser: https://github.com/UbuntuBudgie/budgie-desktop-environment
@@ -23,7 +23,7 @@ Recommends:
  chromium-browser,
  gnome-software,
  nautilus,
- gnome-terminal,
+ terminix,
  gedit,
  hplip,
  file-roller,

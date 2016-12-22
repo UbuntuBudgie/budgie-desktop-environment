@@ -4,6 +4,7 @@ budgie-desktop-environment (0.7.0) zesty; urgency=medium
   * Updated Panel configuration
     - AppIndicator Applet is now a default applet
   * Hide ImageMagick Icon
+  * Replace gnome-terminal with Terminix
   * Packaging Changes:
     - Rework packaging to accommodate a minimal budgie-desktop installation
       panel.ini installed only for the standard installer; file moved
@@ -16,6 +17,9 @@ budgie-desktop-environment (0.7.0) zesty; urgency=medium
     - for both installers ensure we explicitly specify full paths
     - false positive lintian-override moved under the standard installer since
       plank is only installed here.
+    - up the debhelper version with standard Debian practice
+    - Add postinst and postrm scripts to deal with Terminix configuration
+    - up the build standards version
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 13 Dec 2016 20:18:43 +0000
 

@@ -1,0 +1,3 @@
+# create a symlink for Terminix - does not exist on debian based systems
+# https://github.com/gnunn1/terminix/wiki/VTE-Configuration-issue
+/etc/profile.d/vte-2.91.sh /etc/profile.d/vte.sh
