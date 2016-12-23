@@ -3,7 +3,7 @@ budgie-desktop-environment (0.7.0) zesty; urgency=medium
   * New upstream release (LP: #)
   * Updated Panel configuration
     - AppIndicator Applet is now a default applet
-  * Hide ImageMagick Icon
+  * Hide renamed zesty ImageMagick Icon
   * Replace gnome-terminal with Terminix
     - update plank dockitems to switch from gnome-terminal to Terminix
     - update budgie-desktop-environment gsettings override
@@ -15,6 +15,8 @@ budgie-desktop-environment (0.7.0) zesty; urgency=medium
       upgrading from yakkety to zesty
     - update budgie-desktop-common to include common components for
       both budgie-desktop-minimal and budgie-desktop-environment
+    - change budgie-desktop-common and budgie-desktop-environment dependencies
+      to ensure icon-themes and fallback themes are installed (LP: #1652391)
     - gsettings overrides exist for both installers
     - for both installers ensure we explicitly specify full paths
     - false positive lintian-override moved under the standard installer since

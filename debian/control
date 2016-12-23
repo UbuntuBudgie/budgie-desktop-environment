@@ -12,13 +12,14 @@ Package: budgie-desktop-environment
 Architecture: all
 Section: metapackages
 Depends: budgie-desktop-common,
+ arc-theme,
+ pocillo-icon-theme,
+ budgie-lightdm-theme,
+ budgie-indicator-applet,
  ${misc:Depends}
 Conflicts: budgie-desktop-common (<= 0.4.15)
 Recommends:
- arc-theme,
  budgie-welcome,
- pocillo-icon-theme,
- budgie-lightdm-theme,
  breeze-cursor-theme,
  chromium-browser,
  gnome-software,
@@ -65,8 +66,7 @@ Recommends:
  gnome-font-viewer,
  gnome-maps,
  gnome-weather,
- plank,
- budgie-indicator-applet
+ plank
 Description: Desktop environment for Ubuntu Budgie
  Installs all Ubuntu Budgie packages, both essential dependencies
  as well as recommended packages and applications.
@@ -96,6 +96,7 @@ Depends: ${misc:Depends},
  lightdm,
  dmz-cursor-theme,
  xdg-user-dirs-gtk,
+ gnome-themes-standard,
  plymouth-theme-ubuntu-budgie-logo,
  plymouth-theme-ubuntu-budgie-text,
  plymouth-themes
@@ -110,6 +111,13 @@ Recommends: app-install-data,
  acpi-support,
  bash-completion
 Description: Common Ubuntu Budgie desktop components
- budgie-desktop common components i.e.
- gsettings overrides
- make QT apps look like GTK apps
+ while this common budgie-desktop package can be installed manually,
+ it is recommended that the binary packages budgie-desktop-minimal or
+ budgie-desktop-environment be used to install working minimal or
+ the recommended full budgie-desktop environment.
+ .
+ This package provides common:
+   gsettings overrides
+   make QT apps look like GTK apps
+   default theme for GTK2 applications
+   Ubuntu Budgie plymouth branding

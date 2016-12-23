@@ -37,8 +37,6 @@ case "$1" in
     # this if indeed we added the vte control ourselves
     sed -i.bak '/# Ubuntu Budgie END$/d' /etc/skel/.bashrc
     rm -f /etc/skel/.bashrc.bak
-    # clean out plank items that have been added to /etc/skel
-    rm -f /etc/skel/.config/plank/dock1/launchers/*
 
     ;;
     purge)

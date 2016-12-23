@@ -1,3 +1,4 @@
 /etc/xdg/autostart
 applications/* /usr/share/applications/
 panel_override/* /usr/share/budgie-desktop/
+/etc/skel
