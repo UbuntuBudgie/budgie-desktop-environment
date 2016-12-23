@@ -9,6 +9,7 @@ budgie-desktop-environment (0.7.0) zesty; urgency=medium
     - update budgie-desktop-environment gsettings override
   * Packaging Changes:
     - Rework packaging to accommodate a minimal budgie-desktop installation
+      together with revised binary package descriptions.
       panel.ini installed only for the standard installer; file moved
       from binary package budgie-desktop-common thus needs conflict to
       resolve the potential of the same file in two binary packages for users
@@ -16,7 +17,7 @@ budgie-desktop-environment (0.7.0) zesty; urgency=medium
     - update budgie-desktop-common to include common components for
       both budgie-desktop-minimal and budgie-desktop-environment
     - change budgie-desktop-common and budgie-desktop-environment dependencies
-      to ensure icon-themes and fallback themes are installed (LP: #1652391)
+      to ensure icon-themes and fallback icon theme are installed (LP: #1652391)
     - gsettings overrides exist for both installers
     - for both installers ensure we explicitly specify full paths
     - false positive lintian-override moved under the standard installer since
