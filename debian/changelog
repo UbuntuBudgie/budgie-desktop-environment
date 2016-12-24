@@ -9,26 +9,29 @@ budgie-desktop-environment (0.7.0) zesty; urgency=medium
     - update budgie-desktop-environment gsettings override
   * enable CTRL+ALT_BKSPC key sequence to force-end the X-session (#9)
   * Packaging Changes:
-    - move the majority of dependencies and recommendations for the standard
-      install to the meta package ubuntu-budgie-desktop
-    - change the section from meta to misc since this package is the customisation
-      binaries for the standard and minimal desktop installs
-    - Rework packaging to accommodate a minimal budgie-desktop installation
-      together with revised binary package descriptions.
+    - move the majority of dependencies and recommendations for the
+      standard install to the meta package ubuntu-budgie-desktop
+    - change the section from meta to misc since this package is the
+      customisation binaries for the standard and minimal desktop
+      installs
+    - Rework packaging to accommodate a minimal budgie-desktop
+      installation together with revised binary package descriptions.
       panel.ini installed only for the standard installer; file moved
-      from binary package budgie-desktop-common thus needs conflict to
-      resolve the potential of the same file in two binary packages for users
-      upgrading from yakkety to zesty
+      from binary package budgie-desktop-common thus needs breaks/
+      replaces to resolve the potential of the same file in two binary
+      packages for users upgrading from yakkety to zesty
     - update budgie-desktop-common to include common components for
       both budgie-desktop-minimal and budgie-desktop-environment
-    - change budgie-desktop-common and budgie-desktop-environment dependencies
-      to ensure icon-themes and fallback icon theme are installed (LP: #1652391)
+    - change budgie-desktop-common and budgie-desktop-environment
+      dependencies to ensure icon-themes and fallback icon theme are
+      installed (LP: #1652391)
     - gsettings overrides exist for both installers
     - for both installers ensure we explicitly specify full paths
-    - false positive lintian-override moved under the standard installer since
-      plank is only installed here.
+    - false positive lintian-override moved under the standard installer
+      since plank is only installed here.
     - up the debhelper version with standard Debian practice
-    - Add postinst and postrm scripts to deal with Terminix configuration
+    - Add postinst and postrm scripts to deal with Terminix
+      configuration
     - up the build standards version
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 13 Dec 2016 20:18:43 +0000

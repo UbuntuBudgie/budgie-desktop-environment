@@ -2,7 +2,7 @@ Source: budgie-desktop-environment
 Section: x11
 Priority: optional
 Maintainer: David Mohammed <fossfreedom@ubuntu.com>
-Build-Depends: debhelper (>= 10)
+Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.8
 Homepage: https://github.com/UbuntuBudgie
 Vcs-Git: https://github.com/UbuntuBudgie/budgie-desktop-environment.git
@@ -14,18 +14,19 @@ Section: misc
 Depends: ubuntu-budgie-desktop,
  budgie-desktop-common,
  ${misc:Depends}
-Conflicts: budgie-desktop-common (<= 0.4.15)
+Breaks: budgie-desktop-common (<= 0.4.15)
+Replaces: budgie-desktop-common
 Description: Desktop environment customisation for Ubuntu Budgie
  Installs all Ubuntu Budgie packages, both essential dependencies
  as well as recommended packages and applications.
  Installs:
-  - Ubuntu Budgie panel configuration
-  - plank dock customisation
-  - gsettings overrides
- 
+   Ubuntu Budgie panel configuration
+   plank dock customisation
+   gsettings overrides
+
 Package: budgie-desktop-minimal
 Architecture: all
-Section: misc
+Section: metapackages
 Depends: budgie-desktop-common,
  budgie-lightdm-theme-base,
  ${misc:Depends}
@@ -41,29 +42,29 @@ Recommends: app-install-data,
 Description: Minimal desktop environment for Ubuntu Budgie
  Installs a minimal set of Ubuntu Budgie packages, both essential
  dependencies as well as recommended packages and applications.
- The package is useful for system builders who want budgie-desktop 
+ This package is useful for system builders who want budgie-desktop 
  without the full set of applications recommended in Ubuntu Budgie.
  
 Package: budgie-desktop-common
 Architecture: all
 Section: misc
-Depends: ${misc:Depends},
- gnome-themes-standard,
+Depends: gnome-themes-standard,
  budgie-desktop,
  lightdm,
  dmz-cursor-theme,
  xdg-user-dirs-gtk,
  plymouth-theme-ubuntu-budgie-logo,
  plymouth-theme-ubuntu-budgie-text,
- plymouth-themes
+ plymouth-themes,
+ ${misc:Depends}
 Description: Common Ubuntu Budgie desktop components customisation
- while this common budgie-desktop package can be installed manually,
+ While this common budgie-desktop package can be installed manually,
  it is recommended that the binary packages budgie-desktop-minimal or
  budgie-desktop-environment be used to install working minimal or
  the recommended full budgie-desktop environment.
  .
  This package provides common:
    ubuntu and budgie-desktop gsettings overrides
-   make QT apps look like GTK apps
-   default icon-theme for GTK2 applications
+   make QT apps look like GTK+ apps
+   default icon-theme for GTK+2 applications
    Ubuntu Budgie plymouth branding
