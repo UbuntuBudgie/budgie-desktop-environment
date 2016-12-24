@@ -2,11 +2,12 @@ budgie-desktop-environment (0.7.0) zesty; urgency=medium
 
   * New upstream release (LP: #)
   * Updated Panel configuration
-    - AppIndicator Applet is now a default applet
+    - AppIndicator Applet is now a default applet (#35)
   * Hide renamed zesty ImageMagick Icon
-  * Replace gnome-terminal with Terminix
+  * Replace gnome-terminal with Terminix (#33)
     - update plank dockitems to switch from gnome-terminal to Terminix
     - update budgie-desktop-environment gsettings override
+  * enable CTRL+ALT_BKSPC key sequence to force-end the X-session (#9)
   * Packaging Changes:
     - Rework packaging to accommodate a minimal budgie-desktop installation
       together with revised binary package descriptions.

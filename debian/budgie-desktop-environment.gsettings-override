@@ -9,6 +9,9 @@ icon-theme='Pocillo'
 show-desktop-icons=true
 picture-uri='file:///usr/share/backgrounds/Xplo_by_Hugo_Cliff.png'
 
+[org.gnome.desktop.input-sources]
+xkb-options=['terminate:ctrl_alt_bksp']
+
 [org.gnome.desktop.default-applications.terminal]
 exec='terminix'
 exec-arg='-e'
