@@ -9,6 +9,10 @@ budgie-desktop-environment (0.7.0) zesty; urgency=medium
     - update budgie-desktop-environment gsettings override
   * enable CTRL+ALT_BKSPC key sequence to force-end the X-session (#9)
   * Packaging Changes:
+    - move the majority of dependencies and recommendations for the standard
+      install to the meta package ubuntu-budgie-desktop
+    - change the section from meta to misc since this package is the customisation
+      binaries for the standard and minimal desktop installs
     - Rework packaging to accommodate a minimal budgie-desktop installation
       together with revised binary package descriptions.
       panel.ini installed only for the standard installer; file moved
