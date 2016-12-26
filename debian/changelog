@@ -1,4 +1,4 @@
-budgie-desktop-environment (0.7.0) zesty; urgency=medium
+budgie-desktop-environment (0.7) zesty; urgency=medium
 
   * New upstream release (LP: #)
   * Updated Panel configuration
@@ -7,7 +7,7 @@ budgie-desktop-environment (0.7.0) zesty; urgency=medium
   * Replace gnome-terminal with Terminix (#33)
     - update plank dockitems to switch from gnome-terminal to Terminix
     - update budgie-desktop-environment gsettings override
-  * enable CTRL+ALT_BKSPC key sequence to force-end the X-session (#9)
+  * enable CTRL+ALT_BKSP key sequence to force-end the X-session (#9)
   * Packaging Changes:
     - move the majority of dependencies and recommendations for the
       standard install to the meta package ubuntu-budgie-desktop
