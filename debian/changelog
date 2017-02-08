@@ -1,6 +1,13 @@
-budgie-desktop-environment (0.4.16); urgency=medium
+budgie-desktop-environment (0.4.16) yakkety; urgency=medium
 
-  * Added network-manager-pptp as per ##41
+  * Fixed changelog format. Removed network-manager-pptp. Added
+  network-manager-pptp-gnome.
+
+ -- Dustin Krysak <dustin@bashfulrobot.com>  Wed, 08 Feb 2017 15:07:24 +0000
+
+budgie-desktop-environment (0.4.16) yakkety; urgency=medium
+
+  * Added network-manager-pptp as per Issue 41
 
  -- Dustin Krysak <dustin@bashfulrobot.com>  Wed, 08 Feb 2017 05:30:19 +0000
 
