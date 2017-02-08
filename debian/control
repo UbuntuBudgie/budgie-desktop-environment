@@ -74,7 +74,7 @@ Recommends:
  laptop-detect,
  acpi-support,
  bash-completion,
- network-manager-pptp
+ network-manager-pptp-gnome
 Description: Desktop environment for budgie-remix
  Installs all budgie-remix packages, both essential dependencies
  as well as recommended packages and applications.
