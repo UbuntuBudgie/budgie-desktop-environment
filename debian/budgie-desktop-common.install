@@ -1,3 +1,4 @@
 /etc
 applications/* /usr/share/applications/
 /usr
+ubiquity/* /usr/share/budgie-desktop/
