@@ -1,13 +1,9 @@
 budgie-desktop-environment (0.3.15) xenial; urgency=medium
 
-  * Fixed changelog format. Removed network-manager-pptp. Added network-manager-pptp-gnome. 
-
- -- Dustin Krysak <dustin@bashfulrobot.com>  Wed, 08 Feb 2017 15:09:39 +0000
-
-budgie-desktop-environment (0.3.15) xenial; urgency=medium
-
-  * Added network-manager-pptp ##41 and match zesty by adding
-  ubiquity-panel-bg.png.  
+  * VPN Support:
+    - added network-manager-pptp-gnome.
+  * Ubiquity theme:
+    - backport from zesty, ubiquity-panel-bg.png.
 
  -- Dustin Krysak <dustin@bashfulrobot.com>  Wed, 08 Feb 2017 05:20:27 +0000
 
