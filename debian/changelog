@@ -1,3 +1,10 @@
+budgie-desktop-environment (0.7.3) zesty; urgency=medium
+
+  * Bug fix release (LP: #)
+    - allow QT apps to theme correctly with new version in zesty
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 18 Feb 2017 21:03:52 +0000
+
 budgie-desktop-environment (0.7.2) zesty; urgency=medium
 
   * New upstream release (LP: #1661081)
