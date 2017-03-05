@@ -56,6 +56,7 @@ Depends: gnome-themes-standard,
  plymouth-theme-ubuntu-budgie-logo,
  plymouth-theme-ubuntu-budgie-text,
  plymouth-themes,
+ qt5-style-plugins,
  ${misc:Depends}
 Description: Common Ubuntu Budgie desktop components customisation
  While this common budgie-desktop package can be installed manually,
