@@ -2,6 +2,8 @@ budgie-desktop-environment (0.7.3) zesty; urgency=medium
 
   * Bug fix release (LP: #)
     - allow QT apps to theme correctly with new version in zesty
+    - hide the default gnome-region applet from system settings;
+      language selector gnome is its replacement
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 18 Feb 2017 21:03:52 +0000
 
