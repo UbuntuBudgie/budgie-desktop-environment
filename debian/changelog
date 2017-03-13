@@ -1,6 +1,14 @@
-budgie-desktop-environment (0.7.3) zesty; urgency=medium
+budgie-desktop-environment (0.7.4) zesty; urgency=medium
 
   * Bug fix release (LP: #)
+    - hide duplication archive-manager and Files icons from GCC
+      notifications
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 13 Mar 2017 10:56:33 +0000
+
+budgie-desktop-environment (0.7.3) zesty; urgency=medium
+
+  * Bug fix release (LP: #1670215)
     - allow QT apps to theme correctly with new version in zesty
     - correct file permissions for profile.d override
     - hide the default gnome-region applet from system settings;

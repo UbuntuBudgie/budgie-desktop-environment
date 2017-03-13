@@ -1,0 +1,24 @@
+[Desktop Entry]
+NotShowIn=Unity;
+Name=Files
+Comment=Access and organize files
+Keywords=folder;manager;explore;disk;filesystem;
+Exec=nautilus --new-window %U
+Icon=org.gnome.Nautilus
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GNOME;GTK;Utility;Core;FileManager;
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=nautilus
+X-GNOME-Bugzilla-Component=general
+X-GNOME-Bugzilla-Version=3.20.4
+Actions=new-window;
+X-Unity-IconBackgroundColor=#af4853
+X-Ubuntu-Gettext-Domain=nautilus
+
+X-AppStream-Ignore=true
+
+[Desktop Action new-window]
+Name=New Window
+Exec=nautilus --new-window
