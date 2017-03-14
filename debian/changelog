@@ -1,6 +1,6 @@
 budgie-desktop-environment (0.7.4) zesty; urgency=medium
 
-  * Bug fix release (LP: #)
+  * Bug fix release (LP: #1672898)
     - hide duplication archive-manager and Files icons from GCC
       notifications
     - reinstate gnome-region applet to allow keyboard switching
