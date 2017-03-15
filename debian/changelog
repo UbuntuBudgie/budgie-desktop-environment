@@ -5,6 +5,8 @@ budgie-desktop-environment (0.7.4) zesty; urgency=medium
       notifications
     - reinstate gnome-region applet to allow keyboard switching
       (LP: #1672618)
+    - disable gnome-keyring when opening chromium-browser on
+      the live ISO (LP: #1672862)
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 13 Mar 2017 10:56:33 +0000
 

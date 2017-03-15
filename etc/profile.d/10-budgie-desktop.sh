@@ -6,3 +6,14 @@ export QT_STYLE_OVERRIDE=
 
 # with qt-style-plugins ensure QT apps now pickup a GTK theme
 export QT_QPA_PLATFORMTHEME=gtk2
+
+# for the live CD ensure we override chromium-browser
+# our .desktop disables gnome-keyring from displaying since
+# on a live CD there is no password for gnome-keyring to get a hold of
+VAL=`df | grep aufs`
+
+if [ "$VAL" ]
+then
+   sudo cp /usr/share/budgie-desktop/chromium-browser.desktop /usr/share/applications
+fi
+
