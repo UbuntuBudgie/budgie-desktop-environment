@@ -1,0 +1,19 @@
+[Desktop Entry]
+# Translators: Add soft hyphens to your translations so that the icon view won't clip your translations. See https://bugzilla.gnome.org/show_bug.cgi?id=647087#c13 for details
+Name=Po­wer
+Comment=View your battery status and change power saving settings
+Exec=gnome-control-center power
+Icon=gnome-power-manager
+Terminal=false
+Type=Application
+#NoDisplay=true
+StartupNotify=true
+Categories=GNOME;GTK;Settings;DesktopSettings;HardwareSettings;
+OnlyShowIn=GNOME;Unity;
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=gnome-control-center
+X-GNOME-Bugzilla-Component=power
+X-GNOME-Bugzilla-Version=3.24.0
+# Translators: those are keywords for the power control-center panel
+Keywords=Power;Sleep;Suspend;Hibernate;Battery;Brightness;Dim;Blank;Monitor;DPMS;Idle;
+X-Ubuntu-Gettext-Domain=gnome-control-center-2.0

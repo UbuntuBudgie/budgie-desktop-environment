@@ -1,0 +1,15 @@
+[Desktop Entry]
+# Translators: Add soft hyphens to your translations so that the icon view won't clip your translations. See https://bugzilla.gnome.org/show_bug.cgi?id=647087#c13 for details
+Name=Back­ground
+Comment=Change your background image to a wallpaper or photo
+Exec=gnome-control-center background
+Icon=preferences-desktop-wallpaper
+Terminal=false
+Type=Application
+#NoDisplay=true
+StartupNotify=true
+Categories=GNOME;GTK;Settings;DesktopSettings;
+OnlyShowIn=GNOME;
+# Translators: those are keywords for the background control-center panel
+Keywords=Wallpaper;Screen;Desktop;
+X-Ubuntu-Gettext-Domain=gnome-control-center-2.0

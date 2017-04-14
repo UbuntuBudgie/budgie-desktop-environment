@@ -1,0 +1,19 @@
+[Desktop Entry]
+# Translators: Add soft hyphens to your translations so that the icon view won't clip your translations. See https://bugzilla.gnome.org/show_bug.cgi?id=647087#c13 for details
+Name=Mouse & Touch­pad
+Comment=Change your mouse or touchpad sensitivity and select right or left-handed
+Exec=gnome-control-center mouse
+Icon=input-mouse
+Terminal=false
+Type=Application
+#NoDisplay=true
+StartupNotify=true
+Categories=GNOME;GTK;Settings;HardwareSettings;
+OnlyShowIn=GNOME;Unity;
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=gnome-control-center
+X-GNOME-Bugzilla-Component=mouse
+X-GNOME-Bugzilla-Version=3.24.0
+# Translators: those are keywords for the mouse and touchpad control-center panel
+Keywords=Trackpad;Pointer;Click;Tap;Double;Button;Trackball;Scroll;
+X-Ubuntu-Gettext-Domain=gnome-control-center-2.0

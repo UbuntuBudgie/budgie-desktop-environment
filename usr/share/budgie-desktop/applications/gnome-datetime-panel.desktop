@@ -1,0 +1,15 @@
+[Desktop Entry]
+# Translators: Add soft hyphens to your translations so that the icon view won't clip your translations. See https://bugzilla.gnome.org/show_bug.cgi?id=647087#c13 for details
+Name=Date & Time
+Comment=Change the date and time, including time zone
+Exec=gnome-control-center datetime
+Icon=preferences-system-time
+Terminal=false
+Type=Application
+#NoDisplay=true
+StartupNotify=true
+Categories=GNOME;GTK;Settings;
+OnlyShowIn=GNOME;
+# Translators: those are keywords for the date and time control-center panel
+Keywords=Clock;Timezone;Location;
+X-Ubuntu-Gettext-Domain=gnome-control-center-2.0

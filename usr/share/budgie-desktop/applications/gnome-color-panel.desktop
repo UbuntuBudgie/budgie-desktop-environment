@@ -1,0 +1,19 @@
+[Desktop Entry]
+# Translators: Add soft hyphens to your translations so that the icon view won't clip your translations. See https://bugzilla.gnome.org/show_bug.cgi?id=647087#c13 for details
+Name=Co­lor
+Comment=Calibrate the color of your devices, such as displays, cameras or printers
+Exec=gnome-control-center color
+Icon=preferences-color
+Terminal=false
+Type=Application
+#NoDisplay=true
+StartupNotify=true
+Categories=GNOME;GTK;Settings;HardwareSettings;
+OnlyShowIn=GNOME;Unity;
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=gnome-control-center
+X-GNOME-Bugzilla-Component=color
+X-GNOME-Bugzilla-Version=3.24.0
+# Translators: those are keywords for the color control-center panel
+Keywords=Color;ICC;Profile;Calibrate;Printer;Display;
+X-Ubuntu-Gettext-Domain=gnome-control-center-2.0

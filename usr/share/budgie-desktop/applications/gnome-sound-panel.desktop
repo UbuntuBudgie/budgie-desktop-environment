@@ -1,0 +1,19 @@
+[Desktop Entry]
+Name=Sound
+Comment=Change sound levels, inputs, outputs, and alert sounds
+Exec=gnome-control-center sound
+Icon=multimedia-volume-control
+Terminal=false
+Type=Application
+#NoDisplay=true
+StartupNotify=true
+Categories=GNOME;GTK;Settings;HardwareSettings;
+OnlyShowIn=GNOME;Unity;
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=gnome-control-center
+X-GNOME-Bugzilla-Component=sound
+X-GNOME-Bugzilla-Version=3.24.0
+X-GNOME-Settings-Panel=sound
+# Translators: those are keywords for the sound control-center panel
+Keywords=Card;Microphone;Volume;Fade;Balance;Bluetooth;Headset;Audio;
+X-Ubuntu-Gettext-Domain=gnome-control-center-2.0

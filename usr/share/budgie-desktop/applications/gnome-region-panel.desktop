@@ -1,0 +1,19 @@
+[Desktop Entry]
+# Translators: Add soft hyphens to your translations so that the icon view won't clip your translations. See https://bugzilla.gnome.org/show_bug.cgi?id=647087#c13 for details
+Name=Re­gion & Lan­guage
+Comment=Select your display language, formats, keyboard layouts and input sources
+Exec=gnome-control-center region
+Icon=preferences-desktop-locale
+Terminal=false
+Type=Application
+#NoDisplay=true
+StartupNotify=true
+Categories=GNOME;GTK;Settings;DesktopSettings;
+OnlyShowIn=GNOME;Unity;
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=gnome-control-center
+X-GNOME-Bugzilla-Component=region
+X-GNOME-Bugzilla-Version=3.24.0
+# Translators: those are keywords for the region control-center panel
+Keywords=Language;Layout;Keyboard;Input;
+X-Ubuntu-Gettext-Domain=gnome-control-center-2.0
