@@ -17,7 +17,8 @@ budgie-desktop-environment (0.7.5) artful; urgency=medium
       Modify to incorporate Terminix name change to Tilix
     - debian/budgie-desktop-environment.postrm
       debian/budgie-desktop-environment.postinst
-      both deleted since no longer required
+      both modified to remove the previous Terminix config and add
+      totem.thumbnailer configuration
     - debian/copyright - updated to include the current year
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 29 Apr 2017 18:22:19 +0100

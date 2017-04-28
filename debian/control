@@ -22,6 +22,8 @@ Description: Desktop environment customisation for Ubuntu Budgie
    Ubuntu Budgie panel configuration
    plank dock customisation
    gsettings overrides
+   totem thumbnailer config using ffmpegthumbnailer
+   Tilix integration
 
 Package: budgie-desktop-minimal
 Architecture: all
