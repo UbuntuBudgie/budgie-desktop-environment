@@ -1,10 +1,18 @@
-budgie-desktop-environment (0.8.0) UNRELEASED; urgency=medium
+budgie-desktop-environment (0.7.5) artful; urgency=medium
 
-  * New release (LP: #)
+  [ David Mohammed ]
+  * New release (LP: #) version to be bumped to 0.8.0
     - Show gnome-control-center icons in the menu for easier searching
     - hide uxterm and xterm from the menu
+    - removed nautilus interactive search override since this has now
+      been dropped for v3.24 and moved sort override to new gsettings
+      area (LP: #1687210)
+  * Packaging Changes
+    - debian/control: unlink hard-dependency of ubuntu-budgie-desktop since
+      no longer required and this caused issues when uninstalling seeded
+      apps also removed budgie-desktop-environment
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 14 Apr 2017 22:30:30 +0100
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 29 Apr 2017 18:22:19 +0100
 
 budgie-desktop-environment (0.7.4) zesty; urgency=medium
 

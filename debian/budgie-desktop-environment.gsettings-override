@@ -25,9 +25,8 @@ trash-icon-visible=false
 volumes-visible=false
 font='Ubuntu 10'
 
-[org.gnome.nautilus.preferences]
+[org.gtk.Settings.FileChooser]
 sort-directories-first=true
-enable-interactive-search=true
 
 [org.gnome.nautilus.icon-view]
 default-zoom-level='small'

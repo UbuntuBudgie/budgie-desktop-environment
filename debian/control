@@ -11,8 +11,7 @@ Vcs-Browser: https://github.com/UbuntuBudgie/budgie-desktop-environment
 Package: budgie-desktop-environment
 Architecture: all
 Section: misc
-Depends: ubuntu-budgie-desktop,
- budgie-desktop-common,
+Depends: budgie-desktop-common,
  ${misc:Depends}
 Breaks: budgie-desktop-common (<= 0.4.15)
 Replaces: budgie-desktop-common
