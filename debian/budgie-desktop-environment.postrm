@@ -1,6 +1,6 @@
 #!/bin/sh -e
-# remove VTE control for Terminix that was added in postinst
-# https://github.com/gnunn1/terminix/wiki/VTE-Configuration-issue
+# remove VTE control for Tilix that was added in postinst
+# https://gnunn1.github.io/tilix-web/manual/vteconfig/
 
 # This script can be called in the following ways:
 #

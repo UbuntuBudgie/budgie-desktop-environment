@@ -1,6 +1,6 @@
 #!/bin/sh -e
-# add VTE control for Terminix
-# https://github.com/gnunn1/terminix/wiki/VTE-Configuration-issue
+# add VTE control for Tilix
+# https://gnunn1.github.io/tilix-web/manual/vteconfig/
 
 # This script can be called in the following ways:
 #
@@ -22,10 +22,10 @@
 case "$1" in
     configure)
 	
-    # be safe - if TERMINIX_ID already exists in .bashrc lets assume
+    # be safe - if TILIX_ID already exists in .bashrc lets assume
     # another package has made similar changes in this area
     
-    if ! grep -q "TERMINIX_ID" /etc/skel/.bashrc; then 
+    if ! grep -q "TILIX_ID" /etc/skel/.bashrc; then 
         cat /usr/share/budgie-desktop/vteprompt.txt >> /etc/skel/.bashrc
     fi
 	;;

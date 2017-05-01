@@ -7,10 +7,16 @@ budgie-desktop-environment (0.7.5) artful; urgency=medium
     - removed nautilus interactive search override since this has now
       been dropped for v3.24 and moved sort override to new gsettings
       area (LP: #1687210)
+    - Incorporate Tilix changes and remove Terminix config
   * Packaging Changes
     - debian/control: unlink hard-dependency of ubuntu-budgie-desktop since
       no longer required and this caused issues when uninstalling seeded
-      apps also removed budgie-desktop-environment
+      apps since budgie-desktop-environment was also removed
+    - debian/budgie-desktop-environment.links
+      debian/budgie-desktop-environment.gsettings-override
+      debian/budgie-desktop-environment.postinst
+      debian/budgie-desktop-environment.postrm
+      Modify to incorporate Terminix name change to Tilix
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 29 Apr 2017 18:22:19 +0100
 
