@@ -3,7 +3,7 @@ Upstream-Name: budgie-desktop-environment
 Source: https://github.com/UbuntuBudgie/budgie-desktop-environment
 
 Files: *
-Copyright: Copyright 2016 David Mohammed <fossfreedom@ubuntu.com>
+Copyright: Copyright 2016-2017 David Mohammed <fossfreedom@ubuntu.com>
 License: GPL-2+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU General Public
