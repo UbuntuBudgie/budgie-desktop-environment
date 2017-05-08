@@ -2,4 +2,5 @@
 applications/* /usr/share/applications/
 panel_override/* /usr/share/budgie-desktop/
 ubiquity/* /usr/share/budgie-desktop/
+thumbnail_override/* /usr/share/budgie-desktop/
 /etc/skel
