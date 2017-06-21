@@ -8,12 +8,26 @@ export QT_STYLE_OVERRIDE=
 # N.B. we don't have in Ubuntu a gtk3 based override yet.
 export QT_QPA_PLATFORMTHEME=gtk2
 
+# First logon does lots of things - we don't need to keep repeating
+# these checks since it will slow down the desktop show slightly
+
+if [ -f ~/.config/budgie-desktop/firstrun ]
+then
+    exit 0
+fi
+
+mkdir -p ~/.config/budgie-desktop
+touch ~/.config/budgie-desktop/firstrun
+
 # for the live CD ensure we override chromium-browser
 # our .desktop disables gnome-keyring from displaying since
 # on a live CD there is no password for gnome-keyring to get a hold of
 VAL=`df | grep aufs`
+VAL2=`df | grep -w / | grep '/cow'`
 
-if [ "$VAL" ]
+UBI=`which ubiquity`
+
+if [[ "$VAL"  ] || [ "$VAL2"]]  && [ "$UBI" ]
 then
    sudo cp /usr/share/budgie-desktop/chromium-browser.desktop /usr/share/applications
 fi
