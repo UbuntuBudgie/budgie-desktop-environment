@@ -38,6 +38,9 @@ active-plugins=['dbus-media-server', 'artsearch', 'generic-player', 'audiocd', '
 dark-theme=true
 display-type=1
 
+[com.solus-project.budgie-wm]
+attach-modal-dialogs=false
+
 [com.solus-project.icon-tasklist]
 pinned-launchers=['chromium-browser.desktop', 'nautilus.desktop', 'libreoffice-writer.desktop', 'org.gnome.Software.desktop']
 
