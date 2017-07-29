@@ -1,5 +1,3 @@
-#!/bin/sh
-
 # force QT override to not have a value to allow QT apps to be themed correctly
 # this is new due to zesty including QT 5.8
 export QT_STYLE_OVERRIDE=
@@ -13,7 +11,7 @@ export QT_QPA_PLATFORMTHEME=gtk2
 
 if [ -f ~/.config/budgie-desktop/firstrun ]
 then
-    exit 0
+    return 0
 fi
 
 mkdir -p ~/.config/budgie-desktop
@@ -27,7 +25,7 @@ VAL2=`df | grep -w / | grep '/cow'`
 
 UBI=`which ubiquity`
 
-if [[ "$VAL"  ] || [ "$VAL2"]]  && [ "$UBI" ]
+if [[ ("$VAL" || "$VAL2") && "$UBI" ]]
 then
    sudo cp /usr/share/budgie-desktop/chromium-browser.desktop /usr/share/applications
 fi
