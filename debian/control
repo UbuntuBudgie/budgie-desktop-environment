@@ -22,7 +22,6 @@ Depends: budgie-desktop,
  plymouth-themes,
  ${misc:Depends}
 Recommends:
- arc-firefox-theme,
  arc-theme,
  pocillo-icon-theme,
  budgie-indicator-applet,
