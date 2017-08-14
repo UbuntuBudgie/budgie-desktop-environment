@@ -46,6 +46,11 @@ pinned-launchers=['chromium-browser.desktop', 'nautilus.desktop', 'libreoffice-w
 
 [com.solus-project.budgie-panel.panel]
 theme-regions=false
+transparency='dynamic'
+enable-shadow=false
+
+[com.solus-project.places-indicator]
+expand-places=true
 
 [net.launchpad.plank.dock.settings]
 position='left'

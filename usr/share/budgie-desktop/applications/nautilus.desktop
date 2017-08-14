@@ -16,7 +16,7 @@ X-GNOME-Bugzilla-Version=3.20.4
 Actions=new-window;
 X-Unity-IconBackgroundColor=#af4853
 X-Ubuntu-Gettext-Domain=nautilus
-
+NoDisplay=true
 X-AppStream-Ignore=true
 
 [Desktop Action new-window]

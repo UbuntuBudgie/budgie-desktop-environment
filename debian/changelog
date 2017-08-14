@@ -1,3 +1,13 @@
+budgie-desktop-environment (0.8.2) artful; urgency=medium
+
+  * New release (LP: #)
+    - hide duplicate Files menu option
+    - always expand places applet
+    - enable panel dynamic transparency with no shadow
+    - add autostart file for the caffeine-indicator
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 14 Aug 2017 23:00:33 +0100
+
 budgie-desktop-environment (0.8.1) artful; urgency=medium
 
   * New release (LP: #1707435)

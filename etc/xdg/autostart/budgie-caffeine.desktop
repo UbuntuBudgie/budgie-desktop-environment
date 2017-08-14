@@ -1,0 +1,11 @@
+[Desktop Entry]
+Icon=caffeine
+Name=Caffeine Indicator
+Comment=Manually control activation of the screensaver and sleep mode
+Exec=/usr/bin/caffeine-indicator
+Terminal=false
+Type=Application
+Categories=Utility;TrayIcon;
+Keywords=Screensaver,Power,Saving,Blank
+OnlyShowIn=GNOME;Unity;
+StartupNotify=false
