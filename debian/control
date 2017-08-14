@@ -3,7 +3,7 @@ Section: x11
 Priority: optional
 Maintainer: David Mohammed <fossfreedom@ubuntu.com>
 Build-Depends: debhelper (>= 10)
-Standards-Version: 3.9.8
+Standards-Version: 4.0.0
 Homepage: https://github.com/UbuntuBudgie
 Vcs-Git: https://github.com/UbuntuBudgie/budgie-desktop-environment.git
 Vcs-Browser: https://github.com/UbuntuBudgie/budgie-desktop-environment

@@ -1,10 +1,13 @@
 budgie-desktop-environment (0.8.1) artful; urgency=medium
 
-  * New release (LP: #)
+  * New release (LP: #1707435)
     - Ensure Tilix starts without the warning dialog on live ISO
     - Add document templates for Nautilus
+    - Detach Application Dialogs from their parent
+  * Packaging Changes:
+    - updated debian/control standards-version to 4.0.0
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 21 Jun 2017 22:22:36 +0100
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 29 Jul 2017 20:22:36 +0100
 
 budgie-desktop-environment (0.8.0) artful; urgency=medium
 
