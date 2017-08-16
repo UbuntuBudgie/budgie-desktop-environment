@@ -1,6 +1,6 @@
 budgie-desktop-environment (0.8.2) artful; urgency=medium
 
-  * New release (LP: #)
+  * New release (LP: #1711227)
     - hide duplicate Files menu option
     - always expand places applet
     - enable panel dynamic transparency with no shadow
@@ -10,6 +10,7 @@ budgie-desktop-environment (0.8.2) artful; urgency=medium
     - add local plank autostart
   * Packaging Changes:
     - add maintscript to remove obsolete /etc/xdg/autostart/budgie-plank.desktop
+    - debian/control budgie-desktop version must be greater or equal 10.4
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 14 Aug 2017 23:00:33 +0100
 

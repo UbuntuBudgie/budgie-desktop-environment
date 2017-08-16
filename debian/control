@@ -50,7 +50,7 @@ Package: budgie-desktop-common
 Architecture: all
 Section: misc
 Depends: gnome-themes-standard,
- budgie-desktop,
+ budgie-desktop (>= 10.4),
  lightdm,
  dmz-cursor-theme,
  xdg-user-dirs-gtk,
