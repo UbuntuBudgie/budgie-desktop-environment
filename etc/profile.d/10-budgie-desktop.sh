@@ -61,5 +61,5 @@ PLK=`which plank`
 if [ "$PLK" ]
 then
     mkdir -p ~/.config/autostart
-    cp /usr/share/budgie-desktop/budgie-plank.desktop ~/.config/autostart
+    cp /usr/share/budgie-desktop/plank.desktop ~/.config/autostart
 fi
