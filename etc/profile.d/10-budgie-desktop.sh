@@ -55,3 +55,11 @@ then
     mkdir -p ~/.config/autostart
     cp /usr/share/applications/caffeine-indicator.desktop ~/.config/autostart
 fi
+
+# plank
+PLK=`which plank`
+if [ "$PLK" ]
+then
+    mkdir -p ~/.config/autostart
+    cp /usr/share/budgie-desktop/budgie-plank.desktop ~/.config/autostart
+fi

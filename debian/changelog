@@ -6,6 +6,10 @@ budgie-desktop-environment (0.8.2) artful; urgency=medium
     - enable panel dynamic transparency with no shadow
     - add autostart file for the caffeine-indicator
     - add night-light applet as the default
+    - remove global autostart for plank
+    - add local plank autostart
+  * Packaging Changes:
+    - add maintscript to remove obsolete /etc/xdg/autostart/budgie-plank.desktop
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 14 Aug 2017 23:00:33 +0100
 
