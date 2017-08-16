@@ -47,3 +47,11 @@ if ! grep -q "TILIX_ID" ~/.bashrc; then
     # now append vte source
     cat /usr/share/budgie-desktop/vteprompt.txt >> ~/.bashrc
 fi
+
+# caffeine
+CAFF=`which caffeine`
+if [ "$CAFF" ]
+then
+    mkdir -p ~/.config/autostart
+    cp /usr/share/applications/caffeine-indicator.desktop ~/.config/autostart
+fi
