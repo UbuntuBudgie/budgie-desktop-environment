@@ -1,8 +1,15 @@
 budgie-desktop-environment (0.8.3) artful; urgency=medium
 
-  * Bug-fix release (LP: #1713071)
+  * Bug-fix release
     - explicitly set budgie-desktop for overrides so that we
       don't trample over other desktops overrides
+      (LP: #1713071)
+    - Add distro specific override for budgie-menu that was previously
+      (but incorrectly) in package budgie-desktop
+    - Ensure plank only starts for Budgie, not for all desktop sessions
+      (LP: #1713128)
+    - Revert panel dynamic transparency by default since this cannot
+      be overridden; transparency can be user-defined
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 25 Aug 2017 16:18:02 +0100
 

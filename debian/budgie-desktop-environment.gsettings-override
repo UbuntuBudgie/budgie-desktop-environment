@@ -1,22 +1,25 @@
-[org.gnome.desktop.wm.preferences:budgie-desktop]
+[org.gnome.desktop.wm.preferences:Budgie]
 theme='Arc-Darker'
 
-[org.gnome.desktop.interface:budgie-desktop]
+[org.gnome.desktop.interface:Budgie]
 gtk-theme='Arc-Darker'
 icon-theme='Pocillo'
 
-[org.gnome.desktop.background:budgie-desktop]
+[com.solus-project.budgie-menu]
+menu-headers=false
+
+[org.gnome.desktop.background:Budgie]
 show-desktop-icons=true
 picture-uri='file:///usr/share/backgrounds/Xplo_by_Hugo_Cliff.png'
 
-[org.gnome.desktop.input-sources:budgie-desktop]
+[org.gnome.desktop.input-sources:Budgie]
 xkb-options=['terminate:ctrl_alt_bksp']
 
-[org.gnome.desktop.default-applications.terminal:budgie-desktop]
+[org.gnome.desktop.default-applications.terminal:Budgie]
 exec='tilix'
 exec-arg='-e'
 
-[org.gnome.desktop.screensaver:budgie-desktop]
+[org.gnome.desktop.screensaver:Budgie]
 picture-uri='file:///usr/share/backgrounds/Xplo_by_Hugo_Cliff.png'
 
 [org.gnome.nautilus.desktop]
@@ -25,16 +28,16 @@ trash-icon-visible=false
 volumes-visible=false
 font='Ubuntu 10'
 
-[org.gtk.Settings.FileChooser:budgie-desktop]
+[org.gtk.Settings.FileChooser:Budgie]
 sort-directories-first=true
 
-[org.gnome.nautilus.icon-view:budgie-desktop]
+[org.gnome.nautilus.icon-view:Budgie]
 default-zoom-level='small'
 
-[org.gnome.rhythmbox.plugins:budgie-desktop]
+[org.gnome.rhythmbox.plugins]
 active-plugins=['dbus-media-server', 'artsearch', 'generic-player', 'audiocd', 'alternative-toolbar', 'mtpdevice', 'daap', 'android', 'rb', 'power-manager', 'notification', 'ipod', 'mpris', 'iradio', 'audioscrobbler', 'mmkeys']
 
-[org.gnome.rhythmbox.plugins.alternative_toolbar:budgie-desktop]
+[org.gnome.rhythmbox.plugins.alternative_toolbar]
 dark-theme=true
 display-type=1
 
@@ -46,18 +49,16 @@ pinned-launchers=['chromium-browser.desktop', 'nautilus.desktop', 'libreoffice-w
 
 [com.solus-project.budgie-panel.panel]
 theme-regions=false
-transparency='dynamic'
-enable-shadow=false
 
 [com.solus-project.places-indicator]
 expand-places=true
 
-[net.launchpad.plank.dock.settings:budgie-desktop]
+[net.launchpad.plank.dock.settings]
 position='left'
 theme='Gtk+'
 icon-size=32
 hide-delay=500
 hide-mode='dodge-maximized'
 
-[com.gexperts.Tilix:budgie-desktop]
+[com.gexperts.Tilix]
 warn-vte-config-issue=false

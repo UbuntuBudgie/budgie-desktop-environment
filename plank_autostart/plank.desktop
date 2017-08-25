@@ -64,3 +64,4 @@ Icon=plank
 Terminal=false
 NoDisplay=false
 X-GNOME-Autostart-enabled=true
+OnlyShowIn=Budgie
