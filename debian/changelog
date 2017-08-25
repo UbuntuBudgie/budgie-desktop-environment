@@ -1,3 +1,11 @@
+budgie-desktop-environment (0.8.3) artful; urgency=medium
+
+  * Bug-fix release (LP: #1713071)
+    - explicitly set budgie-desktop for overrides so that we
+      don't trample over other desktops overrides
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 25 Aug 2017 16:18:02 +0100
+
 budgie-desktop-environment (0.8.2) artful; urgency=medium
 
   * New release (LP: #1711227)
