@@ -1,26 +1,26 @@
-[org.gnome.settings-daemon.plugins.xsettings]
+[org.gnome.settings-daemon.plugins.xsettings:budgie-desktop]
 hinting='slight'
 antialiasing='rgba'
 
-[org.gnome.crypto.pgp]
+[org.gnome.crypto.pgp:budgie-desktop]
 keyservers=['hkp://keyserver.ubuntu.com:11371', 'hkp://pool.sks-keyservers.net', 'ldap://keyserver.pgp.com']
 
-[org.gnome.desktop.wm.preferences]
+[org.gnome.desktop.wm.preferences:budgie-desktop]
 titlebar-font='Ubuntu Bold 11'
 titlebar-uses-system-font=false
 
-[org.gnome.desktop.interface]
+[org.gnome.desktop.interface:budgie-desktop]
 monospace-font-name='Ubuntu Mono 13'
 font-name='Ubuntu 11'
 document-font-name='Sans 11'
 cursor-theme='DMZ-White'
 scaling-factor=1
 
-[org.gnome.desktop.peripherals.touchpad]
+[org.gnome.desktop.peripherals.touchpad:budgie-desktop]
 tap-to-click = true
 
 [com.solus-project.budgie-menu]
 menu-headers=false
 
-[org.freedesktop.ibus.panel]
+[org.freedesktop.ibus.panel:budgie-desktop]
 show-icon-on-systray=false

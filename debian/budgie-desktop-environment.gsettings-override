@@ -1,22 +1,22 @@
-[org.gnome.desktop.wm.preferences]
+[org.gnome.desktop.wm.preferences:budgie-desktop]
 theme='Arc-Darker'
 
-[org.gnome.desktop.interface]
+[org.gnome.desktop.interface:budgie-desktop]
 gtk-theme='Arc-Darker'
 icon-theme='Pocillo'
 
-[org.gnome.desktop.background]
+[org.gnome.desktop.background:budgie-desktop]
 show-desktop-icons=true
 picture-uri='file:///usr/share/backgrounds/Xplo_by_Hugo_Cliff.png'
 
-[org.gnome.desktop.input-sources]
+[org.gnome.desktop.input-sources:budgie-desktop]
 xkb-options=['terminate:ctrl_alt_bksp']
 
-[org.gnome.desktop.default-applications.terminal]
+[org.gnome.desktop.default-applications.terminal:budgie-desktop]
 exec='tilix'
 exec-arg='-e'
 
-[org.gnome.desktop.screensaver]
+[org.gnome.desktop.screensaver:budgie-desktop]
 picture-uri='file:///usr/share/backgrounds/Xplo_by_Hugo_Cliff.png'
 
 [org.gnome.nautilus.desktop]
@@ -25,16 +25,16 @@ trash-icon-visible=false
 volumes-visible=false
 font='Ubuntu 10'
 
-[org.gtk.Settings.FileChooser]
+[org.gtk.Settings.FileChooser:budgie-desktop]
 sort-directories-first=true
 
-[org.gnome.nautilus.icon-view]
+[org.gnome.nautilus.icon-view:budgie-desktop]
 default-zoom-level='small'
 
-[org.gnome.rhythmbox.plugins]
+[org.gnome.rhythmbox.plugins:budgie-desktop]
 active-plugins=['dbus-media-server', 'artsearch', 'generic-player', 'audiocd', 'alternative-toolbar', 'mtpdevice', 'daap', 'android', 'rb', 'power-manager', 'notification', 'ipod', 'mpris', 'iradio', 'audioscrobbler', 'mmkeys']
 
-[org.gnome.rhythmbox.plugins.alternative_toolbar]
+[org.gnome.rhythmbox.plugins.alternative_toolbar:budgie-desktop]
 dark-theme=true
 display-type=1
 
@@ -52,12 +52,12 @@ enable-shadow=false
 [com.solus-project.places-indicator]
 expand-places=true
 
-[net.launchpad.plank.dock.settings]
+[net.launchpad.plank.dock.settings:budgie-desktop]
 position='left'
 theme='Gtk+'
 icon-size=32
 hide-delay=500
 hide-mode='dodge-maximized'
 
-[com.gexperts.Tilix]
+[com.gexperts.Tilix:budgie-desktop]
 warn-vte-config-issue=false
