@@ -22,10 +22,12 @@ exec-arg='-e'
 [org.gnome.desktop.screensaver:Budgie]
 picture-uri='file:///usr/share/backgrounds/Xplo_by_Hugo_Cliff.png'
 
-[org.gnome.nautilus.desktop]
+[org.gnome.nautilus.desktop:Budgie]
 home-icon-visible=false
 trash-icon-visible=false
 volumes-visible=false
+
+[org.gnome.nautilus.desktop]
 font='Ubuntu 10'
 
 [org.gtk.Settings.FileChooser:Budgie]
@@ -60,5 +62,7 @@ icon-size=32
 hide-delay=500
 hide-mode='dodge-maximized'
 
-[com.gexperts.Tilix]
+[com.gexperts.Tilix.Settings:Budgie]
 warn-vte-config-issue=false
+theme-variant='dark'
+copy-on-select=true
