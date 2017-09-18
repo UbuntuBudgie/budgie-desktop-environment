@@ -5,16 +5,15 @@ antialiasing='rgba'
 [org.gnome.crypto.pgp:Budgie]
 keyservers=['hkp://keyserver.ubuntu.com:11371', 'hkp://pool.sks-keyservers.net', 'ldap://keyserver.pgp.com']
 
-[org.gnome.desktop.wm.preferences:Budgie]
+[org.gnome.desktop.wm.preferences]
 titlebar-font='Ubuntu Bold 11'
 titlebar-uses-system-font=false
 
-[org.gnome.desktop.interface:Budgie]
+[org.gnome.desktop.interface]
 monospace-font-name='Ubuntu Mono 13'
 font-name='Ubuntu 11'
 document-font-name='Sans 11'
 cursor-theme='DMZ-White'
-scaling-factor=1
 
 [org.gnome.desktop.peripherals.touchpad:Budgie]
 tap-to-click = true
