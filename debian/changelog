@@ -1,8 +1,9 @@
 budgie-desktop-environment (0.9.0) bionic; urgency=medium
 
-  * Bug-fix release (LP: #1727796)
+  * Bug-fix release
     - profile script should only execute for the budgie-desktop
-      session
+      session (LP: #1727796)
+    - remove not-needed live CD section of profile script
   * Packaging Changes:
     - Update standards-version: No changes required
 

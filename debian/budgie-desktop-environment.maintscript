@@ -1,2 +1,1 @@
-set -e
 rm_conffile /etc/xdg/autostart/budgie-plank.desktop 0.8.2~

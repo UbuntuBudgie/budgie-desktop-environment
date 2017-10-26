@@ -22,19 +22,6 @@ fi
 mkdir -p ~/.config/budgie-desktop
 touch ~/.config/budgie-desktop/firstrun
 
-# for the live CD ensure we override chromium-browser
-# our .desktop disables gnome-keyring from displaying since
-# on a live CD there is no password for gnome-keyring to get a hold of
-VAL=`df | grep aufs`
-VAL2=`df | grep -w / | grep '/cow'`
-
-UBI=`which ubiquity`
-
-if [[ ("$VAL" || "$VAL2") && "$UBI" ]]
-then
-   sudo cp /usr/share/budgie-desktop/chromium-browser.desktop /usr/share/applications
-fi
-
 # Tilix needs to include a bash statement to source vte otherwise an error dialog
 # is displayed and proper folder navigation when creating new tiled windows is
 # not available.  Since Ubuntu's bash.bashrc does NOT execute shell scripts as per
