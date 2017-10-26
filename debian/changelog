@@ -1,3 +1,13 @@
+budgie-desktop-environment (0.8.5) artful; urgency=medium
+
+  * Bug-fix release (LP: #1718052)
+    - remove Budgie desktop override for font keys since this breaks
+      the Budgie Desktop Settings window
+    - delete the override for the desktop scaling factor key since
+      it is not needed
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 18 Sep 2017 17:10:10 -0500
+
 budgie-desktop-environment (0.8.4) artful; urgency=medium
 
   * Bug-fix release (LP: #1715735)
@@ -7,7 +17,7 @@ budgie-desktop-environment (0.8.4) artful; urgency=medium
     - Add missing style and copy overrides for Tilix to fit with
       budgie look-and-feel
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 06 Sep 2017 21:23:40 +0100
+ -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 07 Sep 2017 16:28:32 -0500
 
 budgie-desktop-environment (0.8.3) artful; urgency=medium
 
