@@ -1,3 +1,8 @@
+if [[ $DESKTOP_SESSION != 'budgie-desktop' ]]
+then
+    return 0
+fi
+
 # force QT override to not have a value to allow QT apps to be themed correctly
 # this is new due to zesty including QT 5.8
 export QT_STYLE_OVERRIDE=
