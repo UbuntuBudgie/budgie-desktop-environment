@@ -4,8 +4,10 @@ budgie-desktop-environment (0.9.0) bionic; urgency=medium
     - profile script should only execute for the budgie-desktop
       session (LP: #1727796)
     - remove not-needed live CD section of profile script
+    - Add schema override to enable Ibus source cycling
   * Packaging Changes:
-    - Update standards-version: No changes required
+    - debian/control Update standards-version: No changes required
+    - debian/copyright 2018 copyright year addition
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 26 Oct 2017 19:13:12 +0100
 
