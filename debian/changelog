@@ -11,7 +11,7 @@ budgie-desktop-environment (0.9.0) bionic; urgency=medium
     - debian/control Update standards-version: No changes required
     - debian/copyright 2018 copyright year addition
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 26 Oct 2017 19:13:12 +0100
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 22 Jan 2018 19:13:12 +0000
 
 budgie-desktop-environment (0.8.5) artful; urgency=medium
 
