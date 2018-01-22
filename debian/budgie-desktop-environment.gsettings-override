@@ -66,3 +66,6 @@ hide-mode='dodge-maximized'
 warn-vte-config-issue=false
 theme-variant='dark'
 copy-on-select=true
+
+[org.freedesktop.ibus.general.hotkey]
+triggers=[]
