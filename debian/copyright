@@ -22,6 +22,10 @@ License: GPL-2+
  On Debian systems, the complete text of the GNU General
  Public License can be found in `/usr/share/common-licenses/GPL-2'.
 
+Files: keycontrol/bin/gnome-custom-keybinding-setup.py
+Copyright: 2018, Bernard Gray <bernard.gray@gmail.com>
+License: GPL-2+
+
 Files: usr/share/budgie-desktop/applications/debian-uxterm.desktop
   usr/share/budgie-desktop/applications/debian-xterm.desktop
 Copyright: 2006-2012, 2016, Thomas E. Dickey

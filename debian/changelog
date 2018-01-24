@@ -1,3 +1,12 @@
+budgie-desktop-environment (0.9.1) bionic; urgency=medium
+
+  * New upstream release
+    - Disable predefined keys and substitute with custom keybindings
+      Allows printscr key control, custom show-desktop keybinding
+      and show nautilus keybinding
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 24 Jan 2018 22:26:22 +0000
+
 budgie-desktop-environment (0.9.0) bionic; urgency=medium
 
   * New upstream release

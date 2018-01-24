@@ -1,0 +1,4 @@
+[custom-keybindings/budgie-show-files-test]
+binding='<Super>e'
+command='nautilus --new-window %U'
+name='Show File Browser'

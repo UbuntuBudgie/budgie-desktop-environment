@@ -1,0 +1,4 @@
+[custom-keybindings/budgie-screenshot-window-clipboard]
+binding='<Ctrl>Print'
+command='gnome-screenshot -w -c'
+name='Copy a screenshot of a window to clipboard'

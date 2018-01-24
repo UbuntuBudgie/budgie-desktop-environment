@@ -3,4 +3,5 @@ panel_override/* /usr/share/budgie-desktop/
 ubiquity/* /usr/share/budgie-desktop/
 thumbnail_override/* /usr/share/budgie-desktop/
 plank_autostart/* /usr/share/budgie-desktop/
+keycontrol /usr/share/budgie-desktop/
 /etc/skel

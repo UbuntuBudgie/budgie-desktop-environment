@@ -1,0 +1,4 @@
+[custom-keybindings/budgie-screenshot-window]
+binding='<Alt>Print'
+command='gnome-screenshot -w'
+name='Save a screenshot of a window to Pictures'

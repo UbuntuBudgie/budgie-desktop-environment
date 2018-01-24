@@ -14,12 +14,19 @@ export QT_QPA_PLATFORMTHEME=gtk2
 # First logon does lots of things - we don't need to keep repeating
 # these checks since it will slow down the desktop show slightly
 
+# keycontrol
+if [ ! -f ~/.config/budgie-desktop/keycontrol ]
+then
+    cd /usr/share/budgie-desktop/keycontrol/; . ./gnome-custom-keybinding-setup
+    mkdir -p ~/.config/budgie-desktop
+    touch ~/.config/budgie-desktop/keycontrol
+fi
+
 if [ -f ~/.config/budgie-desktop/firstrun ]
 then
     return 0
 fi
 
-mkdir -p ~/.config/budgie-desktop
 touch ~/.config/budgie-desktop/firstrun
 
 # Tilix needs to include a bash statement to source vte otherwise an error dialog

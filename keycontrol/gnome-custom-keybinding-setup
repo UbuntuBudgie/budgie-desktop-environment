@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# first, nuke any existing system keybindings that may cause an issue
+cat disable-keybindings.dconf | \
+  dconf load /org/gnome/settings-daemon/plugins/media-keys/
+
+gsettings set org.gnome.desktop.wm.keybindings show-desktop "['']"
+
+sleep 1
+
+python3 ./bin/gnome-custom-keybinding-setup.py -D ./custom-keys.d/
