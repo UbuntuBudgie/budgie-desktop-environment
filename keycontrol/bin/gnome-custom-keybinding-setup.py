@@ -132,7 +132,6 @@ if __name__ == '__main__':
             log.error('%s is missing a Section Header' % dconf_file)
         except configparser.ParsingError:
             log.error('%s has an incorrectly formatted (or missing) element in section %s' % (dconf_file,key_name))
-            log.error('%s has an incorrectly formatted (or missing) element in section %s' % (dconf_file,key_name))
         # todo check if the key-combination is in use with some other keybinding
         # we can handle having multiple keys defined per file
         process_file = True
