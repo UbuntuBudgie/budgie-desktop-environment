@@ -62,3 +62,4 @@ Type=Application
 Exec=gnome-session-quit --logout
 Icon=system-log-out-symbolic
 Categories=System
+StartupNotify=false

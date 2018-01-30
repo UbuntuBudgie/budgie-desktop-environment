@@ -61,3 +61,4 @@ Type=Application
 Exec=gnome-session-quit --power-off
 Icon=system-shutdown-symbolic
 Categories=System
+StartupNotify=false

@@ -61,3 +61,4 @@ Type=Application
 Exec=gnome-session-quit --reboot
 Icon=system-restart-symbolic
 Categories=System
+StartupNotify=false

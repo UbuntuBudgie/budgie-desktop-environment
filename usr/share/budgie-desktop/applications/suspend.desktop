@@ -61,3 +61,4 @@ Type=Application
 Exec=systemctl suspend
 Icon=system-suspend-symbolic
 Categories=System
+StartupNotify=false
