@@ -1,8 +1,8 @@
 [org.gnome.desktop.wm.preferences:Budgie]
-theme='Arc-Darker'
+theme='Pocillo'
 
 [org.gnome.desktop.interface:Budgie]
-gtk-theme='Arc-Darker'
+gtk-theme='Pocillo'
 icon-theme='Pocillo'
 
 [com.solus-project.budgie-menu]
