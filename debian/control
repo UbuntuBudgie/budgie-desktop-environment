@@ -68,5 +68,5 @@ Description: Common Ubuntu Budgie desktop components customisation
  This package provides common:
    ubuntu and budgie-desktop gsettings overrides
    make QT apps look like GTK+ apps
-   default icon-theme for GTK+2 applications
+   default icon-theme for GTK+ applications
    Ubuntu Budgie plymouth branding

@@ -3,6 +3,9 @@ budgie-desktop-environment (0.9.2) bionic; urgency=medium
   * New upstream release
     - Change default GTK+ theme to Pocillo
     - Add DropBy and ShowTime applets to the panel
+  * Packaging Changes:
+    - debian/control - fix typo in the description for
+      budgie-desktop-common
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 02 Feb 2018 23:36:00 +0000
 
