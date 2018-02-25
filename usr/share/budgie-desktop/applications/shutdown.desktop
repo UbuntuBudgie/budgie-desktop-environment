@@ -58,6 +58,6 @@ Name[sv]=Stäng av
 Name[zh_CN]=关机
 Type=Application
 Exec=gnome-session-quit --power-off
-Icon=system-shutdown-symbolic
+Icon=system-shutdown
 Categories=System
 StartupNotify=false

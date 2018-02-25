@@ -1,0 +1,4 @@
+[custom-keybindings/budgie-visualspace-left]
+binding='<Control><Alt>Left'
+command='/usr/share/budgie-desktop/visualspace/space_switcher prev'
+name='Move to Workspace left'

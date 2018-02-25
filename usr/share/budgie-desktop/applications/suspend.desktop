@@ -56,6 +56,6 @@ Name[sv]=Strömsparläge
 Name[zh_CN]=挂起
 Type=Application
 Exec=systemctl suspend
-Icon=system-suspend-symbolic
+Icon=system-suspend
 Categories=System
 StartupNotify=false

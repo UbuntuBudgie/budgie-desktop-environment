@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Menu Editor
+Comment=Add or remove applications from the menu
+Exec=/usr/bin/menulibre
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GNOME;Settings;DesktopSettings;
+Keywords=Configuration;Menu;User;
+Icon=menulibre
+X-Ubuntu-Gettext-Domain=menulibre

@@ -58,6 +58,6 @@ Name[sv]=Starta om
 Name[zh_CN]=重启
 Type=Application
 Exec=gnome-session-quit --reboot
-Icon=system-restart-symbolic
+Icon=system-restart
 Categories=System
 StartupNotify=false

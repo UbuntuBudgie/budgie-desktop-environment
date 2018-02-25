@@ -5,3 +5,5 @@ thumbnail_override/* /usr/share/budgie-desktop/
 plank_autostart/* /usr/share/budgie-desktop/
 keycontrol /usr/share/budgie-desktop/
 /etc/skel
+visualspace/schema/* /usr/share/glib-2.0/schemas/
+visualspace /usr/share/budgie-desktop/
