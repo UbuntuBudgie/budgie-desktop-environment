@@ -1,3 +1,14 @@
+budgie-desktop-environment (0.9.4) bionic; urgency=medium
+
+  * Bug-fix release
+    - Add a local autostart file for budgie-welcome since
+      budgie-welcome snap does not create the equivalent in
+      /etc/skel/.config/autostart until after the first login.  This is
+      required until snapd support for autostart lands and possible
+      adjustments can be evaluated.
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 03 Mar 2018 21:39:13 +0000
+
 budgie-desktop-environment (0.9.3) bionic; urgency=medium
 
   * New upstream release

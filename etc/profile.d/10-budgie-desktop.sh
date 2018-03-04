@@ -47,11 +47,12 @@ if ! grep -q "TILIX_ID" ~/.bashrc; then
     cat /usr/share/budgie-desktop/vteprompt.txt >> ~/.bashrc
 fi
 
+mkdir -p ~/.config/autostart
+
 # caffeine
 CAFF=`which caffeine`
 if [ "$CAFF" ]
 then
-    mkdir -p ~/.config/autostart
     cp /usr/share/applications/caffeine-indicator.desktop ~/.config/autostart
 fi
 
@@ -59,6 +60,11 @@ fi
 PLK=`which plank`
 if [ "$PLK" ]
 then
-    mkdir -p ~/.config/autostart
     cp /usr/share/budgie-desktop/plank.desktop ~/.config/autostart
+fi
+
+# welcome - give welcome an autostart if its not copied on first initialisation
+if [ -f /snap/ubuntu-budgie-welcome/current/usr/bin/budgie-welcome ] && [ ! -f ~/.config/autostart/budgie-welcome.desktop ]
+then
+    cp /usr/share/budgie-desktop/budgie-welcome.desktop ~/.config/autostart
 fi
