@@ -36,9 +36,3 @@ if [ "$PLK" ]
 then
     cp /usr/share/budgie-desktop/plank.desktop ~/.config/autostart
 fi
-
-# welcome - give welcome an autostart if its not copied on first initialisation
-if [ -f /snap/ubuntu-budgie-welcome/current/usr/bin/budgie-welcome ] && [ ! -f ~/.config/autostart/budgie-welcome.desktop ]
-then
-    cp /usr/share/budgie-desktop/budgie-welcome.desktop ~/.config/autostart
-fi
