@@ -1,2 +1,3 @@
 /etc/profile.d/10-budgie-desktop-common.sh
 /usr
+welcome_autostart/* /usr/share/budgie-desktop/

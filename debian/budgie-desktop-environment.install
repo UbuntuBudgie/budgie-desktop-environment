@@ -6,6 +6,5 @@ keycontrol /usr/share/budgie-desktop/
 /etc/skel
 visualspace/schema/* /usr/share/glib-2.0/schemas/
 visualspace /usr/share/budgie-desktop/
-welcome_autostart/* /usr/share/budgie-desktop/
 applications/* /usr/share/applications/
 /etc/profile.d/10-budgie-desktop.sh
