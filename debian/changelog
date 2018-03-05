@@ -1,8 +1,14 @@
-budgie-desktop-environment (0.9.5) UNRELEASED; urgency=medium
+budgie-desktop-environment (0.9.5) bionic; urgency=medium
 
   * Bug-fix release
     - Ensure consistent theming across the minimal and full
-      iso versions
+      iso versions; this involves ensuring theming and
+      key apps configuration such as tilix are applied
+      through common package installation.
+  * Packaging Changes
+    - switch links creation to the common binary
+    - move some environment gettings override to the common
+    - move some environment install files to common 
 
  -- David Mohammed <fosssfreedom@ubuntu.com>  Mon, 05 Mar 2018 09:51:03 +0000
 
