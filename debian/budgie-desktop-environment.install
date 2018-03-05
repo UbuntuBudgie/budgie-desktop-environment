@@ -1,4 +1,3 @@
-applications/* /usr/share/applications/
 panel_override/* /usr/share/budgie-desktop/
 ubiquity/* /usr/share/budgie-desktop/
 thumbnail_override/* /usr/share/budgie-desktop/
@@ -8,3 +7,4 @@ keycontrol /usr/share/budgie-desktop/
 visualspace/schema/* /usr/share/glib-2.0/schemas/
 visualspace /usr/share/budgie-desktop/
 welcome_autostart/* /usr/share/budgie-desktop/
+applications/* /usr/share/applications/
