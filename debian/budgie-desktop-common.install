@@ -1,2 +1,2 @@
-/etc/profile.d
+/etc/profile.d/10-budgie-desktop-common.sh
 /usr
