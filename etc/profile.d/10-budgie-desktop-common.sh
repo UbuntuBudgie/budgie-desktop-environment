@@ -19,6 +19,7 @@ then
     return 0
 fi
 
+mkdir -p ~/.config/budgie-desktop
 touch ~/.config/budgie-desktop/firstruncommon
 
 # Tilix needs to include a bash statement to source vte otherwise an error dialog
