@@ -12,3 +12,4 @@ windowshuffler/*.svg /usr/share/pixmaps/
 windowshuffler/*.py /usr/share/budgie-desktop/windowshuffler/
 windowshuffler/matrix_wrapper /usr/share/budgie-desktop/windowshuffler/
 windowshuffler/window_shuffler /usr/share/budgie-desktop/windowshuffler/
+windowshuffler/shortcuts /usr/share/budgie-desktop/windowshuffler/
