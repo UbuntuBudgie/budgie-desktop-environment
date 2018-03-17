@@ -1,0 +1,4 @@
+[custom-keybindings/windowshuffler]
+binding='<Super>s'
+command='/usr/share/budgie-desktop/windowshuffler/matrix_wrapper'
+name='Toggle Window Shuffler'

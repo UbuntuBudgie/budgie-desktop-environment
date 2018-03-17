@@ -6,12 +6,15 @@ fi
 # First logon does lots of things - we don't need to keep repeating
 # these checks since it will slow down the desktop show slightly
 
-# keycontrol
-if [ ! -f ~/.config/budgie-desktop/keycontrol ]
+# keycontrol - we suffix number when keycontrol needs to be rerun
+# when the package updates
+if [ ! -f ~/.config/budgie-desktop/keycontrol2 ]
 then
     cd /usr/share/budgie-desktop/keycontrol/; . ./gnome-custom-keybinding-setup
     mkdir -p ~/.config/budgie-desktop
-    touch ~/.config/budgie-desktop/keycontrol
+    # delete old keycontrol files (if they have been previously created)
+    rm -f ~/.config/budgie-desktop/keycontrol*
+    touch ~/.config/budgie-desktop/keycontrol2
 fi
 
 if [ -f ~/.config/budgie-desktop/firstrun ]

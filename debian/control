@@ -13,6 +13,7 @@ Architecture: all
 Section: misc
 Depends: budgie-desktop-common,
  ${misc:Depends}
+Recommends: wmctrl, xdotool, python3-gi-cairo, python3-cairo
 Breaks: budgie-desktop-common (<= 0.4.15)
 Replaces: budgie-desktop-common
 Description: Desktop environment customisation for Ubuntu Budgie
