@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-import subprocess
 import os
+import subprocess
+
 import gi
+
 gi.require_version("Wnck", "3.0")
 
-from gi.repository import Wnck, Gdk
-
+from gi.repository import Wnck
 
 """
 WindowShuffler
@@ -22,18 +23,15 @@ should have received a copy of the GNU General Public License along with this
 program.  If not, see <https://www.gnu.org/licenses/>.
 """
 
-
 # paths
 userdata = os.path.join(
     os.environ["HOME"], ".config/budgie-extras/windowshuffler",
 )
 
-
 try:
     os.makedirs(userdata)
 except FileExistsError:
     pass
-
 
 matr_file = os.path.join(userdata, "matrix")
 app_path = os.path.dirname(os.path.abspath(__file__))
@@ -82,7 +80,7 @@ def shuffle(win, x, y, w, h):
     win.unmaximize()
     g = Wnck.WindowGravity.NORTHWEST
     flags = Wnck.WindowMoveResizeMask.X | \
-        Wnck.WindowMoveResizeMask.Y | \
-        Wnck.WindowMoveResizeMask.WIDTH | \
-        Wnck.WindowMoveResizeMask.HEIGHT
+            Wnck.WindowMoveResizeMask.Y | \
+            Wnck.WindowMoveResizeMask.WIDTH | \
+            Wnck.WindowMoveResizeMask.HEIGHT
     win.set_geometry(g, flags, x, y, w, h)
