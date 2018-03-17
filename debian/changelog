@@ -1,7 +1,7 @@
 budgie-desktop-environment (0.9.6) bionic; urgency=medium
 
   * New release
-    - Add WindowShuffler support
+    - Add WindowShuffler support (LP: #1756565)
   * Packaging Changes
     - debian/control Add recommends for window shuffler packages
 
