@@ -1,3 +1,14 @@
+budgie-desktop-environment (0.9.7) bionic; urgency=medium
+
+  * Bug-fix release
+    - Add fallback icon for our distro otherwise icon-sets
+      other than Pocillo will not display our logo for budgie-welcome
+    - change default from Suspend on AC Power to never
+    - Fix apparent random grid positioning for window shuffler to the
+      more logical nearest-to-grid position algorithm
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 25 Mar 2018 10:15:10 +0100
+
 budgie-desktop-environment (0.9.6) bionic; urgency=medium
 
   * New release

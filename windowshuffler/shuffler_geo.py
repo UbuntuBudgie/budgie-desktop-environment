@@ -72,7 +72,7 @@ def get_strut(xid):
     match = [int(n) for n in [
         l for l in strut_data.splitlines() if s in l
     ][0].split("=")[1].strip().split(",")
-             ]
+    ]
     plank = True if 'WM_NAME(STRING) = "plank"' in strut_data else False
     return match
 
@@ -146,7 +146,7 @@ def get_windows_oncurrent(scr=None):
     # working area
     wa = [
         strut[0], strut[2], mpos[2] - (strut[0] + strut[1]),
-                            mpos[3] - (strut[2] + strut[3]),
+        mpos[3] - (strut[2] + strut[3]),
     ]
     # normal, visible windows on current monitor on current workspace
     currws = scr.get_active_workspace()

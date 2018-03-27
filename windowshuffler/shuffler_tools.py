@@ -80,7 +80,7 @@ def shuffle(win, x, y, w, h):
     win.unmaximize()
     g = Wnck.WindowGravity.NORTHWEST
     flags = Wnck.WindowMoveResizeMask.X | \
-            Wnck.WindowMoveResizeMask.Y | \
-            Wnck.WindowMoveResizeMask.WIDTH | \
-            Wnck.WindowMoveResizeMask.HEIGHT
+        Wnck.WindowMoveResizeMask.Y | \
+        Wnck.WindowMoveResizeMask.WIDTH | \
+        Wnck.WindowMoveResizeMask.HEIGHT
     win.set_geometry(g, flags, x, y, w, h)
