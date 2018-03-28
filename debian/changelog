@@ -6,6 +6,7 @@ budgie-desktop-environment (0.9.7) bionic; urgency=medium
     - change default from Suspend on AC Power to never
     - Fix apparent random grid positioning for window shuffler to the
       more logical nearest-to-grid position algorithm
+    - Add missing symlink to allow hotcorners to work with window shuffler
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 25 Mar 2018 10:15:10 +0100
 
