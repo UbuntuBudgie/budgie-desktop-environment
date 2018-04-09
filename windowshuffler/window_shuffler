@@ -27,6 +27,7 @@ should have received a copy of the GNU General Public License along with this
 program.  If not, see <https://www.gnu.org/licenses/>.
 """
 
+
 css_data = """
 .matrixmanagebuttonright {
   border: 0px;
@@ -74,12 +75,6 @@ css_data = """
 .rounded {
   border-radius: 8px;
 }
-.q_button {
-  font-size: 20;
-}
-.q_button:hover {
-  font-weight: bold;
-}
 """
 
 
@@ -91,6 +86,7 @@ class WindowShufflerMatrix(Gtk.Window):
         self.set_position(Gtk.WindowPosition.CENTER_ALWAYS)
         self.set_keep_above(True)
         self.set_skip_taskbar_hint(True)
+        self.set_type_hint(Gdk.WindowTypeHint.TOOLBAR)
         self.set_decorated(False)
         self.maingrid = Gtk.Grid()
         self.maingrid.set_column_spacing(2)
@@ -154,6 +150,12 @@ class WindowShufflerMatrix(Gtk.Window):
         self.snapshot_icon2 = Gtk.Image.new_from_icon_name(
             "snapshot2-symbolic", Gtk.IconSize.MENU,
         )
+        self.qmark_icon1 = Gtk.Image.new_from_icon_name(
+            "qmark1-symbolic", Gtk.IconSize.MENU,
+        )
+        self.qmark_icon2 = Gtk.Image.new_from_icon_name(
+            "qmark2-symbolic", Gtk.IconSize.MENU,
+        )
         # bookkeeping
         self.grid_data = []
         self.current_span = []
@@ -167,7 +169,7 @@ class WindowShufflerMatrix(Gtk.Window):
 
     def h_spacer(self):
         # artificial (calculated) stuffing on the left side of the row
-        buttonwidth = 116
+        buttonwidth = 125
         gridwidth = self.xycoords[0] * 70
         diff = ((gridwidth - buttonwidth) / 2)
         spacegrid = Gtk.Grid()
@@ -254,19 +256,22 @@ class WindowShufflerMatrix(Gtk.Window):
             "leave-notify-event",
             self.change_icon, self.bigx_1
         )
-        exitbutton.set_size_request(10, 10)
         exitbutton.set_image(self.bigx_1)
         exitbutton.connect("clicked", self.exit)
         exitbutton.set_relief(Gtk.ReliefStyle.NONE)
         self.set_widgetstyle(exitbutton, [], ["matrixmanagebuttonleft"])
-        questionbutton = Gtk.Button("?")
+        questionbutton = Gtk.Button()
         questionbutton.set_tooltip_text("Show Usage & shortcut overview")
         questionbutton.set_can_focus(False)
-        questionbutton.set_size_request(1, 1)
         questionbutton.connect("clicked", self.show_info)
         questionbutton.set_relief(Gtk.ReliefStyle.NONE)
-        self.set_widgetstyle(
-            questionbutton, [], ["matrixmanagebutton", "q_button"]
+        self.set_widgetstyle(questionbutton, [], ["matrixmanagebutton"])
+        questionbutton.set_image(self.qmark_icon1)
+        questionbutton.connect(
+            "enter-notify-event", self.change_icon, self.qmark_icon2
+        )
+        questionbutton.connect(
+            "leave-notify-event", self.change_icon, self.qmark_icon1
         )
         gridbutton = Gtk.Button()
         gridbutton.set_can_focus(False)
@@ -276,7 +281,6 @@ class WindowShufflerMatrix(Gtk.Window):
         gridbutton.connect(
             "leave-notify-event", self.change_icon, self.grid_1
         )
-        gridbutton.set_size_request(10, 10)
         gridbutton.set_tooltip_text("Arrange visible windows on grid")
         gridbutton.set_image(self.grid_1)
         gridbutton.connect("clicked", self.arrange_all)
@@ -292,15 +296,17 @@ class WindowShufflerMatrix(Gtk.Window):
         undo.connect(
             "leave-notify-event", self.change_icon, self.und_icon1,
         )
-        undo.set_size_request(1, 1)
         undo.connect("clicked", self.undo_layout)
         undo.set_relief(Gtk.ReliefStyle.NONE)
-        self.set_widgetstyle(undo, [], ["matrixmanagebuttonright", "q_button"])
+        self.set_widgetstyle(undo, [], ["matrixmanagebuttonright"])
         snapshot = Gtk.Button()
         snapshot.set_tooltip_text("Take a snapshot of current layout")
         snapshot.set_can_focus(False)
         snapshot.set_image(self.snapshot_icon1)
-        snapshot.set_size_request(1, 1)
+        for b in [
+            snapshot, undo, gridbutton, questionbutton, exitbutton,
+        ]:
+            b.set_size_request(25, 25)
         snapshot.connect("clicked", self.record_layout)
         snapshot.connect(
             "enter-notify-event", self.change_icon, self.snapshot_icon2
@@ -310,7 +316,7 @@ class WindowShufflerMatrix(Gtk.Window):
         )
         snapshot.set_relief(Gtk.ReliefStyle.NONE)
         self.set_widgetstyle(
-            snapshot, [], ["matrixmanagebutton", "q_button"]
+            snapshot, [], ["matrixmanagebutton"]
         )
         managebox = Gtk.Box()
         managebox.pack_start(exitbutton, False, True, 0)

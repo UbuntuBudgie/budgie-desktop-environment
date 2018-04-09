@@ -3,8 +3,10 @@ budgie-desktop-environment (0.9.8) bionic; urgency=medium
   * Bug-fix release
     - remove unused .desktop overrides that cause the
       Startup Application to throw an error dialog
+    - Fix window-shuffler display issues with most GTK+ themes
+    - Stop window-shuffer being tiled through the keyboard
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 29 Mar 2018 17:39:27 +0100
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 8 Apr 2018 15:39:27 +0100
 
 budgie-desktop-environment (0.9.7) bionic; urgency=medium
 
