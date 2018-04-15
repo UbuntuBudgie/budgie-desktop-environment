@@ -1,3 +1,12 @@
+budgie-desktop-environment (0.9.9) bionic; urgency=medium
+
+  * Bug-fix release
+    - gnome-control-center info panel has been renamed in GNOME 3.28;
+      Ubuntu Budgie has a desktop override to ensure that this info pane
+      is displayed in the menu.  Fix to adapt to the new 3.28 name
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 15 Apr 2018 23:33:44 +0100
+
 budgie-desktop-environment (0.9.8) bionic; urgency=medium
 
   * Bug-fix release
