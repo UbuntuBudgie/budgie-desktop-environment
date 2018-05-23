@@ -3,8 +3,10 @@ budgie-desktop-environment (0.10.0) UNRELEASED; urgency=medium
   * New release
     - Display ibus-setup in the menu to enable configuration
       on ibus (LP: #1755831)
+    - Use the correct GNOME Nautilus .desktop file for plank; this
+     stops duplicate icons when Files (Nautilus) is run
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 23 May 2018 20:24:05 +0100
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 23 May 2018 20:47:18 +0100
 
 budgie-desktop-environment (0.9.9) bionic; urgency=medium
 
