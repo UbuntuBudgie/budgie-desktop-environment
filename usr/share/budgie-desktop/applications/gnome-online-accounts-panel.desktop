@@ -1,8 +1,8 @@
 [Desktop Entry]
-# Translators: Add soft hyphens to your translations so that the icon view won't clip your translations. See https://bugzilla.gnome.org/show_bug.cgi?id=647087#c13 for details
-Name=On­line Accounts
+Name=Online Accounts
 Comment=Connect to your online accounts and decide what to use them for
 Exec=gnome-control-center online-accounts
+# Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 Icon=goa-panel
 Terminal=false
 Type=Application
@@ -13,8 +13,10 @@ OnlyShowIn=GNOME;Unity;
 X-GNOME-Bugzilla-Bugzilla=GNOME
 X-GNOME-Bugzilla-Product=gnome-control-center
 X-GNOME-Bugzilla-Component=Online Accounts
-X-GNOME-Bugzilla-Version=3.24.0
-# Translators: those are keywords for the online-accounts control-center panel
+X-GNOME-Bugzilla-Version=3.28.1
+# Translators: Search terms to find the Online Accounts panel.
+# Do NOT translate or localize the semicolons!
+# The list MUST also end with a semicolon!
 # For ReadItLater and Pocket, see http://en.wikipedia.org/wiki/Pocket_(application)
 Keywords=Google;Facebook;Twitter;Yahoo;Web;Online;Chat;Calendar;Mail;Contact;ownCloud;Kerberos;IMAP;SMTP;Pocket;ReadItLater;
 X-Ubuntu-Gettext-Domain=gnome-control-center-2.0
