@@ -1,10 +1,18 @@
-budgie-desktop-environment (0.10.0) UNRELEASED; urgency=medium
+budgie-desktop-environment (0.10.0) cosmic; urgency=medium
 
   * New release
     - Display ibus-setup in the menu to enable configuration
       on ibus (LP: #1755831)
+    - Merge GNOME 3.28 Settings .desktop files to ensure menus and
+      Settings display translations correctly (LP: #1772238)
     - Use the correct GNOME Nautilus .desktop file for plank; this
      stops duplicate icons when Files (Nautilus) is run
+    - Add budgie override for gufw.desktop to enable displaying
+      of the gufw menu firewall option
+    - Remove file-roller.desktop override since the application
+      now provides a .desktop that can be displayed in the menu
+    - Merge mpv.desktop and nautilus.desktop overrides with the
+      18.04 applications version to ensure translations are displayed
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 23 May 2018 20:47:18 +0100
 
