@@ -1,3 +1,17 @@
+budgie-desktop-environment (0.10.1) cosmic; urgency=medium
+
+  * New release
+    - Swap plank chromium-browser dockitem for firefox
+  * Packaging Changes
+    - debian/control bump StandardsVersion - no changes required
+    - debian/control strip trailing spaces to fix lintian issues
+    - debian/copyright remove obsolete copyright statements for files
+      already removed in the package
+    - debian/maintscript remove /etc/skel chromium-browser conffile
+    - debian/changelog strip trailing spaces to fix lintian issues
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 09 Jul 2018 20:49:09 +0100
+
 budgie-desktop-environment (0.10.0) cosmic; urgency=medium
 
   * New release
@@ -66,7 +80,7 @@ budgie-desktop-environment (0.9.5) bionic; urgency=medium
   * Packaging Changes
     - switch links creation to the common binary
     - move some environment gettings override to the common
-    - move some environment install files to common 
+    - move some environment install files to common
 
  -- David Mohammed <fosssfreedom@ubuntu.com>  Mon, 05 Mar 2018 09:51:03 +0000
 

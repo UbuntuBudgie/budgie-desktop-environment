@@ -6,7 +6,7 @@
 export DPKG_GENSYMBOLS_CHECK_LEVEL=4
 
 %:
-	dh $@ 
+	dh $@
 
 override_dh_installgsettings:
 	dh_installgsettings --priority=15
