@@ -9,7 +9,7 @@ dark-theme=false
 display-type=1
 
 [com.solus-project.icon-tasklist]
-pinned-launchers=['chromium-browser.desktop', 'nautilus.desktop', 'libreoffice-writer.desktop', 'org.gnome.Software.desktop']
+pinned-launchers=['firefox.desktop', 'org.gnome.Nautilus.desktop', 'libreoffice-writer.desktop', 'org.gnome.Software.desktop', 'ubuntu-budgie-welcome_budgie-themes.desktop']
 
 [net.launchpad.plank.dock.settings]
 position='left'
