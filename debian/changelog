@@ -1,3 +1,12 @@
+budgie-desktop-environment (0.10.3) cosmic; urgency=medium
+
+  * New release
+    - swap Tilix for Geary as a default plank icon
+    - Update icon-tasklist budgie-welcome shortcut to point to
+      default home-page rather than the themes page
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 13 Jul 2018 09:08:36 +0100
+
 budgie-desktop-environment (0.10.2) cosmic; urgency=medium
 
   * New release
