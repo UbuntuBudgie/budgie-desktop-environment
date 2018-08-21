@@ -1,3 +1,13 @@
+budgie-desktop-environment (0.10.4) cosmic; urgency=medium
+
+  * New release
+    - Remove caffeine appindicator autostart
+    - Panel layout now uses native caffeine applet
+    - Update attach-modal-dialog schema location for cosmic
+      budgie-desktop release
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 21 Aug 2018 21:34:43 +0100
+
 budgie-desktop-environment (0.10.3) cosmic; urgency=medium
 
   * New release

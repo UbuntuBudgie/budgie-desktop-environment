@@ -59,7 +59,7 @@ sort-directories-first=true
 [org.gnome.nautilus.icon-view:Budgie]
 default-zoom-level='small'
 
-[com.solus-project.budgie-wm]
+[org.gnome.mutter:Budgie]
 attach-modal-dialogs=false
 
 [com.solus-project.budgie-panel]
