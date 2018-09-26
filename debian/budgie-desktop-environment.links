@@ -1,3 +1,2 @@
-# create a symlink for Tilix - does not exist on debian based systems
-# https://gnunn1.github.io/tilix-web/manual/vteconfig/
-/etc/profile.d/vte-2.91.sh /etc/profile.d/vte.sh
+# create a symlink for window shuffler
+/usr/share/budgie-desktop/windowshuffler/matrix_wrapper /usr/bin/budgie-window-shuffler-toggle

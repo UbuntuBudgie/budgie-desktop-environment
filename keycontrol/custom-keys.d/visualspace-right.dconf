@@ -1,0 +1,4 @@
+[custom-keybindings/budgie-visualspace-right]
+binding='<Control><Alt>Right'
+command='/usr/share/budgie-desktop/visualspace/visualspace next'
+name='Move to Workspace right'

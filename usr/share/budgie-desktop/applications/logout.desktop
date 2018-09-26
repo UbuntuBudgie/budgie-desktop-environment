@@ -57,6 +57,6 @@ Name[zh_Hant]=登出
 Name[zh_CN]=注销
 Type=Application
 Exec=gnome-session-quit --logout
-Icon=system-log-out-symbolic
+Icon=system-log-out
 Categories=System
 StartupNotify=false

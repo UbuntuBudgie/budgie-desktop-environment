@@ -1,0 +1,23 @@
+[Desktop Entry]
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;System;
+StartupNotify=false
+Name[de_DE]=Willkommen zu Budgie
+Name[en_GB]=Budgie Welcome
+Name[es]=Bienvenida de Budgie
+Name[fa]=خوش آمد گویی بادجی
+Name[fr]=Budgie Bienvenue
+Name[it]=Budgie Welcome
+Name[ko]=Budgie 환영
+Name[lt]=Budgie Sveiki
+Name[ms_MY]=Aluan Budgie
+Name[pl]=Witaj w Budgie
+Name[pt_BR]=Boas-Vindas Budgie
+Name[tr]=Budgie Hoşgeldiniz
+Name=Budgie Welcome
+Exec=ubuntu-budgie-welcome.budgie-welcome
+Icon=distributor-logo-ubuntu-budgie
+Comment=Welcome app to greet new users on their first login
+Keywords=desktop;preferences;
+OnlyShowIn=Budgie;

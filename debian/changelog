@@ -1,3 +1,150 @@
+budgie-desktop-environment (0.10.4) cosmic; urgency=medium
+
+  * New release
+    - Remove caffeine appindicator autostart
+    - Panel layout now uses native caffeine applet
+    - Update attach-modal-dialog schema location for cosmic
+      budgie-desktop release
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 21 Aug 2018 21:34:43 +0100
+
+budgie-desktop-environment (0.10.3) cosmic; urgency=medium
+
+  * New release
+    - swap Tilix for Geary as a default plank icon
+    - Update icon-tasklist budgie-welcome shortcut to point to
+      default home-page rather than the themes page
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 13 Jul 2018 09:08:36 +0100
+
+budgie-desktop-environment (0.10.2) cosmic; urgency=medium
+
+  * New release
+    - icon-tasklist defaults updated with firefox and snap budgie
+      welcome snap
+    - Plank dock-item updated with snap budgie-welcome snap
+    - Remove obsolete chromium-browser desktop file
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 10 Jul 2018 19:08:17 +0100
+
+budgie-desktop-environment (0.10.1) cosmic; urgency=medium
+
+  * New release
+    - Swap plank chromium-browser dockitem for firefox
+  * Packaging Changes
+    - debian/control bump StandardsVersion - no changes required
+    - debian/control strip trailing spaces to fix lintian issues
+    - debian/copyright remove obsolete copyright statements for files
+      already removed in the package
+    - debian/maintscript remove /etc/skel chromium-browser conffile
+    - debian/changelog strip trailing spaces to fix lintian issues
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 09 Jul 2018 20:49:09 +0100
+
+budgie-desktop-environment (0.10.0) cosmic; urgency=medium
+
+  * New release
+    - Display ibus-setup in the menu to enable configuration
+      on ibus (LP: #1755831)
+    - Merge GNOME 3.28 Settings .desktop files to ensure menus and
+      Settings display translations correctly (LP: #1772238)
+    - Use the correct GNOME Nautilus .desktop file for plank; this
+     stops duplicate icons when Files (Nautilus) is run
+    - Add budgie override for gufw.desktop to enable displaying
+      of the gufw menu firewall option
+    - Remove file-roller.desktop override since the application
+      now provides a .desktop that can be displayed in the menu
+    - Merge mpv.desktop and nautilus.desktop overrides with the
+      18.04 applications version to ensure translations are displayed
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 23 May 2018 20:47:18 +0100
+
+budgie-desktop-environment (0.9.9) bionic; urgency=medium
+
+  * Bug-fix release
+    - gnome-control-center info panel has been renamed in GNOME 3.28;
+      Ubuntu Budgie has a desktop override to ensure that this info pane
+      is displayed in the menu.  Fix to adapt to the new 3.28 name
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 15 Apr 2018 23:33:44 +0100
+
+budgie-desktop-environment (0.9.8) bionic; urgency=medium
+
+  * Bug-fix release
+    - remove unused .desktop overrides that cause the
+      Startup Application to throw an error dialog
+    - Fix window-shuffler display issues with most GTK+ themes
+    - Stop window-shuffler being tiled through the keyboard
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 8 Apr 2018 15:39:27 +0100
+
+budgie-desktop-environment (0.9.7) bionic; urgency=medium
+
+  * Bug-fix release
+    - Add fallback icon for our distro otherwise icon-sets
+      other than Pocillo will not display our logo for budgie-welcome
+    - change default from Suspend on AC Power to never
+    - Fix apparent random grid positioning for window shuffler to the
+      more logical nearest-to-grid position algorithm
+    - Add missing symlink to allow hotcorners to work with window shuffler
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 25 Mar 2018 10:15:10 +0100
+
+budgie-desktop-environment (0.9.6) bionic; urgency=medium
+
+  * New release
+    - Add WindowShuffler support (LP: #1756565)
+  * Packaging Changes
+    - debian/control Add recommends for window shuffler packages
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 17 Mar 2018 11:55:25 +0000
+
+budgie-desktop-environment (0.9.5) bionic; urgency=medium
+
+  * Bug-fix release
+    - Ensure consistent theming across the minimal and full
+      iso versions; this involves ensuring theming and
+      key apps configuration such as tilix are applied
+      through common package installation.
+  * Packaging Changes
+    - switch links creation to the common binary
+    - move some environment gettings override to the common
+    - move some environment install files to common
+
+ -- David Mohammed <fosssfreedom@ubuntu.com>  Mon, 05 Mar 2018 09:51:03 +0000
+
+budgie-desktop-environment (0.9.4) bionic; urgency=medium
+
+  * Bug-fix release
+    - Add a local autostart file for budgie-welcome since
+      budgie-welcome snap does not create the equivalent in
+      /etc/skel/.config/autostart until after the first login.  This is
+      required until snapd support for autostart lands and possible
+      adjustments can be evaluated.
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 03 Mar 2018 21:39:13 +0000
+
+budgie-desktop-environment (0.9.3) bionic; urgency=medium
+
+  * New upstream release
+    - Add VisualSpaces
+    - Logout/Restart/Shutdown/Suspend icons changed to non-symbolic
+      equivalents
+    - Remove duplicate menu options for GNOME Disks and MenuLibre
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 25 Feb 2018 18:09:11 +0000
+
+budgie-desktop-environment (0.9.2) bionic; urgency=medium
+
+  * New upstream release
+    - Change default GTK+ theme to Pocillo
+    - Add DropBy and ShowTime applets to the panel
+  * Packaging Changes:
+    - debian/control - fix typo in the description for
+      budgie-desktop-common
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 02 Feb 2018 23:36:00 +0000
+
 budgie-desktop-environment (0.9.1) bionic; urgency=medium
 
   * New upstream release

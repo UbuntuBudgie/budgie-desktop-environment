@@ -2,7 +2,7 @@
 Version=1.0
 Name=Firewall Configuration
 Comment=An easy way to configure your firewall
-Categories=GNOME;GTK;Settings;Security;X-GNOME-SystemSettings;
+Categories=GNOME;GTK;Settings;Security;
 Exec=gufw
 Icon=gufw
 Terminal=false

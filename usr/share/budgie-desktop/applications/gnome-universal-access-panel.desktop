@@ -1,8 +1,8 @@
 [Desktop Entry]
-# Translators: Add soft hyphens to your translations so that the icon view won't clip your translations. See https://bugzilla.gnome.org/show_bug.cgi?id=647087#c13 for details
-Name=Uni­ver­sal Access
+Name=Universal Access
 Comment=Make it easier to see, hear, type, point and click
 Exec=gnome-control-center universal-access
+# Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 Icon=preferences-desktop-accessibility
 Terminal=false
 Type=Application
@@ -13,7 +13,7 @@ OnlyShowIn=GNOME;Unity;
 X-GNOME-Bugzilla-Bugzilla=GNOME
 X-GNOME-Bugzilla-Product=gnome-control-center
 X-GNOME-Bugzilla-Component=Universal Access
-X-GNOME-Bugzilla-Version=3.24.0
-# Translators: those are keywords for the universal access control-center panel
-Keywords=Keyboard;Mouse;a11y;Accessibility;Contrast;Zoom;Screen;Reader;text;font;size;AccessX;Sticky;Keys;Slow;Bounce;Mouse;Double;click;Delay;Assist;
+X-GNOME-Bugzilla-Version=3.28.1
+# Translators: Search terms to find the Universal Access panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+Keywords=Keyboard;Mouse;a11y;Accessibility;Contrast;Zoom;Screen;Reader;text;font;size;AccessX;Sticky;Keys;Slow;Bounce;Mouse;Double;click;Delay;Assist;Repeat;Blink;
 X-Ubuntu-Gettext-Domain=gnome-control-center-2.0

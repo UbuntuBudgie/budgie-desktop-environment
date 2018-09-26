@@ -1,63 +1,15 @@
-[org.gnome.desktop.wm.preferences:Budgie]
-theme='Arc-Darker'
-
-[org.gnome.desktop.interface:Budgie]
-gtk-theme='Arc-Darker'
-icon-theme='Pocillo'
-
 [com.solus-project.budgie-menu]
 menu-headers=false
-
-[org.gnome.desktop.background:Budgie]
-show-desktop-icons=true
-picture-uri='file:///usr/share/backgrounds/Xplo_by_Hugo_Cliff.png'
-
-[org.gnome.desktop.input-sources:Budgie]
-xkb-options=['terminate:ctrl_alt_bksp']
-
-[org.gnome.desktop.default-applications.terminal:Budgie]
-exec='tilix'
-exec-arg='-e'
-
-[org.gnome.desktop.screensaver:Budgie]
-picture-uri='file:///usr/share/backgrounds/Xplo_by_Hugo_Cliff.png'
-
-[org.gnome.nautilus.desktop:Budgie]
-home-icon-visible=false
-trash-icon-visible=false
-volumes-visible=false
-
-[org.gnome.nautilus.desktop]
-font='Ubuntu 10'
-
-[org.gtk.Settings.FileChooser:Budgie]
-sort-directories-first=true
-
-[org.gnome.nautilus.icon-view:Budgie]
-default-zoom-level='small'
 
 [org.gnome.rhythmbox.plugins]
 active-plugins=['dbus-media-server', 'artsearch', 'generic-player', 'audiocd', 'alternative-toolbar', 'mtpdevice', 'daap', 'android', 'rb', 'power-manager', 'notification', 'ipod', 'mpris', 'iradio', 'audioscrobbler', 'mmkeys']
 
 [org.gnome.rhythmbox.plugins.alternative_toolbar]
-dark-theme=true
+dark-theme=false
 display-type=1
 
-[com.solus-project.budgie-wm]
-attach-modal-dialogs=false
-
 [com.solus-project.icon-tasklist]
-pinned-launchers=['chromium-browser.desktop', 'nautilus.desktop', 'libreoffice-writer.desktop', 'org.gnome.Software.desktop']
-
-[com.solus-project.budgie-panel]
-builtin-theme=false
-
-[com.solus-project.budgie-panel.panel]
-theme-regions=false
-transparency='dynamic'
-
-[com.solus-project.places-indicator]
-expand-places=true
+pinned-launchers=['firefox.desktop', 'org.gnome.Nautilus.desktop', 'libreoffice-writer.desktop', 'org.gnome.Software.desktop', 'ubuntu-budgie-welcome_budgie-welcome.desktop']
 
 [net.launchpad.plank.dock.settings]
 position='left'
@@ -65,11 +17,3 @@ theme='Gtk+'
 icon-size=32
 hide-delay=500
 hide-mode='dodge-maximized'
-
-[com.gexperts.Tilix.Settings:Budgie]
-warn-vte-config-issue=false
-theme-variant='dark'
-copy-on-select=true
-
-[org.freedesktop.ibus.general.hotkey]
-triggers=[]

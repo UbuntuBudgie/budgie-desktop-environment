@@ -1,2 +1,2 @@
 [PlankDockItemPreferences]
-Launcher=file:///usr/share/applications/budgie-welcome.desktop
+Launcher=file:///var/lib/snapd/desktop/applications/ubuntu-budgie-welcome_budgie-welcome.desktop
