@@ -8,9 +8,16 @@ fi
 
 # keycontrol - we suffix number when keycontrol needs to be rerun
 # when the package updates
+if [ ! -f ~/.config/budgie-desktop/changekeycontrol ]
+then
+	cd /usr/share/budgie-desktop/keycontrol/; python3 ./bin/change-keybinding.py; cd
+	mkdir -p ~/.config/budgie-desktop
+	touch ~/.config/budgie-desktop/changekeycontrol
+fi
+
 if [ ! -f ~/.config/budgie-desktop/keycontrol2 ]
 then
-    cd /usr/share/budgie-desktop/keycontrol/; . ./gnome-custom-keybinding-setup
+    cd /usr/share/budgie-desktop/keycontrol/; . ./gnome-custom-keybinding-setup; cd
     mkdir -p ~/.config/budgie-desktop
     # delete old keycontrol files (if they have been previously created)
     rm -f ~/.config/budgie-desktop/keycontrol*
@@ -25,6 +32,13 @@ fi
 touch ~/.config/budgie-desktop/firstrun
 
 mkdir -p ~/.config/autostart
+
+# caffeine
+CAFF=`which caffeine`
+if [ "$CAFF" ]
+then
+    cp /usr/share/applications/caffeine-indicator.desktop ~/.config/autostart
+fi
 
 # plank
 PLK=`which plank`
