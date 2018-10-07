@@ -1,4 +1,4 @@
 [custom-keybindings/budgie-show-desktop]
 binding='<Super>d'
-command='/usr/lib/budgie-desktop/plugins/budgie-hcorners/showdesktop'
+command='/usr/share/budgie-desktop/showdesktop/showdesktop'
 name='Hide/Show desktop'
