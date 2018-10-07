@@ -33,13 +33,6 @@ touch ~/.config/budgie-desktop/firstrun
 
 mkdir -p ~/.config/autostart
 
-# caffeine
-CAFF=`which caffeine`
-if [ "$CAFF" ]
-then
-    cp /usr/share/applications/caffeine-indicator.desktop ~/.config/autostart
-fi
-
 # plank
 PLK=`which plank`
 if [ "$PLK" ]
