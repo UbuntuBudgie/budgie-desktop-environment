@@ -1,3 +1,18 @@
+budgie-desktop-environment (0.10.5) cosmic; urgency=medium
+
+  * Bug-fix release
+    - Update keybinding for showdesktop since capability was
+      switched from hotcorners
+    - Move showdesktop script that was previously in hotcorners
+      to budgie-desktop-environment
+    - Remove dropby as a default applet since it is causing
+      spurious floating arrow on a live-session and occasionally after
+      logging in
+    - Remove unnecessary README only picture for visualspace that
+      also was accidently installed
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 07 Oct 2018 08:55:42 +0100
+
 budgie-desktop-environment (0.10.4) cosmic; urgency=medium
 
   * New release
