@@ -12,8 +12,8 @@ display-type=1
 pinned-launchers=['firefox.desktop', 'org.gnome.Nautilus.desktop', 'libreoffice-writer.desktop', 'org.gnome.Software.desktop', 'ubuntu-budgie-welcome_budgie-welcome.desktop']
 
 [net.launchpad.plank.dock.settings]
-position='left'
-theme='Gtk+'
+position='bottom'
+theme='Transparent'
 icon-size=32
 hide-delay=500
-hide-mode='dodge-maximized'
+hide-mode='window-dodge'
