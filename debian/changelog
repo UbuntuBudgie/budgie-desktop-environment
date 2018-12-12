@@ -5,7 +5,8 @@ budgie-desktop-environment (0.11.0) disco; urgency=medium
     - Window Shuffler fixes
   * Packaging Changes
     - Window shuffler install changes
-    - Bump StandardsVersion - no changes required
+    - Control: Bump StandardsVersion - no changes required
+    - Control: Correct VCS locations
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 12 Dec 2018 20:58:32 +0000
 
