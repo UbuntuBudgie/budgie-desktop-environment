@@ -1,12 +1,10 @@
 #!/usr/bin/env python3
 import os
 import subprocess
-
 import gi
-
 gi.require_version("Wnck", "3.0")
-
 from gi.repository import Wnck
+
 
 """
 WindowShuffler
@@ -23,15 +21,18 @@ should have received a copy of the GNU General Public License along with this
 program.  If not, see <https://www.gnu.org/licenses/>.
 """
 
+
 # paths
 userdata = os.path.join(
     os.environ["HOME"], ".config/budgie-extras/windowshuffler",
 )
 
+
 try:
     os.makedirs(userdata)
 except FileExistsError:
     pass
+
 
 matr_file = os.path.join(userdata, "matrix")
 app_path = os.path.dirname(os.path.abspath(__file__))
@@ -45,6 +46,45 @@ def get(cmd):
         return subprocess.check_output(cmd).decode("utf-8".strip())
     except subprocess.CalledProcessError:
         pass
+
+
+def check_windowtype(window):
+    try:
+        return "WNCK_WINDOW_NORMAL" in str(
+            window.get_window_type()
+        )
+    except AttributeError:
+        pass
+
+
+def calc_playfield(win_geodata):
+    wins = win_geodata["windows"]
+    offset = win_geodata["offset"]
+    wa = win_geodata["wa"]
+    return [
+        [offset[0] + wa[0], offset[1] + wa[1]],
+        [wa[2], wa[3]],
+    ]
+
+
+def get_yshift(window):
+    """
+    windows with property NET_FRAME_EXTENTS are not positioned correctly.
+    we can fix that by looking up the top- extent value, add it to the
+    targeted y- position.
+    """
+    wid = window.get_xid()
+    xprop_data = get(["xprop", "-id", str(wid)])
+    try:
+        check = [
+            l.split("=")[1].strip().split(", ")
+            for l in xprop_data.splitlines()
+            if "_NET_FRAME_EXTENTS(CARDINAL)" in l
+        ][0]
+        y_shift = - int(check[2])
+    except IndexError:
+        y_shift = 0
+    return y_shift
 
 
 def get_window(win_title):
@@ -65,7 +105,7 @@ def get_initialgrid():
         return [2, 2]
 
 
-def windowtarget(span, cols, rows, playfield, yoffset=0):
+def windowtarget(span, cols, rows, playfield, yoffset=0, overrule=None):
     # calculates the targeted position and size of a window
     colwidth = int(playfield[1][0] / cols)
     rowheight = int(playfield[1][1] / rows)

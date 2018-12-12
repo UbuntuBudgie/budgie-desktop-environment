@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 import subprocess
-
 import gi
-
 gi.require_version("Wnck", "3.0")
 from gi.repository import Wnck, Gdk
+
 
 """
 WindowShuffler

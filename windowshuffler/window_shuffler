@@ -10,6 +10,7 @@ import shuffler_tools as st
 from itertools import product
 import shuffler_geo as geo
 import math
+import sys
 
 
 """
@@ -190,7 +191,7 @@ class WindowShufflerMatrix(Gtk.Window):
         scr = self.screendata
         win_geodata = geo.get_windows_oncurrent(scr)
         windows = win_geodata["windows"]
-        playfield = self.calc_playfield(win_geodata)
+        playfield = st.calc_playfield(win_geodata)
         xc = self.xycoords[0]
         yc = self.xycoords[1]
         origs = list(
@@ -224,7 +225,7 @@ class WindowShufflerMatrix(Gtk.Window):
                 distances.sort(key=lambda x: x[1])
                 shortest = distances[0]
                 window = shortest[0][0]
-                y_offs = self.get_yshift(window)
+                y_offs = st.get_yshift(window)
                 window_data.remove(shortest[0])
                 # move window
                 st.shuffle(
@@ -350,7 +351,7 @@ class WindowShufflerMatrix(Gtk.Window):
                 for l in data:
                     match = [w for w in wins if str(w.get_xid()) == l[0]][0]
                     st.shuffle(
-                        match, int(l[1]), int(l[2]) + self.get_yshift(match),
+                        match, int(l[1]), int(l[2]) + st.get_yshift(match),
                         int(l[3]), int(l[4])
                     )
                     if l[-1] == "*":
@@ -444,14 +445,6 @@ class WindowShufflerMatrix(Gtk.Window):
             self.resize(10, 10)
             self.maingrid.show_all()
 
-    def check_windowtype(self, window):
-        try:
-            return "WNCK_WINDOW_NORMAL" in str(
-                window.get_window_type()
-            )
-        except AttributeError:
-            pass
-
     def set_widgetstyle(self, widget, remove, add):
         # set/update widget style
         style_context = widget.get_style_context()
@@ -464,25 +457,6 @@ class WindowShufflerMatrix(Gtk.Window):
             self.provider,
             Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION,
         )
-
-    def get_yshift(self, window):
-        """
-        windows with property NET_FRAME_EXTENTS are not positioned correctly.
-        we can fix that by looking up the top- extent value, add it to the
-        targeted y- position.
-        """
-        wid = window.get_xid()
-        xprop_data = st.get(["xprop", "-id", str(wid)])
-        try:
-            check = [
-                l.split("=")[1].strip().split(", ")
-                for l in xprop_data.splitlines()
-                if "_NET_FRAME_EXTENTS(CARDINAL)" in l
-            ][0]
-            y_shift = - int(check[2])
-        except IndexError:
-            y_shift = 0
-        return y_shift
 
     def create_gridbutton(self, row, col):
         button = Gtk.Button()
@@ -534,23 +508,14 @@ class WindowShufflerMatrix(Gtk.Window):
         self.current_span = []
         self.reset_alltiles()
 
-    def calc_playfield(self, win_geodata):
-        wins = win_geodata["windows"]
-        offset = win_geodata["offset"]
-        wa = win_geodata["wa"]
-        return [
-            [offset[0] + wa[0], offset[1] + wa[1]],
-            [wa[2], wa[3]],
-        ]
-
     def move_window(self, button, row, col):
         win_geodata = geo.get_windows_oncurrent(self.screendata)
         wins = win_geodata["windows"]
-        playfield = self.calc_playfield(win_geodata)
+        playfield = st.calc_playfield(win_geodata)
         try:
             if all([
                 self.curr_subject in wins,
-                self.check_windowtype(self.curr_subject),
+                st.check_windowtype(self.curr_subject),
             ]):
                 self.do_move(button, row, col, playfield)
             else:
@@ -574,7 +539,7 @@ class WindowShufflerMatrix(Gtk.Window):
         self.current_span = self.current_span[-2:]
         totalspan = self.get_span(self.current_span)
         self.sum_selection(totalspan)
-        y_offs = self.get_yshift(self.curr_subject)
+        y_offs = st.get_yshift(self.curr_subject)
         trg = st.windowtarget(
             totalspan, self.xycoords[0], self.xycoords[1], playfield, y_offs,
         )

@@ -2,8 +2,12 @@ budgie-desktop-environment (0.11.0) disco; urgency=medium
 
   * New release
     - Plank defaults changed
+    - Window Shuffler fixes
+  * Packaging Changes
+    - Window shuffler install changes
+    - Bump StandardsVersion - no changes required
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 15 Nov 2018 15:24:42 +0000
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 12 Dec 2018 20:58:32 +0000
 
 budgie-desktop-environment (0.10.5) cosmic; urgency=medium
 

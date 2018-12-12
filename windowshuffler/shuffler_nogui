@@ -1,0 +1,64 @@
+#!/usr/bin/env python3
+import shuffler_tools as st
+import shuffler_geo as geo
+import gi
+gi.require_version("Wnck", "3.0")
+from gi.repository import Wnck
+import sys
+
+
+"""
+WindowShuffler
+Author: Jacob Vlijm
+Copyright © 2017-2018 Ubuntu Budgie Developers
+Website=https://ubuntubudgie.org
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or any later version. This
+program is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+A PARTICULAR PURPOSE. See the GNU General Public License for more details. You
+should have received a copy of the GNU General Public License along with this
+program.  If not, see <https://www.gnu.org/licenses/>.
+"""
+
+
+xmatrix, ymatrix, xpos, ypos = [int(sys.argv[n]) for n in range(1, 5)]
+
+
+# Wnck
+screendata = Wnck.Screen.get_default()
+screendata.force_update()
+curr_subject = screendata.get_active_window()
+
+
+xycoords = [xmatrix, ymatrix]
+
+
+def move_win(row, col, playfield):
+    totalspan = [[row, col], [row, col]]
+    y_offs = st.get_yshift(curr_subject)
+    trg = st.windowtarget(
+        totalspan, xycoords[0], xycoords[1], playfield, y_offs,
+    )
+    st.shuffle(
+        curr_subject,
+        trg[0], trg[1], trg[2], trg[3],
+    )
+
+
+def move_window(row, col):
+    win_geodata = geo.get_windows_oncurrent(screendata)
+    wins = win_geodata["windows"]
+    playfield = st.calc_playfield(win_geodata)
+    try:
+        if all([
+            curr_subject in wins,
+            st.check_windowtype(curr_subject),
+        ]):
+            move_win(row, col, playfield)
+    except AttributeError:
+        pass
+
+
+move_window(xpos, ypos)
