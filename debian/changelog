@@ -3,10 +3,14 @@ budgie-desktop-environment (0.11.0) disco; urgency=medium
   * New release
     - Plank defaults changed
     - Window Shuffler fixes
+    - Move installation of /etc/skel files to profile script installation
+      to ensure all budgie users receive these files
   * Packaging Changes
     - Window shuffler install changes
     - Control: Bump StandardsVersion - no changes required
     - Control: Correct VCS locations
+    - Control: budgie-desktop-environment - add python3 dependency
+    - Add man-page for budgie-window-shuffler-toggle
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 12 Dec 2018 20:58:32 +0000
 
