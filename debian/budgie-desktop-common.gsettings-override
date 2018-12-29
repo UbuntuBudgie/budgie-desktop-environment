@@ -45,19 +45,8 @@ exec-arg='-e'
 [org.gnome.desktop.screensaver:Budgie]
 picture-uri='file:///usr/share/backgrounds/Xplo_by_Hugo_Cliff.png'
 
-[org.gnome.nautilus.desktop]
-font='Ubuntu 10'
-
-[org.gnome.nautilus.desktop:Budgie]
-home-icon-visible=false
-trash-icon-visible=false
-volumes-visible=false
-
 [org.gtk.Settings.FileChooser:Budgie]
 sort-directories-first=true
-
-[org.gnome.nautilus.icon-view:Budgie]
-default-zoom-level='small'
 
 [org.gnome.mutter:Budgie]
 attach-modal-dialogs=false
@@ -83,3 +72,28 @@ triggers=[]
 
 [org.gnome.settings-daemon.plugins.power]
 sleep-inactive-ac-type='nothing'
+
+[org.nemo.desktop]
+font='Ubuntu 10'
+use-desktop-grid=false
+desktop-layout='true:true'
+ignored-desktop-handlers=['conky', 'Showtime']
+
+[org.nemo.icon-view]
+default-zoom-level='small'
+default-use-tighter-layout=true
+
+[org.cinnamon.desktop.default-applications.terminal]
+exec=‘tilix’
+
+[org.nemo.preferences]
+click-double-parent-folder=true
+tooltips-in-icon-view=true
+tooltips-in-list-view=true
+tooltips-on-desktop=true
+thumbnail-limit=5242880
+show-new-folder-icon-toolbar=true
+show-full-path-titles=true
+
+[org.nemo.window-state]
+start-with-menu-bar=false
