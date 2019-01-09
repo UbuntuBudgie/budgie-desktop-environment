@@ -24,13 +24,6 @@ then
     touch ~/.config/budgie-desktop/keycontrol2
 fi
 
-if [ ! -f ~/.config/budgie-desktop/home-config ]
-then
-    mkdir -p ~/.config/budgie-desktop
-    touch ~/.config/budgie-desktop/home-config
-    cd /usr/share/budgie-desktop/home-folder/; cp -r * ~/; cd
-fi
-
 if [ -f ~/.config/budgie-desktop/firstrun ]
 then
     return 0
@@ -45,4 +38,15 @@ PLK=`which plank`
 if [ "$PLK" ]
 then
     cp /usr/share/budgie-desktop/plank.desktop ~/.config/autostart
+    cp -r /usr/share/budgie-desktop/home-folder/.config ~/
+fi
+
+# templates
+TEMPLATE=`xdg-user-dir TEMPLATES`
+BASE="/usr/share/budgie-desktop/home-folder/Templates"
+
+if [ "$TEMPLATE" != "$HOME" ]; then
+  if [ -d $TEMPLATE ]; then
+    cp $BASE/* $TEMPLATE
+  fi
 fi
