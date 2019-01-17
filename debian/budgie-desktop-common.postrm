@@ -1,0 +1,17 @@
+#!/bin/sh
+set -e
+
+files="
+icons/hicolor/256x256/apps/ubuntu-logo-icon.png
+
+"
+
+if [ "$1" = remove -o "$1" = purge ]; then
+	for item in $files 
+	do
+		dpkg-divert --package budgie-desktop-common --remove --rename \
+		--divert "/usr/share/$item"".budgie" "/usr/share/$item"
+	done
+fi
+
+#DEBHELPER#
