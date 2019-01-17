@@ -5,6 +5,8 @@ budgie-desktop-environment (0.11.0) disco; urgency=medium
     - Window Shuffler fixes
     - Move installation of /etc/skel files to profile script installation
       to ensure all budgie users receive these files
+    - override ubuntu-logo-icon to ensure GCC About shows budgie logo
+    - Update overrides to accommodate Nemo defaults
   * Packaging Changes
     - Window shuffler install changes
     - Control: Bump StandardsVersion - no changes required
