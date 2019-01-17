@@ -16,6 +16,8 @@
 # If prerm fails during replacement due to conflict:
 #       <postinst> abort-remove in-favour <new-package> <version>
 
+set -e
+
 function plank_cleanup () {
     # following script cleans up our /etc/skel version of the plank configuration
     # this is now (and correctly) installed as part of the login sequence
@@ -25,26 +27,28 @@ function plank_cleanup () {
 
     BASE="/etc/skel/.config/plank"
     SUBDIR="/dock1/launchers"
-    TEMPLATES=(budgie-welcome.dockitem         
-    libreoffice-calc.dockitem       
+    TEMPLATES=(budgie-welcome.dockitem
+    libreoffice-calc.dockitem
     org.gnome.Software.dockitem
     chromium-browser.dockitem
-    firefox.dockitem       
-    libreoffice-writer.dockitem     
+    firefox.dockitem
+    libreoffice-writer.dockitem
     rhythmbox.dockitem
-    com.gexperts.Terminix.dockitem  
-    nautilus.dockitem               
-    com.gexperts.Tilix.dockitem     
-    org.gnome.Nautilus.dockitem    
+    com.gexperts.Terminix.dockitem
+    nautilus.dockitem
+    com.gexperts.Tilix.dockitem
+    org.gnome.Nautilus.dockitem
     )
 
     for ((i = 0; i < ${#TEMPLATES[@]}; i++))
     do
-    filetoremove="$BASE/$SUBDIR/${TEMPLATES[$i]}"
-    [ -f "$filetoremove" ] && rm "$filetoremove"
+        filetoremove="$BASE/$SUBDIR/${TEMPLATES[$i]}"
+        [ -f "$filetoremove" ] && rm "$filetoremove"
     done
 
-    find "$BASE" -type d -empty -delete
+    if [ -d "$BASE" ]; then
+        find "$BASE" -type d -empty -delete
+    fi
 }
 
 function template_cleanup () {
@@ -56,23 +60,25 @@ function template_cleanup () {
 
     BASE="/etc/skel/Templates"
     TEMPLATES=(Empty\ File
-    LibreOffice\ Impress.odp  
-    MS\ PowerPoint.pptx       
-    LibreOffice\ Calc.ods     
-    LibreOffice\ Writer.odt   
-    MS\ Word.docx             
-    LibreOffice\ Draw.odg     
-    MS\ Excel.xlsx            
-    Text\ File.txt    
+    LibreOffice\ Impress.odp
+    MS\ PowerPoint.pptx
+    LibreOffice\ Calc.ods
+    LibreOffice\ Writer.odt
+    MS\ Word.docx
+    LibreOffice\ Draw.odg
+    MS\ Excel.xlsx
+    Text\ File.txt
     )
 
     for ((i = 0; i < ${#TEMPLATES[@]}; i++))
     do
-    filetoremove="$BASE/${TEMPLATES[$i]}"
-    [ -f "$filetoremove" ] && rm "$filetoremove"
+        filetoremove="$BASE/${TEMPLATES[$i]}"
+        [ -f "$filetoremove" ] && rm "$filetoremove"
     done
 
-    rmdir --ignore-fail-on-non-empty $BASE
+    if [ -d "$BASE" ]; then
+        find "$BASE" -type d -empty -delete
+    fi
 }
 
 case "$1" in

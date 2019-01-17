@@ -84,7 +84,7 @@ default-zoom-level='small'
 default-use-tighter-layout=true
 
 [org.cinnamon.desktop.default-applications.terminal]
-exec=‘tilix’
+exec='tilix'
 
 [org.nemo.preferences]
 click-double-parent-folder=true
