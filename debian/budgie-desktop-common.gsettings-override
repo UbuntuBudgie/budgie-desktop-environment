@@ -80,7 +80,7 @@ desktop-layout='true:true'
 ignored-desktop-handlers=['conky', 'Showtime']
 
 [org.nemo.icon-view]
-default-zoom-level='small'
+default-zoom-level='standard'
 default-use-tighter-layout=true
 
 [org.cinnamon.desktop.default-applications.terminal]
