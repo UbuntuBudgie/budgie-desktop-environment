@@ -4,6 +4,7 @@ set -e
 
 files="
 icons/hicolor/256x256/apps/ubuntu-logo-icon.png
+applications/nemo.desktop
 "
 
 if [ "$1" = "upgrade" ] || [ "$1" = "install" ]; then
