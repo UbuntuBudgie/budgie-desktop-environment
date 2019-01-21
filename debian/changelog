@@ -1,3 +1,9 @@
+budgie-desktop-environment (0.11.0.1) disco; urgency=medium
+
+  * Test release with revised Templates installation
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 21 Jan 2019 19:58:51 +0000
+
 budgie-desktop-environment (0.11.0) disco; urgency=medium
 
   * New release

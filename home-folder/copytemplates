@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# templates
+TEMPLATE=`xdg-user-dir TEMPLATES`
+BASE="/usr/share/budgie-desktop/home-folder/Templates"
+
+if [ "$TEMPLATE" != "$HOME" ]; then
+  if [ -d $TEMPLATE ]; then
+    cp $BASE/* $TEMPLATE
+  fi
+fi
+
+

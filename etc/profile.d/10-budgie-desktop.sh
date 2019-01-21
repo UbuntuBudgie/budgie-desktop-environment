@@ -42,11 +42,5 @@ then
 fi
 
 # templates
-TEMPLATE=`xdg-user-dir TEMPLATES`
-BASE="/usr/share/budgie-desktop/home-folder/Templates"
+bash -c 'sleep 20 && /usr/share/budgie-desktop/home-folder/copytemplates' &
 
-if [ "$TEMPLATE" != "$HOME" ]; then
-  if [ -d $TEMPLATE ]; then
-    cp $BASE/* $TEMPLATE
-  fi
-fi
