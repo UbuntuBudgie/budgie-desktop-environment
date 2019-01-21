@@ -1,0 +1,3 @@
+[submodule "window-shuffler"]
+	path = window-shuffler
+	url = https://github.com/ubuntubudgie/window-shuffler
