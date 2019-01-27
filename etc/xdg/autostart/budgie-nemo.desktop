@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Nemo
+Comment=Start Nemo desktop at log in
+Exec=nemo-desktop
+OnlyShowIn=Budgie;
+AutostartCondition=GSettings org.nemo.desktop show-desktop-icons
+X-GNOME-AutoRestart=true
+NoDisplay=true

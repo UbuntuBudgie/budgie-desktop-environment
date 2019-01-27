@@ -1,3 +1,11 @@
+budgie-desktop-environment (0.11.1ubuntu1) UNRELEASED; urgency=medium
+
+  * New release
+    - Super E shortcut change to launch nemo
+    - Add autostart for nemo-desktop 
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 27 Jan 2019 22:24:43 +0000
+
 budgie-desktop-environment (0.11.0) disco; urgency=medium
 
   * New release
