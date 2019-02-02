@@ -1,0 +1,4 @@
+[custom-keybindings/shuffler_bottomright]
+binding='<Primary><Alt>KP_3'
+command='/usr/share/budgie-desktop/windowshuffler/shuffler_nogui 2 2 1 1'
+name='Shuffler-tiling bottomright'
