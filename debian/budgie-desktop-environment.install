@@ -16,3 +16,4 @@ window-shuffler/window_shuffler /usr/share/budgie-desktop/windowshuffler/
 window-shuffler/shuffler_nogui /usr/share/budgie-desktop/windowshuffler/
 window-shuffler/shortcuts /usr/share/budgie-desktop/windowshuffler/
 nemo-actions/* /usr/share/nemo/actions/
+nemo-autostart/* /etc/xdg/autostart/
