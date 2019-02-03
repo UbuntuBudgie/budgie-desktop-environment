@@ -1,21 +1,3 @@
-[org.gnome.desktop.interface]
-font-name = 'Noto Sans CJK TC 11'
-
-[org.gnome.desktop.interface]
-document-font-name = 'Noto Sans CJK TC 11'
-
-[org.gnome.desktop.wm.preferences]
-titlebar-font = 'Noto Sans CJK TC Bold 11'
-
-[org.nemo.desktop]
-font = 'Noto Sans CJK TC 11'
-
-[org.nemo.window-state]
-sidebar-width = 180
-
-[org.nemo.icon-view] 
-default-use-tighter-layout = false
-
 [org.gnome.settings-daemon.plugins.xsettings:Budgie]
 hinting='slight'
 antialiasing='rgba'
@@ -24,13 +6,13 @@ antialiasing='rgba'
 keyservers=['hkp://keyserver.ubuntu.com:11371', 'hkp://pool.sks-keyservers.net', 'ldap://keyserver.pgp.com']
 
 [org.gnome.desktop.wm.preferences]
-titlebar-font='Ubuntu Bold 11'
+titlebar-font='Noto Sans CJK TC Bold 11'
 titlebar-uses-system-font=false
 
 [org.gnome.desktop.interface]
 monospace-font-name='Ubuntu Mono 13'
-font-name='Ubuntu 11'
-document-font-name='Sans 11'
+font-name='Noto Sans CJK TC 11'
+document-font-name='Noto Sans CJK TC 11'
 cursor-theme='DMZ-White'
 
 [org.gnome.desktop.peripherals.touchpad:Budgie]
@@ -92,17 +74,14 @@ triggers=[]
 sleep-inactive-ac-type='nothing'
 
 [org.nemo.desktop]
-font='Ubuntu 10'
+font='Noto Sans CJK TC 11'
 use-desktop-grid=false
 desktop-layout='true:true'
 ignored-desktop-handlers=['conky', 'Showtime']
 
 [org.nemo.icon-view]
 default-zoom-level='standard'
-default-use-tighter-layout=true
-
-[org.cinnamon.desktop.default-applications.terminal]
-exec='tilix'
+default-use-tighter-layout=false
 
 [org.nemo.preferences]
 click-double-parent-folder=true
@@ -115,3 +94,7 @@ show-full-path-titles=true
 
 [org.nemo.window-state]
 start-with-menu-bar=false
+sidebar-width=180
+
+[org.cinnamon.desktop.default-applications.terminal]
+exec='tilix'
