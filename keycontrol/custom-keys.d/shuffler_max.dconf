@@ -1,0 +1,4 @@
+[custom-keybindings/shuffler_max]
+binding='<Primary><Alt>KP_5'
+command='/usr/share/budgie-desktop/windowshuffler/shuffler_nogui 1 1 0 0'
+name='Shuffler-tiling maximized'

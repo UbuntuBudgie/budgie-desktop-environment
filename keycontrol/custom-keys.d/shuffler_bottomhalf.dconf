@@ -1,0 +1,4 @@
+[custom-keybindings/shuffler_bottomhalf]
+binding='<Primary><Alt>KP_2'
+command='/usr/share/budgie-desktop/windowshuffler/shuffler_nogui 1 2 0 1'
+name='Shuffler-tiling bottomhalf'
