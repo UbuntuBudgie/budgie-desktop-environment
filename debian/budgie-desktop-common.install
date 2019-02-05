@@ -1,5 +1,4 @@
 /etc/profile.d/10-budgie-desktop-common.sh
 /usr
-welcome_autostart/* /usr/share/budgie-desktop/
 distrologo/*.svg  /usr/share/icons/hicolor/scalable/apps/
 distrologo/*.png  /usr/share/icons/hicolor/256x256/apps

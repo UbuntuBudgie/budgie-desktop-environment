@@ -40,10 +40,4 @@ if ! grep -q "TILIX_ID" ~/.bashrc; then
     cat /usr/share/budgie-desktop/vteprompt.txt >> ~/.bashrc
 fi
 
-mkdir -p ~/.config/autostart
-
-# welcome - give welcome an autostart if its not copied on first initialisation
-if [ -f /snap/ubuntu-budgie-welcome/current/usr/bin/budgie-welcome ] && [ ! -f ~/.config/autostart/budgie-welcome.desktop ]
-then
-    cp /usr/share/budgie-desktop/budgie-welcome.desktop ~/.config/autostart
-fi
+bash -c 'sleep 10 && budgie-welcome' &
