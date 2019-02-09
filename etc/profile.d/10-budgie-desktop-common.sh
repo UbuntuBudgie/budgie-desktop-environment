@@ -40,4 +40,4 @@ if ! grep -q "TILIX_ID" ~/.bashrc; then
     cat /usr/share/budgie-desktop/vteprompt.txt >> ~/.bashrc
 fi
 
-bash -c 'sleep 10 && budgie-welcome' &
+bash -c 'sleep 10 && snap run ubuntu-budgie-welcome.budgie-welcome' &
