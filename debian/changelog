@@ -1,4 +1,4 @@
-budgie-desktop-environment (0.11.0.6) disco; urgency=medium
+budgie-desktop-environment (0.11.1) disco; urgency=medium
 
   * New release
     - Super E shortcut change to launch nemo
@@ -11,8 +11,11 @@ budgie-desktop-environment (0.11.0.6) disco; urgency=medium
     - Hide yelp from the menu since it isn't applicable
       to budgie desktop
     - Change start-menu icon to be UB logo
+    - Autostart budgie-welcome from profile script instead
+      of an autostart file
+    - Shuffler fixes for non-gui mode
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 03 Feb 2019 18:49:09 +0000
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 09 Feb 2019 14:29:09 +0000
 
 budgie-desktop-environment (0.11.0) disco; urgency=medium
 
