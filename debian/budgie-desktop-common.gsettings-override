@@ -9,11 +9,14 @@ keyservers=['hkp://keyserver.ubuntu.com:11371', 'hkp://pool.sks-keyservers.net',
 titlebar-font='Noto Sans CJK TC Bold 11'
 titlebar-uses-system-font=false
 
-[org.gnome.desktop.interface]
+[org.gnome.desktop.interface:Budgie]
 monospace-font-name='Ubuntu Mono 13'
 font-name='Noto Sans CJK TC 11'
 document-font-name='Noto Sans CJK TC 11'
 cursor-theme='DMZ-White'
+gtk-theme='Pocillo'
+icon-theme='Pocillo'
+clock-show-date=false
 
 [org.gnome.desktop.peripherals.touchpad:Budgie]
 tap-to-click = true
@@ -26,10 +29,6 @@ show-icon-on-systray=false
 
 [org.gnome.desktop.wm.preferences:Budgie]
 theme='Pocillo'
-
-[org.gnome.desktop.interface:Budgie]
-gtk-theme='Pocillo'
-icon-theme='Pocillo'
 
 [org.gnome.desktop.background:Budgie]
 show-desktop-icons=true

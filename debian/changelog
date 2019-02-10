@@ -1,9 +1,10 @@
-budgie-desktop-environment (0.11.2) UNRELEASED; urgency=medium
+budgie-desktop-environment (0.11.2) disco; urgency=medium
 
   * Bug-fix release
     - switch to snap run variant to launch budgie-welcome
+    - No longer show the date in the panel
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 09 Feb 2019 16:06:50 +0000
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 10 Feb 2019 20:57:59 +0000
 
 budgie-desktop-environment (0.11.1) disco; urgency=medium
 
