@@ -32,7 +32,7 @@ theme='Pocillo'
 
 [org.gnome.desktop.background:Budgie]
 show-desktop-icons=true
-picture-uri='file:///usr/share/backgrounds/Xplo_by_Hugo_Cliff.png'
+picture-uri='file:///usr/share/backgrounds/budgie/ubuntu_budgie_wallpaper1.jpg'
 
 [org.gnome.desktop.input-sources:Budgie]
 xkb-options=['terminate:ctrl_alt_bksp']
@@ -42,7 +42,7 @@ exec='tilix'
 exec-arg='-e'
 
 [org.gnome.desktop.screensaver:Budgie]
-picture-uri='file:///usr/share/backgrounds/Xplo_by_Hugo_Cliff.png'
+picture-uri='file:///usr/share/backgrounds/budgie/ubuntu_budgie_wallpaper1.jpg'
 
 [org.gtk.Settings.FileChooser:Budgie]
 sort-directories-first=true
@@ -76,7 +76,7 @@ sleep-inactive-ac-type='nothing'
 font='Noto Sans CJK TC 11'
 use-desktop-grid=false
 desktop-layout='true:true'
-ignored-desktop-handlers=['conky', 'Showtime']
+ignored-desktop-handlers=['conky', 'Showtime', 'desktop_weather']
 
 [org.nemo.icon-view]
 default-zoom-level='standard'
