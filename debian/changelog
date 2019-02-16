@@ -1,18 +1,14 @@
-budgie-desktop-environment (0.11.2.1) disco; urgency=medium
-
-  * test package with udaras wallpapers as default
-  * Add nemo ignored-desktop-handlers for WeatherShow to ensure
-    nemo-desktop starts correctly when the applet is in use
-
- -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 11 Feb 2019 21:19:02 +0000
-
 budgie-desktop-environment (0.11.2) disco; urgency=medium
 
-  * Bug-fix release
+  * New release
+    - Update defaults for disco wallpaper
+    - Add nemo ignored-desktop-handlers for WeatherShow to ensure
+      nemo-desktop starts correctly when the applet is in use
+    - Add catfish nemo action
     - switch to snap run variant to launch budgie-welcome
     - No longer show the date in the panel
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 10 Feb 2019 20:57:59 +0000
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 16 Feb 2019 16:38:14 +0000
 
 budgie-desktop-environment (0.11.1) disco; urgency=medium
 
