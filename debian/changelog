@@ -1,3 +1,11 @@
+budgie-desktop-environment (0.11.4) disco; urgency=medium
+
+  * Bug fix release
+    - Use Noto Sans fonts not the CJK TC variants
+    - Launch budgie-welcome using nohup
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 18 Feb 2019 19:25:07 +0000
+
 budgie-desktop-environment (0.11.3) disco; urgency=medium
 
   * New release
