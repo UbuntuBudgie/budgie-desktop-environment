@@ -1,3 +1,11 @@
+budgie-desktop-environment (0.11.3) disco; urgency=medium
+
+  * New release
+    - Add ShowTime overrides
+    - Increase start time for welcome from 10 to 25 seconds
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 17 Feb 2019 23:07:39 +0000
+
 budgie-desktop-environment (0.11.2) disco; urgency=medium
 
   * New release
