@@ -49,6 +49,8 @@ sort-directories-first=true
 
 [org.gnome.mutter:Budgie]
 attach-modal-dialogs=false
+dynamic-workspaces=false
+
 
 [com.solus-project.budgie-panel]
 builtin-theme=false

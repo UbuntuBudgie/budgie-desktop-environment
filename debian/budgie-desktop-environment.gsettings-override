@@ -25,3 +25,4 @@ timefont='Sawasdee'
 datefont='Sawasdee'
 xposition=2
 leftalign=false
+linespacing=-20
