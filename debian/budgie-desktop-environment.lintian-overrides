@@ -1,1 +1,4 @@
 budgie-desktop-environment: desktop-command-not-in-package usr/share/applications/budgie-plank-prefs.desktop plank
+budgie-desktop-environment: desktop-command-not-in-package usr/share/applications/budgie-gnome-calendar.desktop gnome-calendar
+budgie-desktop-environment: desktop-mime-but-no-exec-code usr/share/applications/budgie-gnome-calendar.desktop
+

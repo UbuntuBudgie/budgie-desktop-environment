@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=Calendar
+Comment=Access and manage your calendars
+Exec=gnome-calendar
+# Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+Icon=org.gnome.Calendar
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GNOME;GTK;Office;Calendar;Core;
+# Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+Keywords=Calendar;Event;Reminder;
+DBusActivatable=true
+X-Ubuntu-Gettext-Domain=gnome-calendar
+NotShowIn=Budgie;

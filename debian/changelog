@@ -4,8 +4,10 @@ budgie-desktop-environment (0.11.5) UNRELEASED; urgency=medium
     - Switch off dynamic workspaces since this interfers with
       creating workspaces under budgie
     - Use override to improve default showtime look
+    - Use application overrides and new .desktop to workaround
+      calendar mimetype missing & launching text editor from clock
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 19 Feb 2019 19:42:32 +0000
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 25 Feb 2019 13:04:05 +0000
 
 budgie-desktop-environment (0.11.4) disco; urgency=medium
 
