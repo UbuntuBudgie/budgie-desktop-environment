@@ -51,7 +51,6 @@ sort-directories-first=true
 attach-modal-dialogs=false
 dynamic-workspaces=false
 
-
 [com.solus-project.budgie-panel]
 builtin-theme=false
 dark-theme=false
@@ -79,10 +78,6 @@ font='Noto Sans 11'
 use-desktop-grid=false
 desktop-layout='true:true'
 ignored-desktop-handlers=['conky', 'Showtime', 'desktop_weather']
-
-[org.nemo.icon-view]
-default-zoom-level='standard'
-default-use-tighter-layout=false
 
 [org.nemo.preferences]
 click-double-parent-folder=true
