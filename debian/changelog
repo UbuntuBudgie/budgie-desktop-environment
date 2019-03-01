@@ -8,8 +8,17 @@ budgie-desktop-environment (0.11.5) UNRELEASED; urgency=medium
       calendar mimetype missing & launching text editor from clock
     - Recenter menu logo
     - Drop unneeded override for nemo icon size 
+  * Packaging Changes
+    - Control: add dependencies on dropby, showtime and quicknote
+      so that panel resets when these applets are removed do
+      not cause raven trigger to start wandering across the panel
+    - Control: change deprecated gnome-themes-standard to
+      gnome-themes-extra
+    - Control: Make qt-style-plugins a recommendation to allow
+      users to remove/change without impacting the environment
+      (LP: #1765976)
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 28 Feb 2019 18:21:54 +0000
+ -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 01 Mar 2019 11:06:00 +0000
 
 budgie-desktop-environment (0.11.4) disco; urgency=medium
 

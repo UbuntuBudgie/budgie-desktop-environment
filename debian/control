@@ -12,7 +12,10 @@ Package: budgie-desktop-environment
 Architecture: all
 Section: misc
 Depends: budgie-desktop-common, python3,
- ${misc:Depends}
+ ${misc:Depends},
+ budgie-dropby-applet,
+ budgie-showtime-applet,
+ budgie-quicknote-applet
 Recommends: wmctrl, xdotool, python3-gi-cairo, python3-cairo
 Breaks: budgie-desktop-common (<= 0.4.15)
 Replaces: budgie-desktop-common
@@ -49,7 +52,7 @@ Description: Minimal desktop environment for Ubuntu Budgie
 Package: budgie-desktop-common
 Architecture: all
 Section: misc
-Depends: gnome-themes-standard,
+Depends: gnome-themes-extra,
  budgie-desktop (>= 10.4),
  lightdm,
  dmz-cursor-theme,
@@ -57,8 +60,8 @@ Depends: gnome-themes-standard,
  plymouth-theme-ubuntu-budgie-logo,
  plymouth-theme-ubuntu-budgie-text,
  plymouth-themes,
- qt5-style-plugins,
  ${misc:Depends}
+Recommends: qt5-style-plugins
 Description: Common Ubuntu Budgie desktop components customisation
  While this common budgie-desktop package can be installed manually,
  it is recommended that the binary packages budgie-desktop-minimal or
