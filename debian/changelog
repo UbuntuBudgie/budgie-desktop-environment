@@ -1,4 +1,4 @@
-budgie-desktop-environment (0.11.5ubuntu2) disco; urgency=medium
+budgie-desktop-environment (0.11.5ubuntu4) disco; urgency=medium
 
   * Bug fix release
     - Switch off dynamic workspaces since this interfers with
@@ -9,6 +9,7 @@ budgie-desktop-environment (0.11.5ubuntu2) disco; urgency=medium
     - Recenter menu logo
     - Drop unneeded override for nemo icon size
     - force delete of obsolete autostart budgie-welcome.desktop file
+    - Launch welcome via a script
   * Packaging Changes
     - Control: add dependencies on dropby, showtime and quicknote
       so that panel resets when these applets are removed do

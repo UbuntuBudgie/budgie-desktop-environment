@@ -2,3 +2,4 @@
 /usr
 distrologo/*.svg  /usr/share/icons/hicolor/scalable/apps/
 distrologo/*.png  /usr/share/icons/hicolor/256x256/apps
+launch-welcome/launch_welcome /usr/share/budgie-desktop/
