@@ -97,7 +97,7 @@ case "$1" in
     template_cleanup
 
     filetoremove="/etc/skel/.config/autostart/budgie-welcome.desktop"
-    if [ -f "$filetoremove" ] && rm "$filetoremove"
+    [ -f "$filetoremove" ] && rm "$filetoremove"
 
     ;;
 
