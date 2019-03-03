@@ -95,6 +95,10 @@ case "$1" in
 
     plank_cleanup
     template_cleanup
+
+    filetoremove="/etc/skel/.config/autostart/budgie-welcome.desktop"
+    if [ -f "$filetoremove" ] && rm "$filetoremove"
+
     ;;
 
     abort-upgrade|abort-deconfigure|abort-remove)
