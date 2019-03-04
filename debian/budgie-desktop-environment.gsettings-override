@@ -21,8 +21,8 @@ hide-mode='window-dodge'
 zoom-enabled=true
 
 [org.ubuntubudgie.plugins.budgie-showtime]
-timefont='Sawasdee 91'
-datefont='Sawasdee 35'
+timefont='Sawasdee 72'
+datefont='Sawasdee 32'
 xposition=2
 leftalign=false
 linespacing=-20
