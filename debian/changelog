@@ -10,6 +10,8 @@ budgie-desktop-environment (0.11.5ubuntu4) disco; urgency=medium
     - Drop unneeded override for nemo icon size
     - force delete of obsolete autostart budgie-welcome.desktop file
     - Launch welcome via a script
+    - Ensure that nemo is the default for inode/directory
+      mimetype i.e. when double clicking desktop folders
   * Packaging Changes
     - Control: add dependencies on dropby, showtime and quicknote
       so that panel resets when these applets are removed do

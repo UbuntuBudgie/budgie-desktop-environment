@@ -6,6 +6,17 @@ fi
 # First logon does lots of things - we don't need to keep repeating
 # these checks since it will slow down the desktop show slightly
 
+# we have alot of applications claiming the privilege to run
+# inode/directory stuff i.e. double clicking folders - we
+# need to force nemo to be the default on first logon - thereafter
+# the logged on user can choose whichever default they want
+if [ ! -f ~/.config/budgie-desktop/mimecontrol ]
+then
+	mkdir -p ~/.config/budgie-desktop
+	xdg-mime default nemo.desktop inode/directory
+	touch ~/.config/budgie-desktop/mimecontrol
+fi
+
 # keycontrol - we suffix number when keycontrol needs to be rerun
 # when the package updates
 if [ ! -f ~/.config/budgie-desktop/changekeycontrol2 ]
