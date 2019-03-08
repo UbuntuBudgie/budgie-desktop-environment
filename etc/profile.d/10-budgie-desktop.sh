@@ -19,13 +19,13 @@ fi
 
 # keycontrol - we suffix number when keycontrol needs to be rerun
 # when the package updates
-if [ ! -f ~/.config/budgie-desktop/changekeycontrol2 ]
+if [ ! -f ~/.config/budgie-desktop/changekeycontrol3 ]
 then
 	cd /usr/share/budgie-desktop/keycontrol/; python3 ./bin/change-keybinding.py; cd
 	mkdir -p ~/.config/budgie-desktop
 	# delete old keycontrol files (if they have been previously created)
     rm -f ~/.config/budgie-desktop/changekeycontrol*
-    touch ~/.config/budgie-desktop/changekeycontrol2
+    touch ~/.config/budgie-desktop/changekeycontrol3
 fi
 
 if [ ! -f ~/.config/budgie-desktop/keycontrol3 ]
