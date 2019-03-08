@@ -20,6 +20,9 @@ hide-delay=500
 hide-mode='window-dodge'
 zoom-enabled=true
 
+[org.gnome.calendar.window-size]
+window-maximized=false
+
 [org.ubuntubudgie.plugins.budgie-showtime]
 timefont='Sawasdee 75'
 datefont='Sawasdee 32'
