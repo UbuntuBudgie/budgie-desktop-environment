@@ -13,6 +13,9 @@ budgie-desktop-environment (0.11.5ubuntu5) disco; urgency=medium
     - Ensure that nemo is the default for inode/directory
       mimetype i.e. when double clicking desktop folders
     - Change Super+E from nautilus to nemo
+    - Override GNOME hidden desktop files so that they
+      appear in the budgie menu: libreoffice math,
+      software-properties and software drivers
   * Packaging Changes
     - Control: add dependencies on dropby, showtime and quicknote
       so that panel resets when these applets are removed do

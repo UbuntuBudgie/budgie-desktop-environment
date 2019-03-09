@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=Software Sources
+GenericName=Software Sources
+Comment=Configure the sources for installable software and updates
+Keywords=Drivers;Repositories;Repository;PPA;
+Exec=software-properties-gtk
+Icon=software-properties
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Categories=GNOME;GTK;Settings;X-GNOME-SystemSettings;X-Unity-Settings-Panel;
+X-GNOME-Settings-Panel=software-properties
+X-Unity-Settings-Panel=software-properties
+MimeType=text/x-apt-sources-list;
+X-KDE-SubstituteUID=true
+X-Ubuntu-Gettext-Domain=software-properties
