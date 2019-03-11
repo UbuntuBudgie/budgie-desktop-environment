@@ -9,13 +9,14 @@
 # or eventually timeout after a minute
 
 COUNTER=0
-while [  $COUNTER -lt 12 ]; do
+while [  $COUNTER -lt 20 ]; do
     if [ -f /snap/ubuntu-budgie-welcome/current/usr/bin/budgie-welcome ]; then
+        sleep 1
     	snap run ubuntu-budgie-welcome.budgie-welcome &
         exit 0
     fi
 
-    sleep 5
+    sleep 3
 
     let COUNTER=COUNTER+1
 done
