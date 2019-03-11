@@ -3,20 +3,20 @@
 # launcher script for welcome - occasionally on
 # first login - but especially on the live-session
 # snapd takes a little while to fully initialise
+# the welcome mountpoint
 # preventing budgie-welcome snap from starting
 # we keep looping until we get welcome to start
 # or eventually timeout after a minute
 
 COUNTER=0
 while [  $COUNTER -lt 12 ]; do
-    snap run ubuntu-budgie-welcome.budgie-welcome &
+    if [ -f /snap/ubuntu-budgie-welcome/current/usr/bin/budgie-welcome ]; then
+    	snap run ubuntu-budgie-welcome.budgie-welcome &
+        exit 0
+    fi
 
     sleep 5
 
-    ps cax | grep budgie-welcome
-    if [ $? -eq 0 ]; then
-        exit 0
-    fi
     let COUNTER=COUNTER+1
 done
 
