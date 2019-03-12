@@ -6,10 +6,10 @@
 # the welcome mountpoint
 # preventing budgie-welcome snap from starting
 # we keep looping until we get welcome to start
-# or eventually timeout after a minute
+# or eventually timeout after a three minutes
 
 COUNTER=0
-while [  $COUNTER -lt 20 ]; do
+while [  $COUNTER -lt 60 ]; do
     if [ -f /snap/ubuntu-budgie-welcome/current/usr/bin/budgie-welcome ]; then
         output=`df | grep "^/cow"`
         if [ ! -z "$output" ]; then
