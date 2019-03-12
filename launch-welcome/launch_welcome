@@ -11,7 +11,12 @@
 COUNTER=0
 while [  $COUNTER -lt 20 ]; do
     if [ -f /snap/ubuntu-budgie-welcome/current/usr/bin/budgie-welcome ]; then
-        sleep 10
+        output=`df | grep "^/cow"`
+        if [ ! -z "$output" ]; then
+       	    sleep 1
+        else
+            sleep 10
+        fi
     	snap run ubuntu-budgie-welcome.budgie-welcome &
         exit 0
     fi
