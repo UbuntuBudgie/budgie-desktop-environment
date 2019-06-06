@@ -13,10 +13,11 @@ Architecture: all
 Section: misc
 Depends: budgie-desktop-common, python3,
  ${misc:Depends},
- budgie-dropby-applet,
  budgie-showtime-applet,
- budgie-quicknote-applet
-Recommends: wmctrl, xdotool, python3-gi-cairo, python3-cairo
+ budgie-quicknote-applet,
+ window-shuffler
+Recommendation:
+  budgie-dropby-applet
 Breaks: budgie-desktop-common (<= 0.4.15)
 Replaces: budgie-desktop-common
 Description: Desktop environment customisation for Ubuntu Budgie
@@ -73,3 +74,26 @@ Description: Common Ubuntu Budgie desktop components customisation
    make QT apps look like GTK+ apps
    default icon-theme for GTK+ applications
    Ubuntu Budgie plymouth branding
+
+Package: window-shuffler
+Architecture: all
+Section: misc
+Depends: wmctrl,
+ xdotool,
+ python3-gi-cairo,
+ python3-cairo,
+ python3-gi,
+ gir1.2-wnck-3.0,
+ ${misc:Depends}
+Description: GUI and keyboard friendly window arranger
+ Window Shuffler is a window placement application. Click a window and
+ subsequently click a tile in the grid, the window moves to the
+ corresponding position on the screen. Shift-click two tiles will make the
+ window span the two. Shift-click does not need to be on two tiles next to
+ each other; cross-selection and spanning multiple tiles is possible.
+ .
+ Options include: quick-grid all windows into the current grid, take a
+ snapshot of current layout, reset to snapshot. The application comes with a
+ list of shortcuts, which can be called by pressing [ i ].
+ Window Shuffler supports multi-monitor setup. Windows are positioned in the
+ grid per screen.

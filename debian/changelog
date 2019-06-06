@@ -1,3 +1,17 @@
+budgie-desktop-environment (0.12.0) UNRELEASED; urgency=medium
+
+  * New release
+    - Split window shuffler into its own package to enable
+      the capability to be used on other desktops other than budgie
+  * Packaging Changes:
+    - control add window-shuffler package together; package is now a
+      dependency of budgie-desktop-environment
+    - control move window shuffler python dependencies from
+      budgie-desktop-environment to the window-shuffler package
+    - control move the budgie-dropby-applet dependency to a recommendation
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 06 Jun 2019 11:31:14 +0100
+
 budgie-desktop-environment (0.11.7) disco; urgency=medium
 
   * Bug fix release
