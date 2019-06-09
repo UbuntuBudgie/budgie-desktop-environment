@@ -81,3 +81,4 @@ Icon-Name=catfish
 
 Extensions=dir;
 
+Dependencies=catfish
