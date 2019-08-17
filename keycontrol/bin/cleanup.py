@@ -15,7 +15,7 @@ import tempfile
 import subprocess
 from gi.repository import Gio
 
-SYS_KEYS = '/usr/share/budgie-desktop/keycontrol/custom-keys.d/'
+SYS_KEYS = '/usr/share/budgie-desktop/keycontrol/remove-keys/'
 DCONF_KEY_PATH = '/org/gnome/settings-daemon/plugins/media-keys/'
 
 class BudgieKeyError(Exception):

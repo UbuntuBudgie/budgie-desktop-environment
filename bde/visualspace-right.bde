@@ -1,0 +1,5 @@
+[Daemon]
+shortcut=<Control><Alt>Right
+command=/usr/share/budgie-desktop/visualspace/visualspace next
+onlyactivate=GSettings org.gnome.mutter dynamic-workspaces
+overlay=GSettings org.gnome.desktop.wm.keybindings switch-to-workspace-right

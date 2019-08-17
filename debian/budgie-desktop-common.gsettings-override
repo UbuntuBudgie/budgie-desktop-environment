@@ -94,3 +94,6 @@ sidebar-width=180
 
 [org.cinnamon.desktop.default-applications.terminal]
 exec='tilix'
+
+[com.solus-project.budgie-panel]
+desktop-icons-handler='NEMO'

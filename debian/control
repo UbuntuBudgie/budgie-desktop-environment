@@ -2,8 +2,8 @@ Source: budgie-desktop-environment
 Section: x11
 Priority: optional
 Maintainer: David Mohammed <fossfreedom@ubuntu.com>
-Build-Depends: debhelper (>= 11)
-Standards-Version: 4.3.0
+Build-Depends: debhelper (>= 12)
+Standards-Version: 4.4.0
 Homepage: https://github.com/UbuntuBudgie
 Vcs-Git: https://github.com/UbuntuBudgie/budgie-desktop-environment -b debian
 Vcs-Browser: https://github.com/UbuntuBudgie/budgie-desktop-environment/tree/debian
@@ -15,7 +15,8 @@ Depends: budgie-desktop-common, python3,
  ${misc:Depends},
  budgie-showtime-applet,
  budgie-quicknote-applet,
- window-shuffler
+ window-shuffler,
+ budgie-extras-daemon
 Recommendation:
   budgie-dropby-applet
 Breaks: budgie-desktop-common (<= 0.4.15)

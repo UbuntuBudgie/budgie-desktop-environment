@@ -3,12 +3,17 @@ budgie-desktop-environment (0.12.0) UNRELEASED; urgency=medium
   * New release
     - Split window shuffler into its own package to enable
       the capability to be used on other desktops other than budgie
+    - Add gsettings override to set Nemo as desktop icons handlers
+    - Rejig key-control to use extras daemon where possible
   * Packaging Changes:
     - control add window-shuffler package together; package is now a
       dependency of budgie-desktop-environment
     - control move window shuffler python dependencies from
       budgie-desktop-environment to the window-shuffler package
     - control move the budgie-dropby-applet dependency to a recommendation
+    - control Add extras-daemon as a dependency of budgie-desktop-environment
+    - control Bump StandardsVersion - no changes required
+    - control & compat use debhelper 12
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 06 Jun 2019 11:31:14 +0100
 

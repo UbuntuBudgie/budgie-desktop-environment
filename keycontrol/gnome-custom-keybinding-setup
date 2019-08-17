@@ -1,8 +1,7 @@
 #!/bin/bash
 
 gsettings set org.gnome.desktop.wm.keybindings show-desktop "['']"
-gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-right "['']"
-gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-left "['']"
 
 #  directory in ./bin/gnome-custom-keybinding-setup.py
 python3 ./bin/cleanup.py -D ./custom-keys.d/
+python3 ./bin/gnome-custom-keybinding-setup.py -D ./custom-keys.d/

@@ -28,13 +28,13 @@ then
     touch ~/.config/budgie-desktop/changekeycontrol3
 fi
 
-if [ ! -f ~/.config/budgie-desktop/keycontrol3 ]
+if [ ! -f ~/.config/budgie-desktop/keycontrol4 ]
 then
     cd /usr/share/budgie-desktop/keycontrol/; . ./gnome-custom-keybinding-setup; cd
     mkdir -p ~/.config/budgie-desktop
     # delete old keycontrol files (if they have been previously created)
     rm -f ~/.config/budgie-desktop/keycontrol*
-    touch ~/.config/budgie-desktop/keycontrol3
+    touch ~/.config/budgie-desktop/keycontrol4
 fi
 
 if [ -f ~/.config/budgie-desktop/firstrun ]
