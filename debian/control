@@ -81,6 +81,7 @@ Architecture: all
 Section: misc
 Depends: wmctrl,
  xdotool,
+ python3,
  python3-gi-cairo,
  python3-cairo,
  python3-gi,

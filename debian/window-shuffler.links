@@ -1,0 +1,2 @@
+# create a symlink for window shuffler
+/usr/lib/windowshuffler/matrix_wrapper /usr/bin/budgie-window-shuffler-toggle

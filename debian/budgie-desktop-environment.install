@@ -3,7 +3,7 @@ ubiquity/* /usr/share/budgie-desktop/
 thumbnail_override/* /usr/share/budgie-desktop/
 plank_autostart/* /usr/share/budgie-desktop/
 keycontrol /usr/share/budgie-desktop/
-bde /usr/share/budgie-extras-daemon/
+bde/* /usr/share/budgie-extras-daemon/
 showdesktop /usr/share/budgie-desktop/
 home-folder /usr/share/budgie-desktop/
 visualspace/schema/* /usr/share/glib-2.0/schemas/
