@@ -182,5 +182,5 @@ if __name__ == '__main__':
             loadDconf(configfile.name)
         if not args.dry_run:
             log.debug('Success! config loaded, you can confirm with:\n\tdconf dump %s' % DCONF_KEY_PATH)
-    else:
-        log.info('nothing to do!')
+    #else:
+    #    log.info('nothing to do!')
