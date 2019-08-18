@@ -1,6 +1,0 @@
-window-shuffler/icons/*.svg /usr/share/pixmaps/
-window-shuffler/*.py /usr/lib/windowshuffler/
-window-shuffler/matrix_wrapper /usr/lib/windowshuffler/
-window-shuffler/window_shuffler /usr/lib/windowshuffler/
-window-shuffler/shuffler_nogui /usr/lib/windowshuffler/
-window-shuffler/shortcuts /usr/lib/windowshuffler/

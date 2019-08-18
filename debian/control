@@ -8,15 +8,48 @@ Homepage: https://github.com/UbuntuBudgie
 Vcs-Git: https://github.com/UbuntuBudgie/budgie-desktop-environment -b debian
 Vcs-Browser: https://github.com/UbuntuBudgie/budgie-desktop-environment/tree/debian
 
+Package: budgie-desktop-common
+Architecture: all
+Section: misc
+Depends:
+ budgie-desktop (>= 10.4),
+ dmz-cursor-theme,
+ gnome-themes-extra,
+ lightdm,
+ plymouth-theme-ubuntu-budgie-logo,
+ plymouth-theme-ubuntu-budgie-text,
+ plymouth-themes,
+ xdg-user-dirs-gtk,
+ ${misc:Depends},
+Recommends: qt5-style-plugins
+Description: Common Ubuntu Budgie desktop components customisation
+ While this common budgie-desktop package can be installed manually,
+ it is recommended that the binary packages budgie-desktop-minimal or
+ budgie-desktop-environment be used to install working minimal or
+ the recommended full budgie-desktop environment.
+ .
+ This package provides common:
+   ubuntu and budgie-desktop gsettings overrides
+   make QT apps look like GTK+ apps
+   default icon-theme for GTK+ applications
+   Ubuntu Budgie plymouth branding
+
 Package: budgie-desktop-environment
 Architecture: all
 Section: misc
-Depends: budgie-desktop-common, python3,
- ${misc:Depends},
- budgie-showtime-applet,
+Depends:
+ budgie-desktop-common,
+ budgie-extras-daemon,
  budgie-quicknote-applet,
- window-shuffler,
- budgie-extras-daemon
+ budgie-showtime-applet,
+ gir1.2-wnck-3.0,
+ python3,
+ python3-cairo,
+ python3-gi,
+ python3-gi-cairo,
+ wmctrl,
+ xdotool,
+ ${misc:Depends},
 Recommendation:
   budgie-dropby-applet
 Breaks: budgie-desktop-common (<= 0.4.15)
@@ -34,68 +67,18 @@ Description: Desktop environment customisation for Ubuntu Budgie
 Package: budgie-desktop-minimal
 Architecture: all
 Section: metapackages
-Depends: budgie-desktop-common,
- budgie-lightdm-theme-base,
- ${misc:Depends}
-Recommends: app-install-data,
+Depends: budgie-desktop-common, budgie-lightdm-theme-base, ${misc:Depends}
+Recommends:
+ acpi-support,
+ app-install-data,
  apport-gtk,
+ bash-completion,
+ laptop-detect,
  nano,
  policykit-desktop-privileges,
  ppa-purge,
- laptop-detect,
- acpi-support,
- bash-completion
 Description: Minimal desktop environment for Ubuntu Budgie
  Installs a minimal set of Ubuntu Budgie packages, both essential
  dependencies as well as recommended packages and applications.
  This package is useful for system builders who want budgie-desktop
  without the full set of applications recommended in Ubuntu Budgie.
-
-Package: budgie-desktop-common
-Architecture: all
-Section: misc
-Depends: gnome-themes-extra,
- budgie-desktop (>= 10.4),
- lightdm,
- dmz-cursor-theme,
- xdg-user-dirs-gtk,
- plymouth-theme-ubuntu-budgie-logo,
- plymouth-theme-ubuntu-budgie-text,
- plymouth-themes,
- ${misc:Depends}
-Recommends: qt5-style-plugins
-Description: Common Ubuntu Budgie desktop components customisation
- While this common budgie-desktop package can be installed manually,
- it is recommended that the binary packages budgie-desktop-minimal or
- budgie-desktop-environment be used to install working minimal or
- the recommended full budgie-desktop environment.
- .
- This package provides common:
-   ubuntu and budgie-desktop gsettings overrides
-   make QT apps look like GTK+ apps
-   default icon-theme for GTK+ applications
-   Ubuntu Budgie plymouth branding
-
-Package: window-shuffler
-Architecture: all
-Section: misc
-Depends: wmctrl,
- xdotool,
- python3,
- python3-gi-cairo,
- python3-cairo,
- python3-gi,
- gir1.2-wnck-3.0,
- ${misc:Depends}
-Description: GUI and keyboard friendly window arranger
- Window Shuffler is a window placement application. Click a window and
- subsequently click a tile in the grid, the window moves to the
- corresponding position on the screen. Shift-click two tiles will make the
- window span the two. Shift-click does not need to be on two tiles next to
- each other; cross-selection and spanning multiple tiles is possible.
- .
- Options include: quick-grid all windows into the current grid, take a
- snapshot of current layout, reset to snapshot. The application comes with a
- list of shortcuts, which can be called by pressing [ i ].
- Window Shuffler supports multi-monitor setup. Windows are positioned in the
- grid per screen.

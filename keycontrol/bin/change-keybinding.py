@@ -34,10 +34,3 @@ check_command = "/usr/lib/budgie-desktop/plugins/budgie-hcorners/showdesktop"
 check_name = "Hide/Show desktop"
 target_command = '/usr/share/budgie-desktop/showdesktop/showdesktop'
 change_keybinding()
-
-check_binding = "<Super>s"
-check_command = "/usr/share/budgie-desktop/windowshuffler/matrix_wrapper"
-check_name = "Toggle Window Shuffler"
-target_command = '/usr/lib/windowshuffler/matrix_wrapper'
-change_keybinding()
-
