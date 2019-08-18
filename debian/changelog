@@ -1,4 +1,4 @@
-budgie-desktop-environment (0.12.0) UNRELEASED; urgency=medium
+budgie-desktop-environment (0.12.0) eoan; urgency=medium
 
   * New release
     - Add gsettings override to set Nemo as desktop icons handlers
