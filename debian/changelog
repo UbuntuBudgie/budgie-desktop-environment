@@ -1,3 +1,11 @@
+budgie-desktop-environment (0.12.1) eoan; urgency=medium
+
+  * Bug-fix release
+    - window shuffler is not visible through the menu
+    - Add missing previews - but ensure not automatically enabled
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 23 Aug 2019 22:06:00 +0100
+
 budgie-desktop-environment (0.12.0) eoan; urgency=medium
 
   * New release

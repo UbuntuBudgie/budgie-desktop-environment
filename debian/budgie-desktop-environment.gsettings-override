@@ -28,3 +28,6 @@ timefont='Sawasdee 75'
 datefont='Sawasdee 32'
 leftalign=false
 linespacing=-20
+
+[org.ubuntubudgie.plugins.budgie-wpreviews]
+enable-previews=false
