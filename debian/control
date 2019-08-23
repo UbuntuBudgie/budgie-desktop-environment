@@ -51,7 +51,7 @@ Depends:
  wmctrl,
  xdotool,
  ${misc:Depends},
-Recommendation:
+Recommends:
   budgie-dropby-applet
 Breaks: budgie-desktop-common (<= 0.4.15)
 Replaces: budgie-desktop-common
