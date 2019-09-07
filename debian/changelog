@@ -2,6 +2,7 @@ budgie-desktop-environment (0.12.2) eoan; urgency=medium
 
   * Bug-fix release
     - Fix visualspace window sticking rather than closing
+    - Add missing thunderbolt menu entry
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 07 Sep 2019 16:30:36 +0100
 
