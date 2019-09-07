@@ -1,3 +1,12 @@
+budgie-desktop-environment (0.12.1ubuntu1) eoan; urgency=medium
+
+  * Bug-fix release
+    - Fix visualspace window sticking rather than closing
+    - Use override to directly reference showdesktop command rather than
+      depend on xdotool
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 07 Sep 2019 16:30:36 +0100
+
 budgie-desktop-environment (0.12.1) eoan; urgency=medium
 
   * Bug-fix release
