@@ -31,3 +31,10 @@ linespacing=-20
 
 [org.ubuntubudgie.plugins.budgie-wpreviews]
 enable-previews=false
+
+[org.onboard.auto-show]
+enabled=true
+
+[org.onboard]
+theme='/usr/share/onboard/themes/Droid.theme'
+xembed-onboard=true

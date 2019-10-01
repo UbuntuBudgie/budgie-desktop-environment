@@ -1,10 +1,21 @@
+budgie-desktop-environment (0.12.3) eoan; urgency=medium
+
+  * Bug-fix release
+    - Hide gnome-shell-extensions addons tab in gnome-software for
+      budgie desktop session users since these are gnome-shell specific
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 01 Oct 2019 18:24:08 +0100
+
 budgie-desktop-environment (0.12.2) eoan; urgency=medium
 
   * Bug-fix release
     - Fix visualspace window sticking rather than closing
     - Add missing thunderbolt menu entry
+    - Add missing onboard autostart otherwise accessibility option
+      does not work
+    - Correct onboard settings overrides to best work with UB
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 07 Sep 2019 16:30:36 +0100
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 09 Sep 2019 19:22:59 +0100
 
 budgie-desktop-environment (0.12.1) eoan; urgency=medium
 

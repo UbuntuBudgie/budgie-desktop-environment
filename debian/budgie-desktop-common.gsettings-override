@@ -97,3 +97,6 @@ exec='tilix'
 
 [com.solus-project.budgie-panel]
 desktop-icons-handler='NEMO'
+
+[org.gnome.software:Budgie]
+enable-shell-extensions-repo=false

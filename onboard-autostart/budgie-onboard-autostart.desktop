@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Onboard
+GenericName=Onboard onscreen keyboard
+Comment=Flexible onscreen keyboard
+Exec=onboard --not-show-in=GNOME,GNOME-Classic:GNOME --startup-delay=3.0
+Icon=onboard
+Type=Application
+NoDisplay=true
+X-Ubuntu-Gettext-Domain=onboard
+AutostartCondition=GSettings org.gnome.desktop.a11y.applications screen-keyboard-enabled
+X-GNOME-AutoRestart=true
+OnlyShowIn=Budgie
