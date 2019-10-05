@@ -1,3 +1,11 @@
+budgie-desktop-environment (0.12.4) eoan; urgency=medium
+
+  * Bug-fix release
+    - With the 4.0.6 release of nemo, use an override to ensure the
+      icon-view icon size is the same as for the 3.6 series
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 04 Oct 2019 18:59:06 +0100
+
 budgie-desktop-environment (0.12.3) eoan; urgency=medium
 
   * Bug-fix release

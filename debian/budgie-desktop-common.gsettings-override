@@ -92,6 +92,9 @@ show-full-path-titles=true
 start-with-menu-bar=false
 sidebar-width=180
 
+[org.nemo.icon-view]
+default-zoom-level='small'
+
 [org.cinnamon.desktop.default-applications.terminal]
 exec='tilix'
 
