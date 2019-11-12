@@ -1,3 +1,14 @@
+budgie-desktop-environment (0.13.0ubuntu0.1) UNRELEASED; urgency=medium
+
+  * New release
+    - Showtime spacing update to ensure consistency with previous releases
+    - Remove visualspace workspace switcher since this is now replaced
+      by a stylish applet
+    - Remove F12 keybinding for tilix since this clashes with firefox
+      and other apps
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 12 Nov 2019 21:24:57 +0000
+
 budgie-desktop-environment (0.12.4) eoan; urgency=medium
 
   * Bug-fix release
