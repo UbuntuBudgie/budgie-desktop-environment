@@ -6,6 +6,7 @@ budgie-desktop-environment (0.13.0ubuntu0.1) UNRELEASED; urgency=medium
       by a stylish applet
     - Remove F12 keybinding for tilix since this clashes with firefox
       and other apps
+    - Re-add revised dropby to our panel
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 12 Nov 2019 21:24:57 +0000
 
