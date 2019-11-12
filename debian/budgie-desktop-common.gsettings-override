@@ -30,6 +30,9 @@ show-icon-on-systray=false
 [org.gnome.desktop.wm.preferences:Budgie]
 theme='Pocillo'
 
+[org.gnome.desktop.sound:Budgie]
+event-sounds=false
+
 [org.gnome.desktop.background:Budgie]
 show-desktop-icons=true
 picture-uri='file:///usr/share/backgrounds/budgie/ubuntu_budgie_wallpaper1.jpg'
