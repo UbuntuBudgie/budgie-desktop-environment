@@ -18,3 +18,8 @@ window-shuffler/shortcuts /usr/share/budgie-desktop/windowshuffler/
 window-shuffler/shuffler_nogui /usr/share/budgie-desktop/windowshuffler/
 window-shuffler/window_shuffler /usr/share/budgie-desktop/windowshuffler/
 window-shuffler/windowshuffler.desktop /usr/share/applications/
+/etc/profile.d/10-budgie-desktop-common.sh
+/usr
+distrologo/*.png  /usr/share/icons/hicolor/256x256/apps
+distrologo/*.svg  /usr/share/icons/hicolor/scalable/apps/
+launch-welcome/launch_welcome /usr/share/budgie-desktop/

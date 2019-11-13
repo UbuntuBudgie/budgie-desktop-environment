@@ -1,5 +1,0 @@
-/etc/profile.d/10-budgie-desktop-common.sh
-/usr
-distrologo/*.png  /usr/share/icons/hicolor/256x256/apps
-distrologo/*.svg  /usr/share/icons/hicolor/scalable/apps/
-launch-welcome/launch_welcome /usr/share/budgie-desktop/
