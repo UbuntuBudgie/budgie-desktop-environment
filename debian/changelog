@@ -1,3 +1,10 @@
+budgie-desktop-environment (0.13.1) UNRELEASED; urgency=medium
+
+  * New release
+    - Add missing dropby reference for the panel to make it appear
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 13 Nov 2019 21:41:09 +0000
+
 budgie-desktop-environment (0.13.0) focal; urgency=medium
 
   * New release
