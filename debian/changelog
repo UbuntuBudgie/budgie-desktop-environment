@@ -1,4 +1,4 @@
-budgie-desktop-environment (0.13.0ubuntu0.1) UNRELEASED; urgency=medium
+budgie-desktop-environment (0.12.9) focal; urgency=medium
 
   * New release
     - Showtime spacing update to ensure consistency with previous releases
