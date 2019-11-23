@@ -3,13 +3,7 @@ then
     return 0
 fi
 
-# force QT override to not have a value to allow QT apps to be themed correctly
-# this is new due to zesty including QT 5.8
-export QT_STYLE_OVERRIDE=
-
-# with qt-style-plugins ensure QT apps now pickup a GTK+2 theme
-# N.B. we don't have in Ubuntu a gtk3 based override yet.
-export QT_QPA_PLATFORMTHEME=gtk2
+export QT_QPA_PLATFORMTHEME=qt5ct
 
 # First logon does lots of things - we don't need to keep repeating
 # these checks since it will slow down the desktop show slightly

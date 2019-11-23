@@ -34,7 +34,7 @@ Depends:
  xdg-user-dirs-gtk,
 Recommends:
   budgie-dropby-applet,
-  qt5-style-plugins
+  qt5ct
 Breaks: budgie-desktop-common (< 0.13.0)
 Replaces: budgie-desktop-common
 Description: Desktop environment customisation for Ubuntu Budgie

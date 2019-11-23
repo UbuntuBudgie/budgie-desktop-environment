@@ -1,9 +1,11 @@
-budgie-desktop-environment (0.13.1) UNRELEASED; urgency=medium
+budgie-desktop-environment (0.13.1) focal; urgency=medium
 
   * New release
     - Add missing dropby reference for the panel to make it appear
+    - Switch from deprecated qt5-style-plugins to qt5ct for QT theming
+      ensure QT_QPA_PLATFORMTHEME=qt5ct environment variable is used
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 13 Nov 2019 21:41:09 +0000
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 23 Nov 2019 17:32:31 +0000
 
 budgie-desktop-environment (0.13.0) focal; urgency=medium
 
