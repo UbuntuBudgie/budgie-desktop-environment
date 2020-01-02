@@ -1,6 +1,6 @@
 [com.solus-project.budgie-menu]
 menu-headers=false
-menu-icon='/usr/share/icons/hicolor/scalable/apps/ubuntu-budgie-app-launcher.svg'
+menu-icon='ubuntu-budgie-symbolic'
 
 [org.gnome.rhythmbox.plugins]
 active-plugins=['dbus-media-server', 'artsearch', 'generic-player', 'audiocd', 'alternative-toolbar', 'mtpdevice', 'daap', 'android', 'rb', 'power-manager', 'notification', 'ipod', 'mpris', 'iradio', 'audioscrobbler', 'mmkeys']
