@@ -2,7 +2,8 @@ Source: budgie-desktop-environment
 Section: x11
 Priority: optional
 Maintainer: David Mohammed <fossfreedom@ubuntu.com>
-Build-Depends: debhelper (>= 12)
+Build-Depends: debhelper (>= 12),
+  debhelper-compat (= 12)
 Standards-Version: 4.4.1
 Homepage: https://github.com/UbuntuBudgie
 Vcs-Git: https://github.com/UbuntuBudgie/budgie-desktop-environment -b debian
@@ -35,7 +36,7 @@ Depends:
 Recommends:
   budgie-dropby-applet,
   qt5ct
-Breaks: budgie-desktop-common (< 0.13.0)
+Breaks: budgie-desktop-common (<< 0.13.0)
 Replaces: budgie-desktop-common
 Description: Desktop environment customisation for Ubuntu Budgie
  Installs all Ubuntu Budgie packages, both essential dependencies
