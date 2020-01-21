@@ -70,6 +70,7 @@ show-icon-on-systray=false
 
 [org.gnome.desktop.wm.preferences:Budgie]
 theme='Pocillo'
+num-workspaces=2
 
 [org.gnome.desktop.sound:Budgie]
 event-sounds=false
