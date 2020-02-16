@@ -1,3 +1,11 @@
+budgie-desktop-environment (0.13.3) UNRELEASED; urgency=medium
+
+  * New release
+    - Remove unneeded imagemagick desktop overrides
+    - Don't use GNOME Software for updates - use gsettings overrides
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 16 Feb 2020 10:51:13 +0000
+
 budgie-desktop-environment (0.13.2) focal; urgency=medium
 
   * New release
