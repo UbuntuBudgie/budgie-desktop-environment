@@ -1,4 +1,4 @@
-budgie-desktop-environment (0.13.3) UNRELEASED; urgency=medium
+budgie-desktop-environment (0.13.3) focal; urgency=medium
 
   * New release
     - Remove unneeded imagemagick desktop overrides
