@@ -29,7 +29,7 @@ datefont='Sawasdee 32'
 leftalign=false
 linespacing=8
 
-[org.ubuntubudgie.plugins.budgie-wpreviews]
+[org.ubuntubudgie.budgie-wpreviews]
 enable-previews=false
 
 [org.onboard.auto-show]

@@ -1,3 +1,10 @@
+budgie-desktop-environment (0.13.4) focal; urgency=medium
+
+  * New release
+    - Fix changed previews gsettings path
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 23 Feb 2020 10:00:37 +0000
+
 budgie-desktop-environment (0.13.3) focal; urgency=medium
 
   * New release
