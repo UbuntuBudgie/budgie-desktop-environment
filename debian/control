@@ -22,7 +22,7 @@ Depends:
 Recommends:
  budgie-dropby-applet,
  budgie-extras-daemon,
- budgie-previews-applet,
+ budgie-previews,
  budgie-quicknote-applet,
  budgie-showtime-applet,
  dmz-cursor-theme,
