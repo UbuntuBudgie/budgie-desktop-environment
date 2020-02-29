@@ -1,3 +1,13 @@
+budgie-desktop-environment (0.13.5) focal; urgency=medium
+
+  * New release
+    - Rejig dependencies and recommendations - most dependencies should
+      be recommendations to allow for customisation
+  * Packaging Changes
+    - control: bump Standards-Version; no changes required
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 29 Feb 2020 15:22:39 +0000
+
 budgie-desktop-environment (0.13.4) focal; urgency=medium
 
   * New release

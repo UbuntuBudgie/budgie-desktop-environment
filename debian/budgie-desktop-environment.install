@@ -1,8 +1,13 @@
+/etc/profile.d/10-budgie-desktop-common.sh
 /etc/profile.d/10-budgie-desktop.sh
+/usr
 applications/* /usr/share/applications/
 bde/* /usr/share/budgie-extras-daemon/
+distrologo/*.png  /usr/share/icons/hicolor/256x256/apps
+distrologo/*.svg  /usr/share/icons/hicolor/scalable/apps/
 home-folder /usr/share/budgie-desktop/
 keycontrol /usr/share/budgie-desktop/
+launch-welcome/launch_welcome /usr/share/budgie-desktop/
 nemo-actions/* /usr/share/nemo/actions/
 nemo-autostart/* /etc/xdg/autostart/
 onboard-autostart/* /etc/xdg/autostart/
@@ -11,8 +16,3 @@ plank_autostart/* /usr/share/budgie-desktop/
 showdesktop /usr/share/budgie-desktop/
 thumbnail_override/* /usr/share/budgie-desktop/
 ubiquity/* /usr/share/budgie-desktop/
-/etc/profile.d/10-budgie-desktop-common.sh
-/usr
-distrologo/*.png  /usr/share/icons/hicolor/256x256/apps
-distrologo/*.svg  /usr/share/icons/hicolor/scalable/apps/
-launch-welcome/launch_welcome /usr/share/budgie-desktop/

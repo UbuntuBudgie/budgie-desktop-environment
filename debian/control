@@ -2,9 +2,8 @@ Source: budgie-desktop-environment
 Section: x11
 Priority: optional
 Maintainer: David Mohammed <fossfreedom@ubuntu.com>
-Build-Depends: debhelper (>= 12),
-  debhelper-compat (= 12)
-Standards-Version: 4.4.1
+Build-Depends: debhelper (>= 12), debhelper-compat (= 12)
+Standards-Version: 4.5.0
 Homepage: https://github.com/UbuntuBudgie
 Vcs-Git: https://github.com/UbuntuBudgie/budgie-desktop-environment -b debian
 Vcs-Browser: https://github.com/UbuntuBudgie/budgie-desktop-environment/tree/debian
@@ -13,29 +12,22 @@ Package: budgie-desktop-environment
 Architecture: all
 Section: misc
 Depends:
- budgie-extras-daemon,
- budgie-quicknote-applet,
- budgie-showtime-applet,
- budgie-previews-applet,
- gir1.2-wnck-3.0,
- python3,
- python3-cairo,
- python3-gi,
- python3-gi-cairo,
- wmctrl,
- xdotool,
- ${misc:Depends},
  budgie-desktop (>= 10.5),
- dmz-cursor-theme,
  gnome-themes-extra,
- lightdm,
  plymouth-theme-ubuntu-budgie-logo,
  plymouth-theme-ubuntu-budgie-text,
  plymouth-themes,
  xdg-user-dirs-gtk,
+ ${misc:Depends}
 Recommends:
-  budgie-dropby-applet,
-  qt5ct
+ budgie-dropby-applet,
+ budgie-extras-daemon,
+ budgie-previews-applet,
+ budgie-quicknote-applet,
+ budgie-showtime-applet,
+ dmz-cursor-theme,
+ qt5ct,
+ slick-greeter
 Breaks: budgie-desktop-common (<< 0.13.0)
 Replaces: budgie-desktop-common
 Description: Desktop environment customisation for Ubuntu Budgie
@@ -47,7 +39,6 @@ Description: Desktop environment customisation for Ubuntu Budgie
    gsettings overrides
    totem thumbnailer config using ffmpegthumbnailer
    Tilix integration
-   Budgie Shuffler
    ubuntu and budgie-desktop gsettings overrides
    make QT apps look like GTK+ apps
    default icon-theme for GTK+ applications
