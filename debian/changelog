@@ -2,6 +2,7 @@ budgie-desktop-environment (0.13.7) focal; urgency=medium
 
   * Fix various errors.ubuntu.com showdesktop crash reports
     (LP: #1870908)
+  * Remove unnecessary ./usr files and folders that crept into 0.13.6
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 05 Apr 2020 13:50:59 +0100
 
