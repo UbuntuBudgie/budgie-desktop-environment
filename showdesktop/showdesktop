@@ -32,8 +32,15 @@ ignore = [
 
 
 def get(cmd):
-    return subprocess.check_output(cmd).decode("utf-8").strip()
+    try:
+        output = subprocess.check_output(cmd)
 
+        if output:
+            output = output.decode("utf-8").strip()
+    except subprocess.CalledProcessError:
+        output = None
+
+    return output
 
 def get_currws():
     return [l.split()[0] for l in get(
@@ -52,16 +59,16 @@ def get_valid(w_id):
 def get_state(w_id):
     return "window state: Iconic" in get(["xprop", "-id", w_id, "WM_STATE"])
 
-
-currws = get_currws()
-allwinsdata = [w.split() for w in get(["wmctrl", "-l"]).splitlines()]
-winsoncurr = [w[0] for w in allwinsdata if w[1] == currws]
-relevant = [w for w in winsoncurr if get_valid(w)]
-
-
-# windows on current workspace, normal state
-tominimize = [w for w in relevant if not get_state(w)]
-
+tominimize = False
+try:
+    currws = get_currws()
+    allwinsdata = [w.split() for w in get(["wmctrl", "-l"]).splitlines()]
+    winsoncurr = [w[0] for w in allwinsdata if w[1] == currws]
+    relevant = [w for w in winsoncurr if get_valid(w)]
+    # windows on current workspace, normal state
+    tominimize = [w for w in relevant if not get_state(w)]
+except:
+    exit()
 
 if tominimize:
     # get currently active window
