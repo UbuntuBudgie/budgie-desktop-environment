@@ -18,6 +18,9 @@ Depends:
  plymouth-theme-ubuntu-budgie-text,
  plymouth-themes,
  xdg-user-dirs-gtk,
+ xdotool,
+ wmctrl,
+ x11-utils,
  ${misc:Depends}
 Recommends:
  budgie-dropby-applet,
