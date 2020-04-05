@@ -77,7 +77,10 @@ if tominimize:
             pass
     # minimize normal-state windows
     for w in tominimize:
-        subprocess.Popen(["xdotool", "windowminimize", w])
+        try:
+            subprocess.Popen(["xdotool", "windowminimize", w])
+        except subprocess.CalledProcessError:
+            pass
     # remember already minimized windows
     minimized = [w for w in relevant if w not in tominimize]
     open(orig_minimized, "wt").write(str(minimized))
@@ -100,9 +103,16 @@ else:
         if allwins == compare:
             # toshow.append(active_w)
             for w in toshow:
-                subprocess.Popen(["wmctrl", "-ia", w])
+                try:
+                    subprocess.Popen(["wmctrl", "-ia", w])
+                except subprocess.CalledProcessError:
+                    pass
+
             time.sleep(0.05)
-            subprocess.Popen(["wmctrl", "-ia", active_w])
+            try:
+                subprocess.Popen(["wmctrl", "-ia", active_w])
+            except subprocess.CalledProcessError:
+                pass
             # remove possible previous window data
             for f in [orig_minimized, active_minimized]:
                 try:
