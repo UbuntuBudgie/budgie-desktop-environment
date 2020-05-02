@@ -1,7 +1,7 @@
 budgie-desktop-environment (0.13.7ubuntu1) UNRELEASED; urgency=medium
 
-  * Hide delete from right-click menu since its too easy to select this
-    rather than move to trash which is immediately adjacent
+  * Enforce asking when deleting and moving to trash so that
+    inadvertent deleting files is not possible
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 02 May 2020 22:45:40 +0100
 

@@ -132,7 +132,7 @@ tooltips-on-desktop=true
 thumbnail-limit=5242880
 show-new-folder-icon-toolbar=true
 show-full-path-titles=true
-enable-delete=false
+confirm-move-to-trash=true
 
 [org.nemo.window-state]
 start-with-menu-bar=false
