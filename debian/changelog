@@ -1,3 +1,10 @@
+budgie-desktop-environment (0.13.7ubuntu1) UNRELEASED; urgency=medium
+
+  * Hide delete from right-click menu since its too easy to select this
+    rather than move to trash which is immediately adjacent
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 02 May 2020 22:45:40 +0100
+
 budgie-desktop-environment (0.13.7) focal; urgency=medium
 
   * Fix various errors.ubuntu.com showdesktop crash reports
