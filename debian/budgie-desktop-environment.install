@@ -1,5 +1,6 @@
 /etc/profile.d/10-budgie-desktop-common.sh
 /etc/profile.d/10-budgie-desktop.sh
+/etc/budgie-desktop/defaults.list
 /usr
 applications/* /usr/share/applications/
 bde/* /usr/share/budgie-extras-daemon/

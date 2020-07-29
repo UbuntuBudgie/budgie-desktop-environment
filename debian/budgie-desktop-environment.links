@@ -1,3 +1,4 @@
 # create a symlink for Tilix - does not exist on debian based systems
 # https://gnunn1.github.io/tilix-web/manual/vteconfig/
 /etc/profile.d/vte-2.91.sh /etc/profile.d/vte.sh
+/etc/budgie-desktop/defaults.list usr/share/budgie-desktop/applications/defaults.list

@@ -1,12 +1,17 @@
-budgie-desktop-environment (0.13.8) UNRELEASED; urgency=medium
+budgie-desktop-environment (0.14.0) UNRELEASED; urgency=medium
 
   * Enforce asking when deleting and moving to trash so that
     inadvertent deleting files is not possible
   * Remove shutdown/logout/restart/suspend desktop overrides
   * Turn off gedit highlight since this is broken with dark
     themes
+  * Install budgie-desktop defaults.list to ensure
+    default applications are associated with the
+    correct file-extensions - this overrides ubuntu's
+    defaults.list which has different apps and thus
+    wrong defaults (LP: #1889317)
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 25 May 2020 15:43:22 +0100
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 29 Jul 2020 21:02:08 +0100
 
 budgie-desktop-environment (0.13.7) focal; urgency=medium
 
