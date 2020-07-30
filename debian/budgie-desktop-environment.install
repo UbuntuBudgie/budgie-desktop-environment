@@ -9,7 +9,7 @@ distrologo/*.svg  /usr/share/icons/hicolor/scalable/apps/
 home-folder /usr/share/budgie-desktop/
 keycontrol /usr/share/budgie-desktop/
 launch-welcome/launch_welcome /usr/share/budgie-desktop/
-nemo-actions/* /usr/share/nemo/actions/
+nemo-actions/*.nemo_action /usr/share/nemo/actions/
 nemo-autostart/* /etc/xdg/autostart/
 onboard-autostart/* /etc/xdg/autostart/
 panel_override/* /usr/share/budgie-desktop/
