@@ -1,4 +1,4 @@
-budgie-desktop-environment (0.14.0) UNRELEASED; urgency=medium
+budgie-desktop-environment (0.14.0) groovy; urgency=medium
 
   * Enforce asking when deleting and moving to trash so that
     inadvertent deleting files is not possible
@@ -6,7 +6,7 @@ budgie-desktop-environment (0.14.0) UNRELEASED; urgency=medium
   * Turn off gedit highlight since this is broken with dark
     themes
   * Install budgie-desktop defaults.list to ensure
-    default applications are associated with the
+    our standard applications are associated with the
     correct file-extensions - this overrides ubuntu's
     defaults.list which has different apps and thus
     wrong defaults (LP: #1889317)
