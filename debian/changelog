@@ -1,3 +1,11 @@
+budgie-desktop-environment (0.14.1) groovy; urgency=medium
+
+  * disable doubleclick empty area to go up 1 folder
+  * allow slow doubleclick on filename to rename file
+  * display week-numbers by default in raven calendar
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 11 Aug 2020 18:47:30 +0100
+
 budgie-desktop-environment (0.14.0) groovy; urgency=medium
 
   * Enforce asking when deleting and moving to trash so that

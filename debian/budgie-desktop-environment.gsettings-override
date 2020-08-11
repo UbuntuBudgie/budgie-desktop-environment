@@ -2,6 +2,9 @@
 menu-headers=false
 menu-icon='ubuntu-budgie-symbolic'
 
+[com.solus-project.budgie-raven]
+enable-week-numbers true
+
 [org.gnome.rhythmbox.plugins]
 active-plugins=['dbus-media-server', 'artsearch', 'generic-player', 'audiocd', 'alternative-toolbar', 'mtpdevice', 'daap', 'android', 'rb', 'power-manager', 'notification', 'ipod', 'mpris', 'iradio', 'audioscrobbler', 'mmkeys']
 
@@ -125,7 +128,7 @@ desktop-layout='true:true'
 ignored-desktop-handlers=['conky', 'Showtime', 'desktop_weather']
 
 [org.nemo.preferences]
-click-double-parent-folder=true
+click-double-parent-folder=false
 tooltips-in-icon-view=true
 tooltips-in-list-view=true
 tooltips-on-desktop=true
@@ -133,6 +136,7 @@ thumbnail-limit=5242880
 show-new-folder-icon-toolbar=true
 show-full-path-titles=true
 confirm-move-to-trash=true
+quick-renames-with-pause-in-between=true
 
 [org.nemo.window-state]
 start-with-menu-bar=false
