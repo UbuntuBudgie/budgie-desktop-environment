@@ -3,7 +3,7 @@ menu-headers=false
 menu-icon='ubuntu-budgie-symbolic'
 
 [com.solus-project.budgie-raven]
-enable-week-numbers true
+enable-week-numbers=true
 
 [org.gnome.rhythmbox.plugins]
 active-plugins=['dbus-media-server', 'artsearch', 'generic-player', 'audiocd', 'alternative-toolbar', 'mtpdevice', 'daap', 'android', 'rb', 'power-manager', 'notification', 'ipod', 'mpris', 'iradio', 'audioscrobbler', 'mmkeys']
