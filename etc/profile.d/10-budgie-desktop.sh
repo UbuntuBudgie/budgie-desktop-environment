@@ -43,6 +43,13 @@ then
     cp -r /usr/share/budgie-desktop/home-folder/.config ~/
 fi
 
+# gnome-software
+GS=`which gnome-software`
+if [ "$GS" ]
+then
+    cp /usr/share/budgie-desktop/gnome-software-service.desktop ~/.config/autostart
+fi
+
 # templates
 bash -c 'sleep 20 && /usr/share/budgie-desktop/home-folder/copytemplates' &
 

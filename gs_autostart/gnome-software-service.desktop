@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=GNOME Software
+X-GNOME-Autostart-Delay=60
+Exec=/usr/bin/gnome-software --gapplication-service
+OnlyShowIn=GNOME;Unity;
+NotShowIn=Budgie
+NoDisplay=true
+X-Ubuntu-Gettext-Domain=gnome-software
