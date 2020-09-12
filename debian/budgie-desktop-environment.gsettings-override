@@ -30,7 +30,7 @@ window-maximized=false
 timefont='Sawasdee 75'
 datefont='Sawasdee 32'
 leftalign=false
-linespacing=8
+linespacing=-28
 
 [org.ubuntubudgie.budgie-wpreviews]
 enable-previews=false

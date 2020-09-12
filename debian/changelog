@@ -1,3 +1,10 @@
+budgie-desktop-environment (0.14.4) groovy; urgency=medium
+
+  * Mutter/Clutter changes means showtime spacing needs an update
+    so update the linespacing in our gsettings overrides
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 12 Sep 2020 12:27:09 +0100
+
 budgie-desktop-environment (0.14.3) groovy; urgency=medium
 
   * GNOME Software should not autostart under the budgie-desktop
