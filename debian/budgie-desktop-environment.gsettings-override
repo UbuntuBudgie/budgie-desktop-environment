@@ -148,8 +148,8 @@ default-zoom-level='small'
 [org.cinnamon.desktop.default-applications.terminal]
 exec='tilix'
 
-[com.solus-project.budgie-panel]
-desktop-icons-handler='NEMO'
+[com.solus-project.budgie-wm]
+desktop-type-override='nemo'
 
 [org.gnome.software:Budgie]
 enable-shell-extensions-repo=false
