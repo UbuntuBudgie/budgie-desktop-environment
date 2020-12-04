@@ -12,7 +12,7 @@ Package: budgie-desktop-environment
 Architecture: all
 Section: misc
 Depends:
- budgie-desktop (>= 10.5),
+ budgie-desktop (>= 10.5.2),
  gnome-themes-extra,
  plymouth-theme-ubuntu-budgie-logo,
  plymouth-theme-ubuntu-budgie-text,

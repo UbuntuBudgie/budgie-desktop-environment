@@ -1,9 +1,10 @@
-budgie-desktop-environment (0.15.0) UNRELEASED; urgency=medium
+budgie-desktop-environment (0.15.0) hirsute; urgency=medium
 
   * Use budgie desktop v10.5.2 vendor override for specifying nemo
     as the desktop-icons handler
+  * control: update budgie-desktop minimum version to 10.5.2
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 03 Dec 2020 20:19:39 +0000
+ -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 04 Dec 2020 16:41:47 +0000
 
 budgie-desktop-environment (0.14.4) groovy; urgency=medium
 
