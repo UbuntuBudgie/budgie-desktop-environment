@@ -82,6 +82,9 @@ event-sounds=false
 show-desktop-icons=true
 picture-uri='file:///usr/share/backgrounds/budgie/ubuntu_budgie_wallpaper1.jpg'
 
+[x.dm.slick-greeter]
+background='/usr/share/backgrounds/budgie/ubuntu_budgie_wallpaper1.jpg'
+
 [org.gnome.desktop.input-sources:Budgie]
 xkb-options=['terminate:ctrl_alt_bksp']
 
