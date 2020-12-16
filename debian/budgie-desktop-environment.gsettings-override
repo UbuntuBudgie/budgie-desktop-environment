@@ -58,7 +58,7 @@ monospace-font-name='Ubuntu Mono 13'
 font-name='Noto Sans 11'
 document-font-name='Noto Sans 11'
 cursor-theme='DMZ-White'
-gtk-theme='Pocillo'
+gtk-theme='Pocillo-dark'
 icon-theme='Pocillo'
 clock-show-date=false
 
@@ -72,7 +72,7 @@ menu-headers=false
 show-icon-on-systray=false
 
 [org.gnome.desktop.wm.preferences:Budgie]
-theme='Pocillo'
+theme='Pocillo-dark'
 num-workspaces=2
 
 [org.gnome.desktop.sound:Budgie]

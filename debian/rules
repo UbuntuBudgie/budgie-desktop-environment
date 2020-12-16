@@ -1,8 +1,7 @@
 #!/usr/bin/make -f
 
 # Uncomment this to turn on verbose mode.
-#export DH_VERBOSE=1
-
+export DH_VERBOSE=1
 export DPKG_GENSYMBOLS_CHECK_LEVEL=4
 
 %:
@@ -14,3 +13,14 @@ override_dh_installgsettings:
 override_dh_python3:
 	dh_python3
 	dh_python3 /usr/share/budgie-desktop/showdesktop
+
+override_dh_clean:
+	rm -rf ./debian/budgie-arm-environment
+	rm -rf ./debian/ubpi
+	dh_clean
+
+override_dh_auto_configure:
+	dh_auto_configure
+	mkdir ./debian/budgie-arm-environment
+	mkdir ./debian/ubpi
+	cd ubpi/configuration-app && bash ./install.sh -d "$(CURDIR)/debian/ubpi"

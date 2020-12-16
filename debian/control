@@ -3,10 +3,28 @@ Section: x11
 Priority: optional
 Maintainer: David Mohammed <fossfreedom@ubuntu.com>
 Build-Depends: debhelper (>= 13), debhelper-compat (= 13), dh-python, python3
-Standards-Version: 4.5.0
+Standards-Version: 4.5.1
 Homepage: https://github.com/UbuntuBudgie
 Vcs-Git: https://github.com/UbuntuBudgie/budgie-desktop-environment -b debian
 Vcs-Browser: https://github.com/UbuntuBudgie/budgie-desktop-environment/tree/debian
+
+Package: budgie-arm-environment
+Architecture: all
+Section: misc
+Depends:
+ budgie-desktop-environment,
+ gir1.2-glib-2.0,
+ gir1.2-gtk-3.0,
+ python3,
+ ${misc:Depends},
+ ${python3:Depends}
+Description: ARM based desktop environment customisation for Ubuntu Budgie
+ Adds a support application and settings to optimize the display and
+ usage of Ubuntu Budgie on ARM based devices such as the Raspberry Pi4.
+ .
+ The default Ubuntu Budgie desktop environment - its layout, font sizes,
+ panel and theme can be selected depending upon the display form-factor
+ being used.
 
 Package: budgie-desktop-environment
 Architecture: all

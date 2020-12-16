@@ -1,0 +1,3 @@
+[submodule "ubpi"]
+	path = ubpi
+	url = https://github.com/ubuntubudgie/ubpi
