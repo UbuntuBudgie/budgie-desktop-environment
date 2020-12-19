@@ -2,7 +2,8 @@ Source: budgie-desktop-environment
 Section: x11
 Priority: optional
 Maintainer: David Mohammed <fossfreedom@ubuntu.com>
-Build-Depends: debhelper (>= 13), debhelper-compat (= 13), dh-python, python3
+Build-Depends: debhelper (>= 13), debhelper-compat (= 13), dh-python, python3,
+ libglib2.0-dev-bin
 Standards-Version: 4.5.1
 Homepage: https://github.com/UbuntuBudgie
 Vcs-Git: https://github.com/UbuntuBudgie/budgie-desktop-environment -b debian
