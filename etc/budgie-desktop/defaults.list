@@ -265,5 +265,5 @@ zz-application/zz-winassoc-xls=libreoffice-calc.desktop
 x-scheme-handler/apt=apturl.desktop
 x-scheme-handler/http=firefox.desktop
 x-scheme-handler/https=firefox.desktop
-x-scheme-handler/mailto=org.gnome.Geary.desktop
+x-scheme-handler/mailto=thunderbird.desktop
 x-scheme-handler/snap=snap-store_ubuntu-software.desktop
