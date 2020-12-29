@@ -1,4 +1,12 @@
-budgie-desktop-environment (0.15.3) UNRELEASED; urgency=medium
+budgie-desktop-environment (0.15.2.4) hirsute; urgency=medium
+
+  * Latest verison of ubpi
+    - remote connection methods now working
+    - update mailto to open in thunderbird
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 29 Dec 2020 13:45:12 +0000
+
+budgie-desktop-environment (0.15.2.3) hirsute; urgency=medium
 
   * Latest version of ubpi
     - Set default pocillo theme
