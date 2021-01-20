@@ -1,3 +1,12 @@
+budgie-desktop-environment (0.15.2.5) hirsute; urgency=medium
+
+  * Hide xterm if installed
+  * Latest version of ubpi
+    - layouts theme change and apply button
+    - graphics option
+
+ -- David Mohammed <dad@dad-VirtualBox>  Wed, 20 Jan 2021 22:38:37 +0000
+
 budgie-desktop-environment (0.15.2.4) hirsute; urgency=medium
 
   * Latest verison of ubpi
