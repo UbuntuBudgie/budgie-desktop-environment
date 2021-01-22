@@ -1,3 +1,12 @@
+budgie-desktop-environment (0.15.2.6) hirsute; urgency=medium
+
+  * Install different gsettings-overrides for binaries with
+    differing priorities to ensure arm takes priority over the
+    default
+  * latest ubpi with overclock capability
+
+ -- David Mohammed <dad@dad-VirtualBox>  Fri, 22 Jan 2021 21:24:52 +0000
+
 budgie-desktop-environment (0.15.2.5) hirsute; urgency=medium
 
   * Hide xterm if installed
