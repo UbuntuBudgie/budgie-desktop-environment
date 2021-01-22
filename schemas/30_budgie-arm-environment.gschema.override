@@ -1,0 +1,5 @@
+[org.gnome.desktop.interface:Budgie]
+gtk-theme='QogirBudgie-dark'
+
+[org.gnome.desktop.wm.preferences:Budgie]
+theme='QogirBudgie-dark'
