@@ -3,3 +3,6 @@ gtk-theme='QogirBudgie-dark'
 
 [org.gnome.desktop.wm.preferences:Budgie]
 theme='QogirBudgie-dark'
+
+[org.gnome.desktop.interface]
+enable-animations=false

@@ -1,39 +1,21 @@
-budgie-desktop-environment (0.15.2.6) hirsute; urgency=medium
-
-  * Install different gsettings-overrides for binaries with
-    differing priorities to ensure arm takes priority over the
-    default
-  * latest ubpi with overclock capability
-
- -- David Mohammed <dad@dad-VirtualBox>  Fri, 22 Jan 2021 21:24:52 +0000
-
-budgie-desktop-environment (0.15.2.5) hirsute; urgency=medium
-
-  * Hide xterm if installed
-  * Latest version of ubpi
-    - layouts theme change and apply button
-    - graphics option
-
- -- David Mohammed <dad@dad-VirtualBox>  Wed, 20 Jan 2021 22:38:37 +0000
-
-budgie-desktop-environment (0.15.2.4) hirsute; urgency=medium
-
-  * Latest verison of ubpi
-    - remote connection methods now working
-    - update mailto to open in thunderbird
-
- -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 29 Dec 2020 13:45:12 +0000
-
-budgie-desktop-environment (0.15.2.3) hirsute; urgency=medium
+budgie-desktop-environment (0.15.3) hirsute; urgency=medium
 
   * Latest version of ubpi
     - Set default pocillo theme
     - Recommendation for screen resolution displayed
+    - overclock capability
+    - layouts theme change and apply button
+    - remote connection methods now working
+  * Install different gsettings-overrides for binaries with
+    differing priorities to ensure arm takes priority over the
+    default
+  * Hide xterm if installed
+  * update mailto to open in thunderbird  
   * Packaging Changes
     - control: add BD libglib2.0-dev-bin to allow ubpi to compile its
       resource file
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 19 Dec 2020 10:27:43 +0000
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 23 Jan 2021 13:13:21 +0000
 
 budgie-desktop-environment (0.15.2) hirsute; urgency=medium
 
