@@ -1,6 +1,5 @@
 debian/ubpi/etc/xdg/autostart/* /etc/xdg/autostart
 debian/ubpi/usr/lib/budgie-desktop/arm/* /usr/lib/budgie-desktop/arm
 debian/ubpi/usr/share/glib-2.0/schemas/* /usr/share/glib-2.0/schemas
-schemas/30_budgie-arm-environment.gschema.override /usr/share/glib-2.0/schemas
 debian/ubpi/usr/share/budgie-desktop/layouts/* /usr/share/budgie-desktop/layouts
 debian/ubpi/usr/share/applications/* /usr/share/applications

@@ -28,6 +28,17 @@ Description: ARM based desktop environment customisation for Ubuntu Budgie
  panel and theme can be selected depending upon the display form-factor
  being used.
 
+Package: budgie-raspi-settings
+Architecture: all
+Section: misc
+Depends:
+ budgie-desktop-environment,
+ ubuntu-raspi-settings,
+ ${misc:Depends},
+ ${python3:Depends}
+Description: Settings customisation for a Raspberry Ubuntu Budgie
+ Defines Ubuntu Budgie settings that are unique to Raspberry Pi 4.
+
 Package: budgie-desktop-environment
 Architecture: all
 Section: misc
