@@ -1,1 +1,1 @@
-schemas/30_budgie-arm-environment.gschema.override /usr/share/glib-2.0/schemas
+schemas/30_budgie-raspi-settings.gschema.override /usr/share/glib-2.0/schemas

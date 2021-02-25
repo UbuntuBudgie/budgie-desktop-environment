@@ -1,3 +1,14 @@
+budgie-desktop-environment (0.15.5) hirsute; urgency=medium
+
+  * Rename Pi settings override schema to reflect the binary package name
+  * Add FindMyPi capability - displays a GUI if budgie-arm-environment
+    is installed on amd64.  On arm64 GUI displays options to
+    find by UDP.
+  * Fixup remote options to use gnome-remote-desktop if installed otherwise
+    display just XRDP/SSH remote options
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 25 Feb 2021 07:50:19 +0000
+
 budgie-desktop-environment (0.15.4) hirsute; urgency=medium
 
   * Separate Raspberry Pi settings overrides from the
