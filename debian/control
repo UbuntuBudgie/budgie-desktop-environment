@@ -47,7 +47,6 @@ Depends:
  gnome-themes-extra,
  plymouth-theme-ubuntu-budgie-logo,
  plymouth-theme-ubuntu-budgie-text,
- plymouth-themes,
  wmctrl,
  x11-utils,
  xdg-user-dirs-gtk,
