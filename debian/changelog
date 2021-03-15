@@ -1,8 +1,12 @@
-budgie-desktop-environment (0.15.6) UNRELEASED; urgency=medium
+budgie-desktop-environment (0.15.6) hirsute; urgency=medium
 
   * Remove unneeded plymouth-themes dependency
+  * Add gnome-remote-desktop as a recommendation
+  * FindMyPi - fix v3D overlay by copying to overlays if not already there
+  * FindMyPi - add appropriate display messages depending upon scan
+    method being used
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 28 Feb 2021 21:38:16 +0000
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 15 Mar 2021 23:38:38 +0000
 
 budgie-desktop-environment (0.15.5) hirsute; urgency=medium
 
