@@ -6,3 +6,6 @@ theme='QogirBudgie-dark'
 
 [org.gnome.desktop.interface]
 enable-animations=false
+
+[org.ubuntubudgie.armconfig]
+runarmconfig=true
