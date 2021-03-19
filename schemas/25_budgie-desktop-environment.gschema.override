@@ -162,3 +162,6 @@ download-updates-notify=false
 
 [org.gnome.gedit.preferences.editor]
 highlight-current-line=false
+
+[org.ubuntubudgie.armconfig]
+runarmconfig=false
