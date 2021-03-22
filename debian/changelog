@@ -1,3 +1,9 @@
+budgie-desktop-environment (0.15.8) hirsute; urgency=medium
+
+  * Ensure FindMyPi UDP server starts after a reboot
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 22 Mar 2021 20:45:02 +0000
+
 budgie-desktop-environment (0.15.7) hirsute; urgency=medium
 
   * Fix FindMyPi nmap installation
