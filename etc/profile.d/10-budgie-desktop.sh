@@ -1,4 +1,10 @@
-if [ $DESKTOP_SESSION != 'budgie-desktop' ]
+# Not bash or zsh?
+#[ -n "${BASH_VERSION:-}" ] || return 0
+
+# Not an interactive shell?
+#[[ $- == *i* ]] || return 0
+
+if [[ $DESKTOP_SESSION != 'budgie-desktop' ]]
 then
     return 0
 fi
