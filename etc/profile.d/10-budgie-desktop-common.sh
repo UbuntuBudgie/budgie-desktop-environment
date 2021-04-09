@@ -1,4 +1,4 @@
-if [[ $DESKTOP_SESSION != 'budgie-desktop' ]]
+if [ $DESKTOP_SESSION != 'budgie-desktop' ]
 then
     return 0
 fi
