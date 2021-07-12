@@ -1,3 +1,12 @@
+budgie-desktop-environment (0.16.0ubuntu1) UNRELEASED; urgency=medium
+
+  * Display notification if GDM3 is the login manager
+  * GSD40 change: Move xsettings override to desktop.interface
+  * Control: add gnome-settings-daemon (>= 40.0) B/D for the above
+    change
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 12 Jul 2021 22:13:54 +0100
+
 budgie-desktop-environment (0.15.9) hirsute; urgency=medium
 
   * Removed budgie-arm-environment recommendation - it has been moved to the

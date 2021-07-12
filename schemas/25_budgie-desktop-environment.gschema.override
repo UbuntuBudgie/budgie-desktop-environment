@@ -42,10 +42,6 @@ enabled=true
 theme='/usr/share/onboard/themes/Droid.theme'
 xembed-onboard=true
 
-[org.gnome.settings-daemon.plugins.xsettings:Budgie]
-hinting='slight'
-antialiasing='rgba'
-
 [org.gnome.crypto.pgp:Budgie]
 keyservers=['hkp://keyserver.ubuntu.com:11371', 'hkp://pool.sks-keyservers.net', 'ldap://keyserver.pgp.com']
 
@@ -61,6 +57,9 @@ cursor-theme='DMZ-White'
 gtk-theme='Pocillo-dark'
 icon-theme='Pocillo'
 clock-show-date=false
+hinting='slight'
+antialiasing='rgba'
+
 
 [org.gnome.desktop.peripherals.touchpad:Budgie]
 tap-to-click = true
