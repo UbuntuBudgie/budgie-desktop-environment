@@ -61,7 +61,6 @@ Recommends:
  budgie-quicknote-applet,
  budgie-showtime-applet,
  dmz-cursor-theme,
- qt5ct,
  slick-greeter,
  gnome-remote-desktop
 Breaks: budgie-desktop-common (<< 0.13.0)
@@ -76,6 +75,5 @@ Description: Desktop environment customisation for Ubuntu Budgie
    totem thumbnailer config using ffmpegthumbnailer
    Tilix integration
    ubuntu and budgie-desktop gsettings overrides
-   make QT apps look like GTK+ apps
-   default icon-theme for GTK+ applications
-   Ubuntu Budgie plymouth branding
+   applies the default icon-theme for GTK+ applications
+   and Ubuntu Budgie plymouth branding

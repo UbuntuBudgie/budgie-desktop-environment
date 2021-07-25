@@ -9,7 +9,7 @@ then
     return 0
 fi
 
-export QT_QPA_PLATFORMTHEME=qt5ct
+#export QT_QPA_PLATFORMTHEME=qt5ct
 
 # First logon does lots of things - we don't need to keep repeating
 # these checks since it will slow down the desktop show slightly
