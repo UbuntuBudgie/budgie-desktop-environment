@@ -32,7 +32,7 @@ then
     touch ~/.config/budgie-desktop/keycontrol6
 fi
 
-cd /usr/share/budgie-desktop/gdmcheck/; sleep 5 && . ./gdmcheck.sh; cd
+bash -c 'sleep 5 && /usr/share/budgie-desktop/gdmcheck/gdmcheck.sh' &
 
 if [ -f ~/.config/budgie-desktop/firstrun ]
 then
