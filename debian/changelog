@@ -1,7 +1,8 @@
 budgie-desktop-environment (0.16.0) impish; urgency=medium
 
   * Display notification if GDM3 is the login manager
-  * GSD40 change: Move xsettings override to desktop.interface
+  * Remove antialiasing & hinting since the normal defaults are
+    the same
   * Control: add gnome-settings-daemon (>= 40.0) B/D for the above
     change
   * Remove qtct recommendation and common desktop environment variable
