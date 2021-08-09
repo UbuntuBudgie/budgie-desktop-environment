@@ -1,3 +1,15 @@
+budgie-desktop-environment (0.16.1) impish; urgency=medium
+
+  * Latest ubpi
+    - command line interface
+    - Improve interface visual spacing
+    - Add the ability to login headless via a custom lightdm.conf
+      plus new autologin option
+    - FKMS no longer displayed as the default option
+    - pi 400 module now defaults to 1800 CPU speed
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 27 Jul 2021 22:50:43 +0100
+
 budgie-desktop-environment (0.16.0) impish; urgency=medium
 
   * Display notification if GDM3 is the login manager
