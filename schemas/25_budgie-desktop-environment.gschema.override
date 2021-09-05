@@ -137,6 +137,10 @@ show-full-path-titles=true
 confirm-move-to-trash=true
 quick-renames-with-pause-in-between=true
 
+[org.gnome.desktop.wm.keybindings]
+switch-to-workspace-right=['<Super>Page_Down', '<Control><Alt>Right']
+switch-to-workspace-left=['<Super>Page_Up', '<Control><Alt>Left']
+
 [org.nemo.window-state]
 start-with-menu-bar=false
 sidebar-width=180
