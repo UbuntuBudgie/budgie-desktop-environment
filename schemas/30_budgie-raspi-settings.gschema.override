@@ -7,9 +7,5 @@ theme='QogirBudgie-dark'
 [org.gnome.desktop.interface]
 enable-animations=false
 
-[org.gnome.desktop.wm.keybindings]
-switch-to-workspace-right=['<Super>Page_Down', '<Control><Alt>Right']
-switch-to-workspace-left=['<Super>Page_Up', '<Control><Alt>Left']
-
 [org.ubuntubudgie.armconfig]
 runarmconfig=true
