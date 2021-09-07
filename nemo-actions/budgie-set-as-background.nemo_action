@@ -4,7 +4,7 @@ Name=Set as Wallpaper...
 
 Comment=Set the selected image as your Budgie desktop wallpaper
 
-Exec=gsettings set org.gnome.desktop.background picture-uri "%U"
+Exec=sh -c 'bash /usr/share/budgie-desktop/set_wallpaper.sh "%U"'
 
 Selection=s
 

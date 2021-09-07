@@ -20,3 +20,4 @@ showdesktop /usr/share/budgie-desktop/
 thumbnail_override/* /usr/share/budgie-desktop/
 ubiquity/* /usr/share/budgie-desktop/
 schemas/25_budgie-desktop-environment.gschema.override /usr/share/glib-2.0/schemas
+wallpaper/* /usr/share/budgie-desktop/
