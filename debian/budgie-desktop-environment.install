@@ -11,6 +11,7 @@ keycontrol /usr/share/budgie-desktop/
 gdmcheck /usr/share/budgie-desktop/
 launch-welcome/launch_welcome /usr/share/budgie-desktop/
 nemo-actions/*.nemo_action /usr/share/nemo/actions/
+nemo-actions/*.sh /usr/share/nemo/actions/
 nemo-autostart/* /etc/xdg/autostart/
 onboard-autostart/* /etc/xdg/autostart/
 panel_override/* /usr/share/budgie-desktop/
@@ -20,4 +21,3 @@ showdesktop /usr/share/budgie-desktop/
 thumbnail_override/* /usr/share/budgie-desktop/
 ubiquity/* /usr/share/budgie-desktop/
 schemas/25_budgie-desktop-environment.gschema.override /usr/share/glib-2.0/schemas
-wallpaper/* /usr/share/budgie-desktop/
