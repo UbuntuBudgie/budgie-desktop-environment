@@ -5,6 +5,8 @@ budgie-desktop-environment (0.16.3) impish; urgency=medium
       is shown
     - adjust our logo size to be 128x128px to match the original
       ubuntu-budgie-logo.png
+    - install our logo to the new pixmaps folder so that it is
+      correctly shown in gnome-control-center
     - Remove unneeded tooltip from arm-tweak-tool that clashes
       with tip text section
     - Remove schema key override that no longer exists
