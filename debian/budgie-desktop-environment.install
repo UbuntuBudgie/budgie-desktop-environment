@@ -4,7 +4,7 @@
 /usr
 applications/* /usr/share/applications/
 bde/* /usr/share/budgie-extras-daemon/
-distrologo/*.png  /usr/share/icons/hicolor/256x256/apps
+distrologo/*.png  /usr/share/pixmaps
 distrologo/*.svg  /usr/share/icons/hicolor/scalable/apps/
 home-folder /usr/share/budgie-desktop/
 keycontrol /usr/share/budgie-desktop/
