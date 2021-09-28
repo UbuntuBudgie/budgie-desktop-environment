@@ -155,7 +155,6 @@ exec='tilix'
 desktop-type-override='nemo'
 
 [org.gnome.software:Budgie]
-enable-shell-extensions-repo=false
 allow-updates=false
 download-updates=false
 download-updates-notify=false

@@ -1,3 +1,15 @@
+budgie-desktop-environment (0.16.3) impish; urgency=medium
+
+  * Bug fix release
+    - adjust our ubuntu-logo-icon.png divert to ensure budgie logo
+      is shown
+    - Remove unneeded tooltip from arm-tweak-tool that clashes
+      with tip text section
+    - Remove schema key override that no longer exists
+      with the GNOME 40 version of gnome-software
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 28 Sep 2021 22:20:42 +0100
+
 budgie-desktop-environment (0.16.2) impish; urgency=medium
 
   * Bug fix release

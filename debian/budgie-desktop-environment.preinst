@@ -3,7 +3,7 @@
 set -e
 
 files="
-icons/hicolor/256x256/apps/ubuntu-logo-icon.png
+pixmaps/ubuntu-logo-icon.png
 applications/nemo.desktop
 "
 
