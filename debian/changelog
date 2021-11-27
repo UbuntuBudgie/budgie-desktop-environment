@@ -1,3 +1,9 @@
+budgie-desktop-environment (0.17.0) jammy; urgency=medium
+
+  * Update panel layout to use spacers to improve icon spacing
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 27 Nov 2021 23:39:10 +0000
+
 budgie-desktop-environment (0.16.3) impish; urgency=medium
 
   * Bug fix release
