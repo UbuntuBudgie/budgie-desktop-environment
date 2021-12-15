@@ -1,3 +1,10 @@
+budgie-desktop-environment (0.17.1) jammy; urgency=medium
+
+  * Remove catfish nemo action since we no longer ship catfish as
+    a default app
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 15 Dec 2021 18:44:56 +0000
+
 budgie-desktop-environment (0.17.0) jammy; urgency=medium
 
   * Update panel layout to use spacers to improve icon spacing
