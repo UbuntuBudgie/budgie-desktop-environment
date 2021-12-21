@@ -16,7 +16,6 @@ nemo-autostart/* /etc/xdg/autostart/
 onboard-autostart/* /etc/xdg/autostart/
 panel_override/* /usr/share/budgie-desktop/
 plank_autostart/* /usr/share/budgie-desktop/
-gs_autostart/* /usr/share/budgie-desktop/
 showdesktop /usr/share/budgie-desktop/
 thumbnail_override/* /usr/share/budgie-desktop/
 ubiquity/* /usr/share/budgie-desktop/

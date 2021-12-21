@@ -1,3 +1,11 @@
+budgie-desktop-environment (0.17.2) jammy; urgency=medium
+
+  * Remove gnome-software autostart (that disables gnome-software
+    specifically for budgie) since upstream gnome-software no
+    longer autostarts for the budgie-desktop
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 21 Dec 2021 22:04:17 +0000
+
 budgie-desktop-environment (0.17.1) jammy; urgency=medium
 
   * Remove catfish nemo action since we no longer ship catfish as
