@@ -38,6 +38,10 @@ Depends:
  ${python3:Depends}
 Description: Settings customisation for a Raspberry Ubuntu Budgie
  Defines Ubuntu Budgie settings that are unique to Raspberry Pi 4.
+ .
+ Raspberry settings take precedence over the desktop
+ settings Ubuntu Budgie uses through its budgie-desktop-environment
+ package.
 
 Package: budgie-desktop-environment
 Architecture: all

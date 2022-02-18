@@ -4,6 +4,8 @@ budgie-desktop-environment (0.17.3) jammy; urgency=medium
     gnome-control-center to budgie-control-center
     Similarly, nemo-action to change background
   * Latest ubpi to use budgie-control-center
+  * Packaging Changes
+    - control: update raspi settings package to resolve lintian issue
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 18 Feb 2022 19:26:30 +0000
 
@@ -144,7 +146,7 @@ budgie-desktop-environment (0.15.3) hirsute; urgency=medium
     differing priorities to ensure arm takes priority over the
     default
   * Hide xterm if installed
-  * update mailto to open in thunderbird  
+  * update mailto to open in thunderbird
   * Packaging Changes
     - control: add BD libglib2.0-dev-bin to allow ubpi to compile its
       resource file
