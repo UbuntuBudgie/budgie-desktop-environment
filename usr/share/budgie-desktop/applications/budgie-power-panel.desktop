@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Power
 Comment=View your battery status and change power saving settings
-Exec=gnome-control-center power
+Exec=budgie-control-center power
 # Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 Icon=gnome-power-manager
 Terminal=false
@@ -9,7 +9,7 @@ Type=Application
 #NoDisplay=true
 StartupNotify=true
 Categories=GNOME;GTK;Settings;DesktopSettings;HardwareSettings;
-OnlyShowIn=GNOME;Unity;
+OnlyShowIn=Budgie
 X-GNOME-Bugzilla-Bugzilla=GNOME
 X-GNOME-Bugzilla-Product=gnome-control-center
 X-GNOME-Bugzilla-Component=power

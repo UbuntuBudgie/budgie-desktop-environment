@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Keyboard
 Comment=View and change keyboard shortcuts and set your typing preferences
-Exec=gnome-control-center keyboard
+Exec=budgie-control-center keyboard
 # Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 Icon=input-keyboard
 Terminal=false
@@ -9,7 +9,7 @@ Type=Application
 #NoDisplay=true
 StartupNotify=true
 Categories=GNOME;GTK;Settings;HardwareSettings;X-GNOME-DevicesSettings;
-OnlyShowIn=GNOME;Unity;
+OnlyShowIn=Budgie
 X-GNOME-Bugzilla-Bugzilla=GNOME
 X-GNOME-Bugzilla-Product=gnome-control-center
 X-GNOME-Bugzilla-Component=keyboard

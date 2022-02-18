@@ -4,7 +4,7 @@ Name=Change Desktop _Background
 
 Comment=Change the Budgie desktop background
 
-Exec=gnome-control-center background
+Exec=budgie-control-center background
 
 Selection=None
 

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Privacy
 Comment=Protect your personal information and control what others might see
-Exec=gnome-control-center privacy
+Exec=budgie-control-center privacy
 # FIXME
 # Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 Icon=preferences-system-privacy
@@ -10,7 +10,7 @@ Type=Application
 #NoDisplay=true
 StartupNotify=true
 Categories=GNOME;GTK;Settings;DesktopSettings;X-GNOME-PersonalSettings;X-GNOME-AccountSettings;
-OnlyShowIn=GNOME;Unity;
+OnlyShowIn=Budgie
 X-GNOME-Bugzilla-Bugzilla=GNOME
 X-GNOME-Bugzilla-Product=gnome-control-center
 X-GNOME-Bugzilla-Component=privacy

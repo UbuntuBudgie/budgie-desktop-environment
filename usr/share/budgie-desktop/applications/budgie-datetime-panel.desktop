@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Date & Time
 Comment=Change the date and time, including time zone
-Exec=gnome-control-center datetime
+Exec=budgie-control-center datetime
 # Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 Icon=preferences-system-time
 Terminal=false
@@ -9,7 +9,7 @@ Type=Application
 #NoDisplay=true
 StartupNotify=true
 Categories=GNOME;GTK;Settings;X-GNOME-SystemSettings;X-GNOME-DetailsSettings;
-OnlyShowIn=GNOME;
+OnlyShowIn=Budgie
 # Translators: Search terms to find the Date and Time panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 Keywords=Clock;Timezone;Location;
 X-Ubuntu-Gettext-Domain=gnome-control-center-2.0

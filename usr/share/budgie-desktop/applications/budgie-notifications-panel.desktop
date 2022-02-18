@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Notifications
 Comment=Control which notifications are displayed and what they show
-Exec=gnome-control-center notifications
+Exec=budgie-control-center notifications
 # Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 Icon=preferences-system-notifications
 Terminal=false
@@ -9,7 +9,7 @@ Type=Application
 #NoDisplay=true
 StartupNotify=true
 Categories=GNOME;GTK;Settings;DesktopSettings;X-GNOME-PersonalSettings;X-GNOME-PersonalizationSettings;
-OnlyShowIn=GNOME;Unity;
+OnlyShowIn=Budgie
 X-GNOME-Bugzilla-Bugzilla=GNOME
 X-GNOME-Bugzilla-Product=gnome-control-center
 X-GNOME-Bugzilla-Component=Notifications

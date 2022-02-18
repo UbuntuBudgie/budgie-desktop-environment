@@ -1,19 +1,19 @@
 [Desktop Entry]
-Name=Search
-Comment=Control which applications show search results in the Activities Overview
-Exec=gnome-control-center search
+Name=Region & Language
+Comment=Select your display language, formats, keyboard layouts and input sources
+Exec=budgie-control-center region
 # Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-Icon=preferences-system-search
+Icon=preferences-desktop-locale
 Terminal=false
 Type=Application
 #NoDisplay=true
 StartupNotify=true
 Categories=GNOME;GTK;Settings;DesktopSettings;X-GNOME-PersonalSettings;X-GNOME-PersonalizationSettings;
-OnlyShowIn=GNOME;Unity;
+OnlyShowIn=Budgie
 X-GNOME-Bugzilla-Bugzilla=GNOME
 X-GNOME-Bugzilla-Product=gnome-control-center
-X-GNOME-Bugzilla-Component=search
+X-GNOME-Bugzilla-Component=region
 X-GNOME-Bugzilla-Version=3.28.1
-# Translators: Search terms to find the Search panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-Keywords=Search;Find;Index;Hide;Privacy;Results;
+# Translators: Search terms to find the Region and Language panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+Keywords=Language;Layout;Keyboard;Input;
 X-Ubuntu-Gettext-Domain=gnome-control-center-2.0

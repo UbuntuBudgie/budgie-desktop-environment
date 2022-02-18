@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Sound
 Comment=Change sound levels, inputs, outputs, and alert sounds
-Exec=gnome-control-center sound
+Exec=budgie-control-center sound
 # Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 Icon=multimedia-volume-control
 Terminal=false
@@ -9,7 +9,7 @@ Type=Application
 #NoDisplay=true
 StartupNotify=true
 Categories=GNOME;GTK;Settings;HardwareSettings;
-OnlyShowIn=GNOME;Unity;
+OnlyShowIn=Budgie
 X-GNOME-Bugzilla-Bugzilla=GNOME
 X-GNOME-Bugzilla-Product=gnome-control-center
 X-GNOME-Bugzilla-Component=sound

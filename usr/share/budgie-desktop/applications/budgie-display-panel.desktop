@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Displays
 Comment=Choose how to use connected monitors and projectors
-Exec=gnome-control-center display
+Exec=budgie-control-center display
 # Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 Icon=preferences-desktop-display
 Terminal=false
@@ -9,7 +9,7 @@ Type=Application
 #NoDisplay=true
 StartupNotify=true
 Categories=GNOME;GTK;Settings;HardwareSettings;X-GNOME-DevicesSettings;
-OnlyShowIn=GNOME;Unity;
+OnlyShowIn=Budgie
 X-GNOME-Bugzilla-Bugzilla=GNOME
 X-GNOME-Bugzilla-Product=gnome-control-center
 X-GNOME-Bugzilla-Component=Screen resolution

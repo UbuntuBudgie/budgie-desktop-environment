@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Wacom Tablet
 Comment=Set button mappings and adjust stylus sensitivity for graphics tablets
-Exec=gnome-control-center wacom
+Exec=budgie-control-center wacom
 # Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 Icon=input-tablet
 Terminal=false
@@ -9,7 +9,7 @@ Type=Application
 #NoDisplay=true
 StartupNotify=true
 Categories=GNOME;GTK;Settings;HardwareSettings;X-GNOME-Settings-Panel;
-OnlyShowIn=GNOME;Unity;
+OnlyShowIn=Budgie
 X-GNOME-Bugzilla-Bugzilla=GNOME
 X-GNOME-Bugzilla-Product=gnome-control-center
 X-GNOME-Bugzilla-Component=wacom

@@ -1,3 +1,12 @@
+budgie-desktop-environment (0.17.3) jammy; urgency=medium
+
+  * Change references for overridden desktop files from
+    gnome-control-center to budgie-control-center
+    Similarly, nemo-action to change background
+  * Latest ubpi to use budgie-control-center
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 18 Feb 2022 19:26:30 +0000
+
 budgie-desktop-environment (0.17.2) jammy; urgency=medium
 
   * Remove gnome-software autostart (that disables gnome-software
