@@ -11,3 +11,4 @@ OnlyShowIn=Budgie;
 Categories=DesktopSettings;Utility;
 StartupNotify=false
 Terminal=false
+X-AppStream-Ignore=True
