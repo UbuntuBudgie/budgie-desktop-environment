@@ -13,7 +13,7 @@ dark-theme=false
 display-type=1
 
 [com.solus-project.icon-tasklist]
-pinned-launchers=['firefox.desktop', 'nemo.desktop', 'libreoffice-writer.desktop', 'org.gnome.Software.desktop', 'ubuntu-budgie-welcome_budgie-welcome.desktop']
+pinned-launchers=['firefox_firefox.desktop', 'nemo.desktop', 'libreoffice-writer.desktop', 'org.gnome.Software.desktop', 'ubuntu-budgie-welcome_budgie-welcome.desktop']
 
 [net.launchpad.plank.dock.settings]
 position='bottom'

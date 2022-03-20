@@ -1,3 +1,12 @@
+budgie-desktop-environment (0.17.6) jammy; urgency=medium
+
+  * Firefox snap has different .desktop file names; we need to update
+    plank and icon-tasklist to the new snap firefox_firefox.desktop format
+  * Update default layout to ensure dropby double spacing is not initially
+    visible on first start
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 20 Mar 2022 22:49:21 +0000
+
 budgie-desktop-environment (0.17.5) jammy; urgency=medium
 
   * Hide gnome-control-center if installed
