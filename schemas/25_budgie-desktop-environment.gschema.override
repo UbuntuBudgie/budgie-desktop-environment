@@ -57,6 +57,7 @@ cursor-theme='DMZ-White'
 gtk-theme='Pocillo-dark'
 icon-theme='Pocillo'
 clock-show-date=false
+color-scheme='default'
 
 [org.gnome.desktop.peripherals.touchpad:Budgie]
 tap-to-click = true
