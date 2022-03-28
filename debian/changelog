@@ -1,3 +1,10 @@
+budgie-desktop-environment (0.17.10) jammy; urgency=medium
+
+  * Latest gnome schemas has now specified 'default' for the color-scheme
+    We have to switch back to prefer-dark yet again
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 28 Mar 2022 19:32:15 +0100
+
 budgie-desktop-environment (0.17.9) jammy; urgency=medium
 
   * Revert previous regression fix; recent libhandy updates have resolved
