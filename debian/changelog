@@ -1,3 +1,10 @@
+budgie-desktop-environment (0.17.11) jammy; urgency=medium
+
+  * Remove unreliable GDM check that also impacts tmux users
+    (LP: #1967265)
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 31 Mar 2022 10:52:08 +0100
+
 budgie-desktop-environment (0.17.10) jammy; urgency=medium
 
   * Latest gnome schemas has now specified 'default' for the color-scheme
