@@ -32,8 +32,6 @@ then
     touch ~/.config/budgie-desktop/keycontrol6
 fi
 
-bash -c 'sleep 5 && /usr/share/budgie-desktop/gdmcheck/gdmcheck.sh' &
-
 if [ -f ~/.config/budgie-desktop/firstrun ]
 then
     return 0
