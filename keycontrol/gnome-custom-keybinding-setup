@@ -1,14 +1,6 @@
 #!/bin/bash
 
 gsettings set org.gnome.desktop.wm.keybindings show-desktop "['']"
-gsettings reset org.gnome.settings-daemon.plugins.media-keys screenshot-clip
-gsettings reset org.gnome.settings-daemon.plugins.media-keys area-screenshot-clip
-gsettings reset org.gnome.settings-daemon.plugins.media-keys screenshot
-gsettings reset org.gnome.settings-daemon.plugins.media-keys window-screenshot-clip
-gsettings reset org.gnome.settings-daemon.plugins.media-keys screencast
-gsettings reset org.gnome.settings-daemon.plugins.media-keys window-screenshot
-gsettings reset org.gnome.settings-daemon.plugins.media-keys area-screenshot
-
 
 #  directory in ./bin/gnome-custom-keybinding-setup.py
 python3 ./bin/cleanup.py -D ./remove-keys/

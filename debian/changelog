@@ -1,3 +1,10 @@
+budgie-desktop-environment (0.17.13) jammy; urgency=medium
+
+  * Remove attempt to reset now removed GNOME 42 screenshot keybindings
+    (LP: #1967732)
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 04 Apr 2022 10:11:14 +0100
+
 budgie-desktop-environment (0.17.12) jammy; urgency=medium
 
   * Revert VNC hide option made in v0.17.7
