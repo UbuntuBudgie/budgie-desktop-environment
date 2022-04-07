@@ -1,3 +1,10 @@
+budgie-desktop-environment (0.17.14) jammy; urgency=medium
+
+  * Enable SSH service after the budgie raspi pi app user requests
+    to use SSH connection & sharing (LP: #1968142)
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 07 Apr 2022 09:11:50 +0100
+
 budgie-desktop-environment (0.17.13) jammy; urgency=medium
 
   * Remove attempt to reset now removed GNOME 42 screenshot keybindings
