@@ -3,7 +3,6 @@
 /etc/budgie-desktop/defaults.list
 /usr
 applications/* /usr/share/applications/
-bde/* /usr/share/budgie-extras-daemon/
 distrologo/*.png  /usr/share/pixmaps
 distrologo/*.svg  /usr/share/icons/hicolor/scalable/apps/
 home-folder /usr/share/budgie-desktop/
