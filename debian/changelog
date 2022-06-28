@@ -1,3 +1,11 @@
+budgie-desktop-environment (0.17.80~ppa) kinetic; urgency=medium
+
+  * Remove rhythmbox schema override since rhythmbox is no longer a
+    default app
+  * Change defaults.list to use replacement apps
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 28 Jun 2022 15:27:52 +0100
+
 budgie-desktop-environment (0.17.14) jammy; urgency=medium
 
   * Enable SSH service after the budgie raspi pi app user requests

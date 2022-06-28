@@ -5,13 +5,6 @@ menu-icon='ubuntu-budgie-symbolic'
 [com.solus-project.budgie-raven]
 enable-week-numbers=true
 
-[org.gnome.rhythmbox.plugins]
-active-plugins=['dbus-media-server', 'artsearch', 'generic-player', 'audiocd', 'alternative-toolbar', 'mtpdevice', 'daap', 'android', 'rb', 'power-manager', 'notification', 'ipod', 'mpris', 'iradio', 'audioscrobbler', 'mmkeys']
-
-[org.gnome.rhythmbox.plugins.alternative_toolbar]
-dark-theme=false
-display-type=1
-
 [com.solus-project.icon-tasklist]
 pinned-launchers=['firefox_firefox.desktop', 'nemo.desktop', 'libreoffice-writer.desktop', 'org.gnome.Software.desktop', 'ubuntu-budgie-welcome_budgie-welcome.desktop']
 
