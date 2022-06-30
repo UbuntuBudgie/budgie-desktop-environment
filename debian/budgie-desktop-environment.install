@@ -1,13 +1,13 @@
+/etc/budgie-desktop/defaults.list
 /etc/profile.d/10-budgie-desktop-common.sh
 /etc/profile.d/10-budgie-desktop.sh
-/etc/budgie-desktop/defaults.list
 /usr
 applications/* /usr/share/applications/
 distrologo/*.png  /usr/share/pixmaps
 distrologo/*.svg  /usr/share/icons/hicolor/scalable/apps/
+gdmcheck /usr/share/budgie-desktop/
 home-folder /usr/share/budgie-desktop/
 keycontrol /usr/share/budgie-desktop/
-gdmcheck /usr/share/budgie-desktop/
 launch-welcome/launch_welcome /usr/share/budgie-desktop/
 nemo-actions/*.nemo_action /usr/share/nemo/actions/
 nemo-actions/*.sh /usr/share/nemo/actions/
@@ -15,7 +15,7 @@ nemo-autostart/* /etc/xdg/autostart/
 onboard-autostart/* /etc/xdg/autostart/
 panel_override/* /usr/share/budgie-desktop/
 plank_autostart/* /usr/share/budgie-desktop/
+schemas/25_budgie-desktop-environment.gschema.override /usr/share/glib-2.0/schemas
 showdesktop /usr/share/budgie-desktop/
 thumbnail_override/* /usr/share/budgie-desktop/
 ubiquity/* /usr/share/budgie-desktop/
-schemas/25_budgie-desktop-environment.gschema.override /usr/share/glib-2.0/schemas

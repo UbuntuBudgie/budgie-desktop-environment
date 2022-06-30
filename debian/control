@@ -2,9 +2,14 @@ Source: budgie-desktop-environment
 Section: x11
 Priority: optional
 Maintainer: David Mohammed <fossfreedom@ubuntu.com>
-Build-Depends: debhelper (>= 13), debhelper-compat (= 13), dh-python, python3,
- libglib2.0-dev-bin, gnome-settings-daemon (>= 40.0)
-Standards-Version: 4.5.1
+Build-Depends:
+ debhelper (>= 13),
+ debhelper-compat (= 13),
+ dh-python,
+ gnome-settings-daemon (>= 40.0),
+ libglib2.0-dev-bin,
+ python3,
+Standards-Version: 4.6.1.0
 Homepage: https://github.com/UbuntuBudgie
 Vcs-Git: https://github.com/UbuntuBudgie/budgie-desktop-environment -b debian
 Vcs-Browser: https://github.com/UbuntuBudgie/budgie-desktop-environment/tree/debian
@@ -16,10 +21,10 @@ Depends:
  budgie-desktop-environment,
  gir1.2-glib-2.0,
  gir1.2-gtk-3.0,
- python3,
  pibootctl,
+ python3,
  ${misc:Depends},
- ${python3:Depends}
+ ${python3:Depends},
 Description: ARM based desktop environment customisation for Ubuntu Budgie
  Adds a support application and settings to optimize the display and
  usage of Ubuntu Budgie on ARM based devices such as the Raspberry Pi4.
@@ -27,21 +32,6 @@ Description: ARM based desktop environment customisation for Ubuntu Budgie
  The default Ubuntu Budgie desktop environment - its layout, font sizes,
  panel and theme can be selected depending upon the display form-factor
  being used.
-
-Package: budgie-raspi-settings
-Architecture: all
-Section: misc
-Depends:
- budgie-desktop-environment,
- ubuntu-raspi-settings,
- ${misc:Depends},
- ${python3:Depends}
-Description: Settings customisation for a Raspberry Ubuntu Budgie
- Defines Ubuntu Budgie settings that are unique to Raspberry Pi 4.
- .
- Raspberry settings take precedence over the desktop
- settings Ubuntu Budgie uses through its budgie-desktop-environment
- package.
 
 Package: budgie-desktop-environment
 Architecture: all
@@ -51,11 +41,11 @@ Depends:
  gnome-themes-extra,
  plymouth-theme-ubuntu-budgie-logo,
  plymouth-theme-ubuntu-budgie-text,
+ python3,
  wmctrl,
  x11-utils,
  xdg-user-dirs-gtk,
  xdotool,
- python3,
  ${misc:Depends},
  ${python3:Depends},
 Recommends:
@@ -65,8 +55,8 @@ Recommends:
  budgie-quicknote-applet,
  budgie-showtime-applet,
  dmz-cursor-theme,
+ gnome-remote-desktop,
  slick-greeter,
- gnome-remote-desktop
 Breaks: budgie-desktop-common (<< 0.13.0)
 Replaces: budgie-desktop-common
 Description: Desktop environment customisation for Ubuntu Budgie
@@ -81,3 +71,18 @@ Description: Desktop environment customisation for Ubuntu Budgie
    ubuntu and budgie-desktop gsettings overrides
    applies the default icon-theme for GTK+ applications
    and Ubuntu Budgie plymouth branding
+
+Package: budgie-raspi-settings
+Architecture: all
+Section: misc
+Depends:
+ budgie-desktop-environment,
+ ubuntu-raspi-settings,
+ ${misc:Depends},
+ ${python3:Depends},
+Description: Settings customisation for a Raspberry Ubuntu Budgie
+ Defines Ubuntu Budgie settings that are unique to Raspberry Pi 4.
+ .
+ Raspberry settings take precedence over the desktop
+ settings Ubuntu Budgie uses through its budgie-desktop-environment
+ package.
