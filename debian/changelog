@@ -1,30 +1,17 @@
-budgie-desktop-environment (0.17.82~ppa) kinetic; urgency=medium
+budgie-desktop-environment (0.18.0) kinetic; urgency=medium
 
   * Remove gnome-calendar lintian overrides
   * Add mate-calc.desktop and mate-system-monitor.desktop as
     budgie-desktop /usr/share/budgie-desktop/applications but with
     MATE stripped together with no NoDisplay to ensure they appear in
     our menu.
-  * Packaging Changes
-    d/control Bump StandardVersion - correct lintian overrides for revised
-    [] format
-    run wrap-and-sort -bst to tidy package files
-
- -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 30 Jun 2022 22:56:51 +0100
-
-budgie-desktop-environment (0.17.81~ppa) kinetic; urgency=medium
-
-  * Change defaults.list from totem to parole
-
- -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 30 Jun 2022 14:53:50 +0100
-
-budgie-desktop-environment (0.17.80~ppa) kinetic; urgency=medium
-
   * Remove rhythmbox schema override since rhythmbox is no longer a
     default app
-  * Change defaults.list to use replacement apps
+  * Change defaults.list to use kinetic replacement apps
+  * Packaging Changes
+    run wrap-and-sort -bst to tidy package
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 28 Jun 2022 15:27:52 +0100
+ -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 08 Jul 2022 10:51:20 +0100
 
 budgie-desktop-environment (0.17.14) jammy; urgency=medium
 
