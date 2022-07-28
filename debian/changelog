@@ -1,3 +1,10 @@
+budgie-desktop-environment (0.18.1) UNRELEASED; urgency=medium
+
+  * All gnome-software to perform updates on request otherwise
+    the updates button shown in the app does nothing
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 28 Jul 2022 10:01:37 +0100
+
 budgie-desktop-environment (0.18.0) kinetic; urgency=medium
 
   * Remove gnome-calendar lintian overrides

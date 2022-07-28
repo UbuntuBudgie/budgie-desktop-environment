@@ -149,7 +149,7 @@ exec='tilix'
 desktop-type-override='nemo'
 
 [org.gnome.software:Budgie]
-allow-updates=false
+allow-updates=true
 download-updates=false
 download-updates-notify=false
 
