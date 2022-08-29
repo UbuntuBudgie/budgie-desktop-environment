@@ -1,3 +1,12 @@
+budgie-desktop-environment (0.18.2) kinetic; urgency=medium
+
+  * Bug-fix release
+    - Add missing model info on the Overclock raspi app
+    - Rename raspi app to clarify that its raspi orientated rather than arm
+    - SSH via gnome-remote-desktop rather than via script
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 29 Aug 2022 11:23:37 +0100
+
 budgie-desktop-environment (0.18.1) kinetic; urgency=medium
 
   * All gnome-software to perform updates on request otherwise
