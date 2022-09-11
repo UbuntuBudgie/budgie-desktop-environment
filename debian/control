@@ -7,9 +7,9 @@ Build-Depends:
  debhelper-compat (= 13),
  dh-python,
  gnome-settings-daemon (>= 40.0),
- libglib2.0-dev-bin,
  python3,
-Standards-Version: 4.6.0.1
+ libglib2.0-bin
+Standards-Version: 4.6.1.0
 Homepage: https://github.com/UbuntuBudgie
 Vcs-Git: https://github.com/UbuntuBudgie/budgie-desktop-environment -b debian
 Vcs-Browser: https://github.com/UbuntuBudgie/budgie-desktop-environment/tree/debian
@@ -46,7 +46,7 @@ Depends:
  x11-utils,
  xdg-user-dirs-gtk,
  xdotool,
- dconf-cli
+ dconf-cli,
  ${misc:Depends},
  ${python3:Depends},
 Recommends:

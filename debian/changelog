@@ -1,7 +1,10 @@
 budgie-desktop-environment (0.18.3) kinetic; urgency=medium
 
   * d/control add missing dependency on dconf-cli required for the budgie
-    startup scripts
+    startup scripts (LP: #1989275)
+  * d/control change B/D to libglib2.0-bin
+  * d/control bump StandardsVersion
+    correct lintian overrides for new StandardsVersion
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 11 Sep 2022 12:14:44 +0100
 
