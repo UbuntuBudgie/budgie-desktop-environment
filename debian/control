@@ -46,6 +46,7 @@ Depends:
  x11-utils,
  xdg-user-dirs-gtk,
  xdotool,
+ dconf-cli
  ${misc:Depends},
  ${python3:Depends},
 Recommends:
