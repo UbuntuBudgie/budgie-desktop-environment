@@ -1,3 +1,10 @@
+budgie-desktop-environment (0.18.5) kinetic; urgency=medium
+
+  * d/control add B/D libglib2.0-dev-bin  so that the ubpi
+    install script can utilise glib-compile-resources
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 17 Sep 2022 19:04:27 +0100
+
 budgie-desktop-environment (0.18.4) kinetic; urgency=medium
 
   * Use the revised ubuntubudgie layout for the budgie panel.ini
