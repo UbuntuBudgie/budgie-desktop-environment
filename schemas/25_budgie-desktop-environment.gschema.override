@@ -70,10 +70,10 @@ event-sounds=false
 
 [org.gnome.desktop.background:Budgie]
 show-desktop-icons=true
-picture-uri='file:///usr/share/backgrounds/budgie/ubuntu_budgie_wallpaper1.jpg'
+picture-uri='file:///usr/share/backgrounds/budgie/budgie-codename.png'
 
 [x.dm.slick-greeter]
-background='/usr/share/backgrounds/budgie/ubuntu_budgie_wallpaper1.jpg'
+background='/usr/share/backgrounds/budgie/budgie-codename.png'
 
 [org.gnome.desktop.input-sources:Budgie]
 xkb-options=['terminate:ctrl_alt_bksp']
@@ -83,7 +83,7 @@ exec='tilix'
 exec-arg='-e'
 
 [org.gnome.desktop.screensaver:Budgie]
-picture-uri='file:///usr/share/backgrounds/budgie/ubuntu_budgie_wallpaper1.jpg'
+picture-uri='file:///usr/share/backgrounds/budgie/budgie-codename.png'
 
 [org.gtk.Settings.FileChooser:Budgie]
 sort-directories-first=true
