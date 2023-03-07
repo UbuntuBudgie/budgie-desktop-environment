@@ -1,6 +1,12 @@
 budgie-desktop-environment (0.19.1) lunar; urgency=medium
 
   * Updates for ubpi
+    - Improve security; Budgie Pi VNC options are now per user
+      instead of system wide
+    - Prompt to accept connection and include a view only mode
+    - Add ability to restrict connections to local subnet to improve
+      security; no need to disable keyring password for auto-login
+    - Don't freeze when enabling options that install additional packages
   * Packaging Changes
     - d/control B/D meson
     - d/rules Add meson build
@@ -23,7 +29,7 @@ budgie-desktop-environment (0.18.5) kinetic; urgency=medium
 budgie-desktop-environment (0.18.4) kinetic; urgency=medium
 
   * Use the revised ubuntubudgie layout for the budgie panel.ini
-    This fixes the layout issues due to the new budgie desktop 
+    This fixes the layout issues due to the new budgie desktop
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 13 Sep 2022 19:04:26 +0100
 
