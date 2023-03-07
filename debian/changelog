@@ -1,3 +1,12 @@
+budgie-desktop-environment (0.19.1) lunar; urgency=medium
+
+  * Updates for ubpi
+  * Packaging Changes
+    - d/control B/D meson
+    - d/rules Add meson build
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 07 Mar 2023 20:24:49 +0000
+
 budgie-desktop-environment (0.19.0) lunar; urgency=medium
 
   * Add ubuntu lunar wallpaper as the default for the development period

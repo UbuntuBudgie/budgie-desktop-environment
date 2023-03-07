@@ -23,4 +23,5 @@ override_dh_auto_configure:
 	dh_auto_configure
 	mkdir ./debian/budgie-arm-environment
 	mkdir ./debian/ubpi
-	cd ubpi/configuration-app && bash ./install.sh -d "$(CURDIR)/debian/ubpi"
+	dh_auto_configure -- --prefix=/usr --libdir=/usr/lib --datadir=/usr/share
+# cd ubpi/configuration-app && bash ./install.sh -d "$(CURDIR)/debian/ubpi"

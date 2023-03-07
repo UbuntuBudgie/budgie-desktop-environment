@@ -6,6 +6,7 @@ Build-Depends:
  debhelper (>= 13),
  debhelper-compat (= 13),
  dh-python,
+ meson,
  gnome-settings-daemon (>= 40.0),
  python3,
  libglib2.0-bin,
