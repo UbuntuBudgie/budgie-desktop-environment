@@ -1,5 +1,7 @@
 [org.gnome.desktop.interface:Budgie]
 gtk-theme='QogirBudgie-dark'
+monospace-font-name='Noto Mono 11'
+
 
 [org.gnome.desktop.wm.preferences:Budgie]
 theme='QogirBudgie-dark'

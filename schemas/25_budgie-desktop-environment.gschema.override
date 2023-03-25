@@ -43,7 +43,7 @@ titlebar-font='Noto Sans Bold 11'
 titlebar-uses-system-font=false
 
 [org.gnome.desktop.interface:Budgie]
-monospace-font-name='Ubuntu Mono 13'
+monospace-font-name='Noto Mono Bold 11'
 font-name='Noto Sans 11'
 document-font-name='Noto Sans 11'
 cursor-theme='DMZ-White'

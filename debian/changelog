@@ -1,3 +1,17 @@
+budgie-desktop-environment (0.19.3) lunar; urgency=medium
+
+  * Update the mono fonts to use Noto since the lunar ubuntu mono font
+    is very different; Noto is the closest match visually to jammy & kinetic
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 25 Mar 2023 22:39:38 +0000
+
+budgie-desktop-environment (0.19.2) lunar; urgency=medium
+
+  * Replace default development wallpaper with our default plus
+    the lunar mascot
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 16 Mar 2023 16:21:30 +0000
+
 budgie-desktop-environment (0.19.1) lunar; urgency=medium
 
   * Updates for ubpi
