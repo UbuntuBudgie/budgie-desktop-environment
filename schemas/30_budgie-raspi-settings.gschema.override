@@ -1,10 +1,10 @@
 [org.gnome.desktop.interface:Budgie]
-gtk-theme='QogirBudgie-dark'
+gtk-theme='QogirBudgie-Dark'
 monospace-font-name='Noto Mono 11'
 
 
 [org.gnome.desktop.wm.preferences:Budgie]
-theme='QogirBudgie-dark'
+theme='QogirBudgie-Dark'
 
 [org.gnome.desktop.interface]
 enable-animations=false
