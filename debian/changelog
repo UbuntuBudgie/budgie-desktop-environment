@@ -1,3 +1,10 @@
+budgie-desktop-environment (0.19.4) mantic; urgency=medium
+
+  * Default raspi settings to use the correct theme name for lunar
+    (LP: #2018161)
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 29 Apr 2023 20:14:46 +0100
+
 budgie-desktop-environment (0.19.3) lunar; urgency=medium
 
   * Update the mono fonts to use Noto since the lunar ubuntu mono font
