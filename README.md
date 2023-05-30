@@ -1,4 +1,7 @@
 # budgie-desktop-environment
+
+[![](https://opencollective.com/ubuntubudgie/tiers/backer.svg?avatarHeight=96)](https://opencollective.com/ubuntubudgie)
+
 Metapackage to install all components of the Ubuntu Budgie desktop environment
 
 Ubuntu Budgie consists of a series of sub-projects
