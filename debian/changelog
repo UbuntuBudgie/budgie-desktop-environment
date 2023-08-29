@@ -1,3 +1,9 @@
+budgie-desktop-environment (0.19.6) mantic; urgency=medium
+
+  * Revert codename wallpaper
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 29 Aug 2023 22:40:59 +0100
+
 budgie-desktop-environment (0.19.5) mantic; urgency=medium
 
   * Add mantic logo to our default wallpaper
