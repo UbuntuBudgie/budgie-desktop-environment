@@ -1,3 +1,9 @@
+budgie-desktop-environment (0.20.0) noble; urgency=medium
+
+  * Drop obsolete language-selector.desktop override
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 30 Oct 2023 07:41:10 +0000
+
 budgie-desktop-environment (0.19.8) mantic; urgency=medium
 
   * Release mantic codename wallpaper (officially)
