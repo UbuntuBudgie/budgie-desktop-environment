@@ -1,3 +1,9 @@
+budgie-desktop-environment (0.20.1) noble; urgency=medium
+
+  * Use a temporary wallpaper for the development cycle
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 23 Nov 2023 23:00:43 +0000
+
 budgie-desktop-environment (0.20.0) noble; urgency=medium
 
   * Drop obsolete language-selector.desktop override
