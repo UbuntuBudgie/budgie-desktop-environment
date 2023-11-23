@@ -1,3 +1,9 @@
+budgie-desktop-environment (0.20.2) noble; urgency=medium
+
+  * Fix FTBFS - raspi install path for budgie-desktop corrected
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 23 Nov 2023 23:44:14 +0000
+
 budgie-desktop-environment (0.20.1) noble; urgency=medium
 
   * Use a temporary wallpaper for the development cycle
