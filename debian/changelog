@@ -1,3 +1,9 @@
+budgie-desktop-environment (0.20.3) noble; urgency=medium
+
+  * Default to using dark-theme since the default theme is also dark
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 16 Jan 2024 18:55:02 +0000
+
 budgie-desktop-environment (0.20.2) noble; urgency=medium
 
   * Fix FTBFS - raspi install path for budgie-desktop corrected

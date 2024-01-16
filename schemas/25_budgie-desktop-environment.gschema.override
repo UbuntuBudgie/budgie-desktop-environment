@@ -94,7 +94,7 @@ dynamic-workspaces=false
 
 [com.solus-project.budgie-panel]
 builtin-theme=false
-dark-theme=false
+dark-theme=true
 
 [com.solus-project.budgie-panel.panel]
 theme-regions=false
