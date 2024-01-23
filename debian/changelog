@@ -1,3 +1,9 @@
+budgie-desktop-environment (0.20.5) UNRELEASED; urgency=medium
+
+  * Hide GNOME OAuth desktop file
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 23 Jan 2024 21:07:34 +0000
+
 budgie-desktop-environment (0.20.4) noble; urgency=medium
 
   * Drop gnome-remote-desktop since this no longer works under budgie
