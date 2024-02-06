@@ -88,3 +88,13 @@ Description: Settings customisation for a Raspberry Ubuntu Budgie
  Raspberry settings take precedence over the desktop
  settings Ubuntu Budgie uses through its budgie-desktop-environment
  package.
+
+Package: budgie-live-settings
+Architecture: all
+Depends: budgie-desktop-environment, ${misc:Depends}
+Description: Configuration for the Ubuntu Budgie Live .iso Image
+ This package contains live .iso image customizations used by
+ Ubuntu Budgie.
+ .
+ The package contains a systemd unit to launch the budgie
+ installer on boot of the ISO.

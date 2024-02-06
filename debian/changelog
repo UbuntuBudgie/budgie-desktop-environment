@@ -1,8 +1,14 @@
-budgie-desktop-environment (0.20.5) UNRELEASED; urgency=medium
+budgie-desktop-environment (0.20.6) noble; urgency=medium
 
-  * Hide GNOME OAuth desktop file
+  * Bug fix
+    - Hide GNOME OAuth desktop file
+  * Packaging Changes
+    - d/control add budgie-live-settings package to customize the
+      live session; primarily to launch the installer with --try-or-install
+    - d/rules fix FTBFS for the dh-auto-configure that had two
+      auto-configure entries when it should have one.
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 23 Jan 2024 21:07:34 +0000
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 06 Feb 2024 19:57:59 +0000
 
 budgie-desktop-environment (0.20.4) noble; urgency=medium
 

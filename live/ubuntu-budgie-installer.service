@@ -1,0 +1,13 @@
+[Unit]
+Description=Ubuntu Budgie Installer
+PartOf=graphical-session.target
+After=graphical-session.target
+
+# Never run in GDM
+#Conflicts=gnome-session@gnome-login.target
+
+[Service]
+Type=oneshot
+ExecStart=sh -c "/snap/bin/ubuntu-budgie-installer --try-or-install"
+ExecStopPost=sh -c "/snap/bin/ubuntu-budgie-welcome.budgie-welcome"
+Restart=no
