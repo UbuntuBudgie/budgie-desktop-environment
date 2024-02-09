@@ -1,0 +1,1 @@
+usr/lib/systemd/user/ubuntu-budgie-installer.service etc/systemd/user/graphical-session.target.wants/ubuntu-budgie-installer.service
