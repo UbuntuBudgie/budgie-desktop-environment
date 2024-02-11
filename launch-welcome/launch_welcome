@@ -1,22 +1,27 @@
 #!/bin/bash
 
-# launcher script for welcome - occasionally on
+# launcher script for welcome / installer - occasionally on
 # first login - but especially on the live-session
 # snapd takes a little while to fully initialise
 # the welcome mountpoint
-# preventing budgie-welcome snap from starting
-# we keep looping until we get welcome to start
+# preventing budgie-welcome & installer snap from starting
+# we keep looping until we get welcome or the installer to start
 # or eventually timeout after a three minutes
 
 COUNTER=0
+
 while [  $COUNTER -lt 60 ]; do
     if [ -f /snap/ubuntu-budgie-welcome/current/usr/bin/budgie-welcome ]; then
         output=`df | grep "^/cow"`
         if [ ! -z "$output" ]; then
-       	    sleep 1
-        else
-            sleep 10
+       	    sleep 10
+	    if [ -f /snap/bin/ubuntu-budgie-installer ]; then
+            	systemctl start --user ubuntu-budgie-installer &
+	    	exit 0
+	    fi
         fi
+
+	sleep 10
     	snap run ubuntu-budgie-welcome.budgie-welcome &
         exit 0
     fi

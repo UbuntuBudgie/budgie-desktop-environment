@@ -1,3 +1,11 @@
+budgie-desktop-environment (0.20.8) noble; urgency=medium
+
+  * Rework installer system unit installation to use debhelper
+  * Rework welcome startup to take into account if the installer
+    on the live session is found
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 11 Feb 2024 10:10:55 +0000
+
 budgie-desktop-environment (0.20.7) noble; urgency=medium
 
   * Add budgie-live-settings.links to add a symlink for the installer

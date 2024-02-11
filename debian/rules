@@ -24,3 +24,6 @@ override_dh_auto_configure:
 	mkdir ./debian/ubpi
 	dh_auto_configure -- --prefix=/usr --libdir=/usr/lib --datadir=/usr/share
 # cd ubpi/configuration-app && bash ./install.sh -d "$(CURDIR)/debian/ubpi"
+
+override_dh_installsystemduser:
+	dh_installsystemduser --name=ubuntu-budgie-installer
