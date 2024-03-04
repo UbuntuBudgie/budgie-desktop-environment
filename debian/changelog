@@ -1,3 +1,11 @@
+budgie-desktop-environment (0.20.9) UNRELEASED; urgency=medium
+
+  * Install desktop-provision customisation to /usr/share/
+  * Switch to ubuntu-desktop-provision
+  * Remove menu searching on online-accounts since its not longer installed
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 04 Mar 2024 22:27:54 +0000
+
 budgie-desktop-environment (0.20.8) noble; urgency=medium
 
   * Rework installer system unit installation to use debhelper

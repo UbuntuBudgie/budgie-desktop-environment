@@ -1,0 +1,7 @@
+mode: standard
+flavor: budgie
+
+pages:
+  try-or-install:
+    image: "UbuntuBudgie-Wordmark-white.svg"
+

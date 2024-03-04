@@ -21,3 +21,4 @@ thumbnail_override/* /usr/share/budgie-desktop/
 ubiquity/* /usr/share/budgie-desktop/
 codename-wallpapers/ubuntu-budgie-codename-wallpapers.xml /usr/share/gnome-background-properties
 codename-wallpapers/budgie-codename.png /usr/share/backgrounds/budgie/
+desktop-provision /usr/share/

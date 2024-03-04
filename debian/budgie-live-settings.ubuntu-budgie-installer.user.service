@@ -8,6 +8,6 @@ Conflicts=gnome-session@gnome-login.target
 
 [Service]
 Type=oneshot
-ExecStart=sh -c "/snap/bin/ubuntu-budgie-installer --try-or-install"
+ExecStart=sh -c "/snap/bin/ubuntu-desktop-bootstrap --try-or-install"
 ExecStopPost=sh -c "/snap/bin/ubuntu-budgie-welcome.budgie-welcome"
 Restart=no
