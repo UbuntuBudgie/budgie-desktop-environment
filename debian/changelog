@@ -1,10 +1,11 @@
-budgie-desktop-environment (0.20.9) UNRELEASED; urgency=medium
+budgie-desktop-environment (0.20.9) noble; urgency=medium
 
   * Install desktop-provision customisation to /usr/share/
-  * Switch to ubuntu-desktop-provision
+  * Switch to ubuntu-desktop-provision snap
+    (LP: #2055534)
   * Remove menu searching on online-accounts since its not longer installed
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 04 Mar 2024 22:27:54 +0000
+ -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 07 Mar 2024 18:23:30 +0000
 
 budgie-desktop-environment (0.20.8) noble; urgency=medium
 

@@ -1,34 +1,7 @@
-bootstrap
 mode: standard
 flavor: budgie
-app-name: testttitle
-theme:
-  light:
-    accent-color: #ff0011
-    elevated-button-color: #ffff11
-    elevated-button-text-color: #aaaaaa
-  dark:
-    accent-color: #bb0011
-    elevated-button-color: #bbff11
-    elevated-button-text-color: #33aaaa
 
 pages:
-  locale:
-    image: "mascot.png"
-    visible: true
-  accessibility:
   try-or-install:
-  rst:
-  keyboard:
-  network:
-  refresh:
-  source:
-  not-enough-disk-space:
-  secure-boot:
-  storage:
-  confirm:
-  identity:
-  ubuntu-pro:
-  privacy:
-  timezone:
-  telemetry:
+    image: "UbuntuBudgie-Wordmark-white.svg"
+
