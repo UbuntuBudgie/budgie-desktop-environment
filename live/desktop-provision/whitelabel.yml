@@ -4,4 +4,11 @@ flavor: budgie
 pages:
   try-or-install:
     image: "UbuntuBudgie-Wordmark-white.svg"
-
+  accessibility:
+    visibility: false
+  autoinstall:
+    image: "disk.svg"
+  storage:
+    image: "disk.svg"
+  passphrase:
+    image: "disk.svg"
