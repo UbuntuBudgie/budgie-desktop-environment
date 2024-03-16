@@ -2,13 +2,9 @@ mode: standard
 flavor: budgie
 
 pages:
+  locale:
+    image: "UbuntuBudgie-Wordmark-white.png"
   try-or-install:
     image: "UbuntuBudgie-Wordmark-white.svg"
   accessibility:
-    visibility: false
-  autoinstall:
-    image: "disk.svg"
-  storage:
-    image: "disk.svg"
-  passphrase:
-    image: "disk.svg"
+    visible: false
