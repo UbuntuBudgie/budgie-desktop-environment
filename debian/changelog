@@ -1,3 +1,10 @@
+budgie-desktop-environment (0.20.11) noble; urgency=medium
+
+  * Catchup with the latest installer changes; no need to override
+    the installer artwork except for our workmark
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 16 Mar 2024 14:32:39 +0000
+
 budgie-desktop-environment (0.20.10) noble; urgency=medium
 
   * Fix default mimetypes with revised desktop filenames for noble apps
