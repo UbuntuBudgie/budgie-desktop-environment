@@ -1,87 +1,228 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   height="256"
-   width="256"
+   width="149.28317mm"
+   height="129.07991mm"
+   viewBox="0 0 149.28317 129.07991"
    version="1.1"
-   viewBox="0 0 256 256"
-   id="svg13"
-   sodipodi:docname="ubuntu-budgie-app-launcher.svg"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)">
-  <defs
-     id="defs17" />
+   id="svg1"
+   inkscape:export-filename="symbolicbirdwhite.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   sodipodi:docname="menu-symbolic.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
-     pagecolor="#a8a8a8"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0.71372549"
-     inkscape:pageshadow="2"
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:export-bgcolor="#10101000"
+     inkscape:zoom="0.51717104"
+     inkscape:cx="-325.81097"
+     inkscape:cy="219.46318"
      inkscape:window-width="1920"
-     inkscape:window-height="899"
-     id="namedview15"
-     showgrid="false"
-     inkscape:zoom="1.84375"
-     inkscape:cx="-72.316227"
-     inkscape:cy="107.32951"
+     inkscape:window-height="1013"
      inkscape:window-x="0"
-     inkscape:window-y="34"
+     inkscape:window-y="37"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g5576" />
-  <title
-     id="title2">Ubuntu budgie Logo</title>
-  <metadata
-     id="metadata4">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title>budgie-remix Logo</dc:title>
-        <dc:creator>
-          <cc:Agent>
-            <dc:title>HEXcube and Joshua &quot;Foggalong&quot; Fogg</dc:title>
-          </cc:Agent>
-        </dc:creator>
-        <cc:license
-           rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
-        <dc:source>Budgie Logo by Yuri Henrique</dc:source>
-        <dc:description>Prototype logo for budgie-remix with small sized Budgie shapes</dc:description>
-      </cc:Work>
-      <cc:License
-         rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
-        <cc:permits
-           rdf:resource="http://creativecommons.org/ns#Reproduction" />
-        <cc:permits
-           rdf:resource="http://creativecommons.org/ns#Distribution" />
-        <cc:requires
-           rdf:resource="http://creativecommons.org/ns#Notice" />
-        <cc:requires
-           rdf:resource="http://creativecommons.org/ns#Attribution" />
-        <cc:permits
-           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
-        <cc:requires
-           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
-      </cc:License>
-    </rdf:RDF>
-  </metadata>
+     inkscape:current-layer="g2"
+     showgrid="false" />
+  <defs
+     id="defs1">
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Fast Crop"
+       id="filter47"
+       x="-0.0077041602"
+       y="-0.0077039427"
+       width="1.0154083"
+       height="1.0154079"
+       inkscape:auto-region="false"
+       inkscape:menu="Fill and Transparency"
+       inkscape:menu-tooltip="Does not filter but adds a filter region">
+      <feBlend
+         in2="BackgroundImage"
+         mode="multiply"
+         result="fbSourceGraphic"
+         id="feBlend47" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix134" />
+      <feColorMatrix
+         id="feColorMatrix136"
+         type="saturate"
+         values="1"
+         in="fbSourceGraphic" />
+    </filter>
+    <filter
+       inkscape:label="Fast Crop"
+       inkscape:auto-region="false"
+       inkscape:menu="Fill and Transparency"
+       inkscape:menu-tooltip="Does not filter but adds a filter region"
+       style="color-interpolation-filters:sRGB"
+       id="filter132">
+      <feColorMatrix
+         type="saturate"
+         values="1"
+         id="feColorMatrix130" />
+    </filter>
+    <filter
+       inkscape:label="Fast Crop"
+       inkscape:auto-region="false"
+       inkscape:menu="Fill and Transparency"
+       inkscape:menu-tooltip="Does not filter but adds a filter region"
+       style="color-interpolation-filters:sRGB"
+       id="filter140">
+      <feColorMatrix
+         type="saturate"
+         values="1"
+         id="feColorMatrix138" />
+    </filter>
+    <filter
+       inkscape:label="Fast Crop"
+       inkscape:auto-region="false"
+       inkscape:menu="Fill and Transparency"
+       inkscape:menu-tooltip="Does not filter but adds a filter region"
+       style="color-interpolation-filters:sRGB"
+       id="filter144">
+      <feColorMatrix
+         type="saturate"
+         values="1"
+         id="feColorMatrix142" />
+    </filter>
+    <filter
+       inkscape:label="Fast Crop"
+       inkscape:auto-region="false"
+       inkscape:menu="Fill and Transparency"
+       inkscape:menu-tooltip="Does not filter but adds a filter region"
+       style="color-interpolation-filters:sRGB"
+       id="filter148">
+      <feColorMatrix
+         type="saturate"
+         values="1"
+         id="feColorMatrix146" />
+    </filter>
+    <filter
+       inkscape:label="Fast Crop"
+       inkscape:auto-region="false"
+       inkscape:menu="Fill and Transparency"
+       inkscape:menu-tooltip="Does not filter but adds a filter region"
+       style="color-interpolation-filters:sRGB"
+       id="filter132-3">
+      <feColorMatrix
+         type="saturate"
+         values="1"
+         id="feColorMatrix130-6" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Fast Crop"
+       id="filter47-7"
+       x="-0.0077041602"
+       y="-0.0077039427"
+       width="1.0154083"
+       height="1.0154079"
+       inkscape:auto-region="false"
+       inkscape:menu="Fill and Transparency"
+       inkscape:menu-tooltip="Does not filter but adds a filter region">
+      <feBlend
+         in2="BackgroundImage"
+         mode="multiply"
+         result="fbSourceGraphic"
+         id="feBlend47-5" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix134-3" />
+      <feColorMatrix
+         id="feColorMatrix136-5"
+         type="saturate"
+         values="1"
+         in="fbSourceGraphic" />
+    </filter>
+    <filter
+       inkscape:label="Fast Crop"
+       inkscape:auto-region="false"
+       inkscape:menu="Fill and Transparency"
+       inkscape:menu-tooltip="Does not filter but adds a filter region"
+       style="color-interpolation-filters:sRGB"
+       id="filter140-6">
+      <feColorMatrix
+         type="saturate"
+         values="1"
+         id="feColorMatrix138-2" />
+    </filter>
+    <filter
+       inkscape:label="Fast Crop"
+       inkscape:auto-region="false"
+       inkscape:menu="Fill and Transparency"
+       inkscape:menu-tooltip="Does not filter but adds a filter region"
+       style="color-interpolation-filters:sRGB"
+       id="filter144-9">
+      <feColorMatrix
+         type="saturate"
+         values="1"
+         id="feColorMatrix142-1" />
+    </filter>
+    <filter
+       inkscape:label="Fast Crop"
+       inkscape:auto-region="false"
+       inkscape:menu="Fill and Transparency"
+       inkscape:menu-tooltip="Does not filter but adds a filter region"
+       style="color-interpolation-filters:sRGB"
+       id="filter148-2">
+      <feColorMatrix
+         type="saturate"
+         values="1"
+         id="feColorMatrix146-7" />
+    </filter>
+  </defs>
   <g
-     id="g5576"
-     transform="matrix(0.87466663,0,0,0.87466663,41.49153,-6.694322)"
-     style="stroke:#000000;stroke-opacity:1">
-    <path
-       inkscape:connector-curvature="0"
-       id="circle6"
-       d="M 101.69492,52.61017 A 101.69492,101.69492 0 0 0 0,154.30508 101.69492,101.69492 0 0 0 101.69492,256 101.69492,101.69492 0 0 0 203.38983,154.30508 101.69492,101.69492 0 0 0 101.69492,52.61017 Z m 28.61566,23.799055 c 2.28071,0.04637 4.31951,0.347788 6.688,0.729319 10.36226,1.66943 20.76548,9.023421 27.11823,20.026772 8.57018,14.844064 6.14448,32.968484 -3.45418,43.276514 -5.20441,4.79672 -6.29313,5.15639 -9.52613,7.33508 2.20769,-3.46105 2.60065,-4.12726 3.12054,-7.30715 -0.11574,-1.79054 -0.0661,-2.52558 -1.00708,-4.92213 -1.69667,-3.29166 -2.98908,-4.58471 -5.76936,-6.22868 -3.57874,-1.60307 -6.63302,-1.79225 -8.9489,-1.78606 -1.79604,0.0144 -2.91042,-0.064 -5.32092,0.31811 -11.15169,3.06878 -23.64279,-1.22536 -29.51567,-11.39754 h -0.002 c -7.02052,-12.15997 -2.58208,-27.870144 9.99477,-35.126767 3.70439,-2.137342 8.09037,-4.21745 12.13151,-4.68781 1.66573,-0.193935 3.12232,-0.257477 4.49075,-0.229658 z M 53.581626,109.42252 c 2.256202,0.008 4.478088,0.25441 6.622832,0.74794 6.756294,2.10877 7.611812,2.87178 11.115122,4.58229 -4.101206,-0.18137 -4.873694,-0.19005 -7.887501,0.94967 -1.492778,0.99552 -2.154895,1.3215 -3.759869,3.33469 -2.002313,3.11521 -2.475598,4.88117 -2.509165,8.11095 0.401095,3.90081 1.764814,6.64069 2.928136,8.6432 0.910493,1.54821 1.399725,2.55078 2.935894,4.44729 8.233526,8.12322 10.759315,21.0892 4.886433,31.26138 h 0.0016 c -7.020525,12.15997 -22.845615,16.17205 -35.418494,8.90855 -3.703196,-2.13941 -7.69718,-4.89762 -10.125112,-8.16216 -2.668846,-3.58822 -3.790294,-6.34406 -5.156436,-9.93115 -3.735406,-9.80867 -2.568057,-22.49408 3.784697,-33.49744 7.231089,-12.52468 20.398418,-19.4378 32.581911,-19.39521 z m 79.892954,65.5378 c 14.04104,0 25.4277,11.69809 25.42373,26.21822 -0.001,4.27674 -0.39319,9.11661 -2.00641,12.85152 -1.77306,4.10537 -3.59887,6.45328 -6.02231,9.42993 -6.62685,8.13924 -18.19586,13.47221 -30.90137,13.47221 -17.14036,0 -31.624417,-11.1626 -35.752118,-24.62923 -1.551881,-6.90549 -1.318681,-8.02818 -1.588983,-11.91738 1.893511,3.64243 2.27304,4.31576 4.766949,6.35594 1.608527,0.79502 2.221001,1.20562 4.766949,1.58898 3.698994,0.17646 5.464687,-0.29646 8.278543,-1.88226 3.17764,-2.29775 4.86974,-4.84844 6.0223,-6.85715 0.88554,-1.5626 1.50914,-2.48835 2.38348,-4.76695 2.91817,-11.192 12.88347,-19.86229 24.62924,-19.86229 z"
-       style="fill:#bebebe;stroke-width:0.79449153;stroke:#000000;stroke-opacity:1;fill-opacity:1" />
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-17.493243,-73.59133)">
+    <g
+       id="g2"
+       transform="matrix(0.1653377,0,0,0.1428403,14.249729,43.975899)">
+      <path
+         d="m 512.59947,593.93359 c -90.93,-119.74 -373.55,152.36 -304.35,205.83 94.76,73.21 491.01,39.99 304.35,-205.83 z"
+         fill="#1c80aa"
+         id="path1"
+         style="fill:#000000;filter:url(#filter148-2);stroke-width:11.41348484;stroke-dasharray:none;fill-opacity:0.60000002" />
+      <path
+         d="m 772.18947,483.46359 24,50.19 a 21.7,21.7 0 0 0 37.73,2.5 l 31.57,-48.27 a 21.7,21.7 0 0 0 -17.41,-33.57 l -55.61,-1.92 a 21.7,21.7 0 0 0 -20.28,31.07 z"
+         fill="#de7b56"
+         id="path3"
+         style="fill:#000000;stroke:#000000;stroke-opacity:0.2;filter:url(#filter144-9);stroke-width:11.41348484;stroke-dasharray:none;fill-opacity:0.60000002" />
+      <path
+         d="m 96.389472,857.45359 c 18.299998,86.91 221.859998,208.13001 477.999998,171.54001 272.07,-38.86001 396.52999,-528.42001 107.53,-706.74001 -161.25,-99.49 -326.71,5 -356.8,130.37 -41.2,171.54 88.65,300.65 -77.77,375.07 -86.91,38.91 -164.429998,-34.33 -150.959998,29.76 z"
+         fill="#fdd2be"
+         id="path4"
+         style="fill:#000000;fill-opacity:0.60000002;stroke:#000000;stroke-opacity:0.197101;filter:url(#filter140-6);stroke-width:11.41348484;stroke-dasharray:none" />
+      <path
+         d="m 631.05947,483.47359 m 32.45,0 a 32.450001,32.450001 0 1 1 -64.9,0 32.450001,32.450001 0 1 1 64.9,0 z"
+         fill=""
+         id="path5"
+         style="fill:#000000;stroke:#000000;stroke-opacity:0.2;filter:url(#filter47-7);stroke-width:11.41348484;stroke-dasharray:none;fill-opacity:0.60000002" />
+      <path
+         d="m 484.67947,584.69359 c -137.48,-60.86 -253.34,314 -166.92,327.31 118.35,18.25 449.16,-202.39 166.92,-327.31 z m 288.94,164 c 9.34,-2.6 17.2,-12.8 23.94,-31 a 195,195 0 0 0 7.64,-27 7.2848153,7.2848153 0 0 0 -14.3,-2.79 c -4.79,24.5 -15,46.44 -21.91,46.93 -1.12,0.08 -11.43,-0.5 -27.23,-45.51 a 7.2804538,7.2804538 0 1 0 -13.74,4.82 c 13.61,38.77 27,56.31 42,55.22 a 18.18,18.18 0 0 0 3.6,-0.67 z m -117.5,60.36 c 9.63,1.14 20.77,-5.32 33.92,-19.63 a 195,195 0 0 0 17.32,-22.11 7.28198,7.28198 0 0 0 -12.17,-8 c -13.73,20.85 -31.53,37.27 -38.07,35.12 -1.07,-0.35 -10.38,-4.8 -7.93,-52.44 a 7.2846591,7.2846591 0 1 0 -14.55,-0.75 c -2.11,41 3.59,62.33 17.95,67 a 18.18,18.18 0 0 0 3.53,0.81 z m 79.3,69.35 c 9,-0.19 18.35,-7.55 28.56,-22.35 a 180.41,180.41 0 0 0 13,-22.49 6.74,6.74 0 0 0 -12.18,-5.77 c -9.9,20.88 -24.1,38.21 -30.37,37.08 -1,-0.18 -10.13,-3.07 -14,-47 a 6.7408704,6.7408704 0 1 0 -13.43,1.18 c 3.34,37.87 11.31,56.66 25.07,59.12 a 16.82,16.82 0 0 0 3.35,0.23 z m -127.78,62.58 c 9.26,2.85 21.38,-1.51 36.89,-13.22 a 195,195 0 0 0 21,-18.64 7.2815611,7.2815611 0 0 0 -10.53,-10.06 c -17.25,18.05 -37.7,31 -43.75,27.71 -1,-0.54 -9.35,-6.59 1.61,-53 a 7.2803062,7.2803062 0 1 0 -14.17,-3.35 c -9.44,40 -7.65,62 5.63,69.16 a 18.18,18.18 0 0 0 3.32,1.4 z"
+         fill="#22b0c3"
+         id="path6"
+         style="fill:#000000;fill-opacity:0.60000002;stroke:#000000;stroke-opacity:0.2;filter:url(#filter132-3);stroke-width:11.41348484;stroke-dasharray:none" />
+    </g>
   </g>
 </svg>
