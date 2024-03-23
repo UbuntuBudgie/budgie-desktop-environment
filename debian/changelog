@@ -1,19 +1,13 @@
-budgie-desktop-environment (0.20.11.2) noble; urgency=medium
-
-  * Update to noble default wallpaper
-
- -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 21 Mar 2024 18:34:12 +0000
-
-budgie-desktop-environment (0.20.11.1) noble; urgency=medium
+budgie-desktop-environment (0.20.12) noble; urgency=medium
 
   * Update to noble default wallpaper, mascots & logos (LP: #2056591)
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 20 Mar 2024 19:13:28 +0000
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 23 Mar 2024 17:11:38 +0000
 
 budgie-desktop-environment (0.20.11) noble; urgency=medium
 
   * Catchup with the latest installer changes; no need to override
-    the installer artwork except for our workmark
+    the installer artwork except for our wordmark
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 16 Mar 2024 14:32:39 +0000
 
