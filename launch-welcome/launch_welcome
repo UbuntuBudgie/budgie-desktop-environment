@@ -15,7 +15,7 @@ while [  $COUNTER -lt 60 ]; do
         output=`df | grep "^/cow"`
         if [ ! -z "$output" ]; then
        	    sleep 10
-	    if [ -f /snap/bin/ubuntu-budgie-installer ]; then
+	    if [ -f /snap/bin/ubuntu-desktop-bootstrap ]; then
             	systemctl start --user ubuntu-budgie-installer &
 	    	exit 0
 	    fi

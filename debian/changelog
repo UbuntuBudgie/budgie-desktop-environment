@@ -1,3 +1,12 @@
+budgie-desktop-environment (0.20.13) noble; urgency=medium
+
+  * Bug-fix
+    - Use the correct installer snap name; the previous
+      ubuntu-budgie-installer needs to be changed to
+      ubuntu-desktop-bootstrap (LP: #2060854)
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 10 Apr 2024 19:15:20 +0100
+
 budgie-desktop-environment (0.20.12) noble; urgency=medium
 
   * Update to noble default wallpaper, mascots & logos (LP: #2056591)
