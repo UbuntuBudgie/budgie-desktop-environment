@@ -1,3 +1,9 @@
+budgie-desktop-environment (0.21.0) oracular; urgency=medium
+
+  * Use a temporary wallpaper for the development cycle
+
+ -- Samuel Lane <samlane00@gmail.com>  Fri, 10 May 2024 14:10:44 -0400
+
 budgie-desktop-environment (0.20.13) noble; urgency=medium
 
   * Bug-fix
