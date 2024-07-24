@@ -39,16 +39,6 @@ fi
 
 touch ~/.config/budgie-desktop/firstrun
 
-mkdir -p ~/.config/autostart
-
-# plank
-PLK=`which plank`
-if [ "$PLK" ]
-then
-    cp /usr/share/budgie-desktop/plank.desktop ~/.config/autostart
-    cp -r /usr/share/budgie-desktop/home-folder/.config ~/
-fi
-
 # templates
 bash -c 'sleep 20 && /usr/share/budgie-desktop/home-folder/copytemplates' &
 

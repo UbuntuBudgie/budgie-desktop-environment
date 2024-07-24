@@ -1,3 +1,13 @@
+budgie-desktop-environment (0.21.1) oracular; urgency=medium
+
+  * Replace plank with a budgie-desktop based dock
+  * Remove unneeded ubiquity panel background override
+  * Packaging changes
+    - remove budgie-desktop-environment lintian override since plank has
+      been removed
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 24 Jul 2024 21:07:17 +0100
+
 budgie-desktop-environment (0.21.0) oracular; urgency=medium
 
   * Use a temporary wallpaper for the development cycle

@@ -8,14 +8,6 @@ enable-week-numbers=true
 [com.solus-project.icon-tasklist]
 pinned-launchers=['firefox_firefox.desktop', 'nemo.desktop', 'libreoffice-writer.desktop', 'org.gnome.Software.desktop', 'ubuntu-budgie-welcome_budgie-welcome.desktop']
 
-[net.launchpad.plank.dock.settings]
-position='bottom'
-theme='Transparent'
-icon-size=32
-hide-delay=500
-hide-mode='window-dodge'
-zoom-enabled=true
-
 [org.gnome.calendar.window-size]
 window-maximized=false
 
