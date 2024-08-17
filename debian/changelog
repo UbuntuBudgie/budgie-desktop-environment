@@ -1,4 +1,4 @@
-budgie-desktop-environment (0.21.4~ppa1) oracular; urgency=medium
+budgie-desktop-environment (0.21.4) oracular; urgency=medium
 
   * Bug-fix
     tilix is virtually unmaintained; badges and setting the cwd
