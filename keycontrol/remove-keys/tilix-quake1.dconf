@@ -1,4 +1,0 @@
-[custom-keybindings/budgie-tilix-quake1]
-binding='<Alt>q'
-command='tilix --quake'
-name='Show/Hide Tilix Quake Console 1'

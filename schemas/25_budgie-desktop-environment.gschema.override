@@ -71,7 +71,7 @@ background='/usr/share/backgrounds/budgie/budgie-codename.png'
 xkb-options=['terminate:ctrl_alt_bksp']
 
 [org.gnome.desktop.default-applications.terminal:Budgie]
-exec='tilix'
+exec='xfce4-terminal'
 exec-arg='-e'
 
 [org.gnome.desktop.screensaver:Budgie]
@@ -94,11 +94,6 @@ transparency='dynamic'
 
 [com.solus-project.places-indicator]
 expand-places=true
-
-[com.gexperts.Tilix.Settings:Budgie]
-warn-vte-config-issue=false
-theme-variant='dark'
-copy-on-select=true
 
 [org.freedesktop.ibus.general.hotkey]
 triggers=[]

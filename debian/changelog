@@ -1,3 +1,12 @@
+budgie-desktop-environment (0.21.4~ppa1) oracular; urgency=medium
+
+  * Bug-fix
+    tilix is virtually unmaintained; badges and setting the cwd
+    no longer works.
+    remove all tilix configuration and replace with xfce4-terminal
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 17 Aug 2024 13:45:00 +0100
+
 budgie-desktop-environment (0.21.3) oracular; urgency=medium
 
   * Add heif and jxl image types to mimetype so that they open

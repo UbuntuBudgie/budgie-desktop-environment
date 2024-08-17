@@ -1,4 +1,0 @@
-[custom-keybindings/budgie-tilix-quake2]
-binding='F12'
-command='tilix --quake'
-name='Show/Hide Tilix Quake Console 2'
