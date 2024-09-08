@@ -1,3 +1,9 @@
+budgie-desktop-environment (0.21.5) oracular; urgency=medium
+
+  * Switch from dev wallpaper to our oracular wallpaper
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 08 Sep 2024 20:23:52 +0100
+
 budgie-desktop-environment (0.21.4) oracular; urgency=medium
 
   * Bug-fix
