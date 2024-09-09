@@ -1,3 +1,9 @@
+budgie-desktop-environment (0.21.6) oracular; urgency=medium
+
+  * Update slideshow mascot for oracular
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 09 Sep 2024 22:49:30 +0100
+
 budgie-desktop-environment (0.21.5) oracular; urgency=medium
 
   * Switch from dev wallpaper to our oracular wallpaper
