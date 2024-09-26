@@ -130,7 +130,8 @@ sidebar-width=180
 default-zoom-level='small'
 
 [org.cinnamon.desktop.default-applications.terminal]
-exec='tilix'
+exec='xfce4-terminal'
+exec-arg='-e'
 
 [com.solus-project.budgie-wm]
 desktop-type-override='nemo'

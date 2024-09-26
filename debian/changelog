@@ -1,3 +1,11 @@
+budgie-desktop-environment (0.21.7) oracular; urgency=medium
+
+  * Bug-fix
+    ensure xfce4-terminal is used when choosing 'open in terminal'
+    from the desktop (LP: #2082058)
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 26 Sep 2024 19:59:50 +0100
+
 budgie-desktop-environment (0.21.6) oracular; urgency=medium
 
   * Update slideshow mascot for oracular
