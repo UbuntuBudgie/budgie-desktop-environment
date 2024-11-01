@@ -1,3 +1,9 @@
+budgie-desktop-environment (0.22.0) plucky; urgency=medium
+
+  * Updated default wallpaper for the development cycle
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 01 Nov 2024 10:18:47 +0000
+
 budgie-desktop-environment (0.21.7) oracular; urgency=medium
 
   * Bug-fix
