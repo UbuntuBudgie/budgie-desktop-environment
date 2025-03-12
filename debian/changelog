@@ -1,3 +1,9 @@
+budgie-desktop-environment (0.22.1) plucky; urgency=medium
+
+  * Switch the development wallpaper for the default + plucky mascot
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 12 Mar 2025 20:14:51 +0000
+
 budgie-desktop-environment (0.22.0) plucky; urgency=medium
 
   * Updated default wallpaper for the development cycle
