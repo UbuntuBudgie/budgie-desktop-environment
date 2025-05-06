@@ -112,11 +112,12 @@ click-double-parent-folder=false
 tooltips-in-icon-view=true
 tooltips-in-list-view=true
 tooltips-on-desktop=true
-thumbnail-limit=5242880
+thumbnail-limit=64000000000
 show-new-folder-icon-toolbar=true
 show-full-path-titles=true
 confirm-move-to-trash=true
 quick-renames-with-pause-in-between=true
+ignore-view-metadata=true
 
 [org.gnome.desktop.wm.keybindings]
 switch-to-workspace-right=['<Super>Page_Down', '<Control><Alt>Right']
