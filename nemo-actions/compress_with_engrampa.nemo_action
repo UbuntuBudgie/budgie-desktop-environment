@@ -5,6 +5,7 @@ Icon-Name=archive
 Exec=engrampa -d %F
 Selection=Any
 Extensions=any;
+Dependencies=engrampa;
 Quote=double
 
 Name[bn]=
