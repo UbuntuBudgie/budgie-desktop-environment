@@ -3,7 +3,6 @@ Section: x11
 Priority: optional
 Maintainer: David Mohammed <fossfreedom@ubuntu.com>
 Build-Depends:
- debhelper (>= 13),
  debhelper-compat (= 13),
  dh-python,
  meson,
@@ -45,18 +44,12 @@ Depends:
  plymouth-theme-ubuntu-budgie-text,
  python3,
  wmctrl,
- x11-utils,
  xdg-user-dirs-gtk,
- xdotool,
  dconf-cli,
  ${misc:Depends},
  ${python3:Depends},
 Recommends:
- budgie-dropby-applet,
- budgie-extras-daemon,
- budgie-previews,
  budgie-quicknote-applet,
- budgie-showtime-applet,
  dmz-cursor-theme,
  slick-greeter,
 Breaks: budgie-desktop-common (<< 0.13.0)

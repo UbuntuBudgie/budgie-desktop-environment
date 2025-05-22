@@ -1,3 +1,16 @@
+budgie-desktop-environment (0.22.10) plucky; urgency=medium
+
+  * thumbnailer rename
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 22 May 2025 19:00:08 +0100
+
+budgie-desktop-environment (0.22.9) plucky; urgency=medium
+
+  * test build for the wayland PPA - we'll bump this to 0.23 for upload to
+    ubuntu
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 21 May 2025 18:50:40 +0100
+
 budgie-desktop-environment (0.22.2) plucky; urgency=medium
 
   * Bug-fix
