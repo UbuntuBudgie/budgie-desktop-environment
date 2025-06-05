@@ -1,3 +1,6 @@
+[com.github.FontManager.FontViewer]
+use-adwaita-stylesheet=false
+
 [com.solus-project.budgie-menu]
 menu-headers=false
 menu-icon='ubuntu-budgie-symbolic'
