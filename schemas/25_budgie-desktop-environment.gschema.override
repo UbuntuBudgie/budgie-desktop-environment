@@ -103,7 +103,7 @@ sleep-inactive-ac-type='nothing'
 
 [org.nemo.desktop]
 font='Noto Sans 11'
-use-desktop-grid=false
+use-desktop-grid=true
 desktop-layout='true:true'
 ignored-desktop-handlers=['conky', 'Showtime', 'desktop_weather']
 
@@ -128,7 +128,7 @@ start-with-menu-bar=false
 sidebar-width=180
 
 [org.nemo.icon-view]
-default-zoom-level='small'
+default-zoom-level='larger'
 
 [org.cinnamon.desktop.default-applications.terminal]
 exec='xfce4-terminal'
