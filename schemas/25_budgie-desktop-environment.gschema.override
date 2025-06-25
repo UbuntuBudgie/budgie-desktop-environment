@@ -128,6 +128,7 @@ ignore-view-metadata=true
 [org.gnome.desktop.wm.keybindings]
 switch-to-workspace-right=['<Super>Page_Down', '<Control><Alt>Right']
 switch-to-workspace-left=['<Super>Page_Up', '<Control><Alt>Left']
+toggle-fullscreen=['<Alt>F11']
 
 [org.nemo.window-state]
 start-with-menu-bar=false
