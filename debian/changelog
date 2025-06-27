@@ -1,3 +1,13 @@
+budgie-desktop-environment (0.22.11) plucky; urgency=medium
+
+  * Adaptive mouse acceleration is now the default
+  * Alt+F11 can be used to activate a window to full-screen
+  * Power options are now available in the menu
+  * Font-viewer now uses the system theme by default
+  * The default icon-size in nemo has been increased slightly
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 27 Jun 2025 22:28:08 +0100
+
 budgie-desktop-environment (0.22.10) plucky; urgency=medium
 
   * thumbnailer rename
