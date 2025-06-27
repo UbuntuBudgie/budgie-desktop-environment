@@ -36,6 +36,9 @@ xembed-onboard=true
 [org.gnome.crypto.pgp:Budgie]
 keyservers=['hkp://keyserver.ubuntu.com:11371', 'hkp://pool.sks-keyservers.net', 'ldap://keyserver.pgp.com']
 
+[org.gnome.desktop.peripherals.mouse]
+accel-profile=adaptive
+
 [org.gnome.desktop.wm.preferences]
 titlebar-font='Noto Sans Bold 11'
 titlebar-uses-system-font=false
