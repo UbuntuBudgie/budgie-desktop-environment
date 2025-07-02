@@ -37,7 +37,7 @@ xembed-onboard=true
 keyservers=['hkp://keyserver.ubuntu.com:11371', 'hkp://pool.sks-keyservers.net', 'ldap://keyserver.pgp.com']
 
 [org.gnome.desktop.peripherals.mouse]
-accel-profile="adaptive"
+accel-profile='adaptive'
 middle-click-emulation=true
 
 [org.gnome.desktop.wm.preferences]
