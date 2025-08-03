@@ -147,6 +147,7 @@ exec-arg='-e'
 
 [com.solus-project.budgie-wm]
 desktop-type-override='nemo'
+edge-tiling=true
 
 [org.gnome.software:Budgie]
 allow-updates=true
