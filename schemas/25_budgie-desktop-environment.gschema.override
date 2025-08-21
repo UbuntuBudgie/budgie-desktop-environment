@@ -14,9 +14,6 @@ pinned-launchers=['firefox_firefox.desktop', 'nemo.desktop', 'libreoffice-writer
 [org.gnome.calendar.window-size]
 window-maximized=false
 
-[org.ubuntubudgie.plugins.budgie-appmenu]
-enable-powerstrip=true
-
 [org.ubuntubudgie.plugins.budgie-showtime]
 timefont='Sawasdee 75'
 datefont='Sawasdee 32'

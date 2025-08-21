@@ -1,25 +1,13 @@
-budgie-desktop-environment (0.22.11) plucky; urgency=medium
+budgie-desktop-environment (0.23.0) questing; urgency=medium
 
+  * Switch from the development wallpaper to our default plus
+    the questing mascot
   * Adaptive mouse acceleration is now the default
   * Alt+F11 can be used to activate a window to full-screen
-  * Power options are now available in the menu
   * Font-viewer now uses the system theme by default
   * The default icon-size in nemo has been increased slightly
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 27 Jun 2025 22:28:08 +0100
-
-budgie-desktop-environment (0.22.10) plucky; urgency=medium
-
-  * thumbnailer rename
-
- -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 22 May 2025 19:00:08 +0100
-
-budgie-desktop-environment (0.22.9) plucky; urgency=medium
-
-  * test build for the wayland PPA - we'll bump this to 0.23 for upload to
-    ubuntu
-
- -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 21 May 2025 18:50:40 +0100
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 20 Aug 2025 21:58:40 +0100
 
 budgie-desktop-environment (0.22.2) plucky; urgency=medium
 
