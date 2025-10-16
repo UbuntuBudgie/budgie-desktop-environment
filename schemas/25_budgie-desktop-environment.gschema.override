@@ -156,3 +156,6 @@ highlight-current-line=false
 
 [org.ubuntubudgie.armconfig]
 runarmconfig=false
+
+[org.gnome.settings-daemon.plugins.housekeeping]
+donation-reminder-enabled=false
