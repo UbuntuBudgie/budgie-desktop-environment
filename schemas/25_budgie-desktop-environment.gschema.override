@@ -37,7 +37,6 @@ xembed-onboard=true
 keyservers=['hkp://keyserver.ubuntu.com:11371', 'hkp://pool.sks-keyservers.net', 'ldap://keyserver.pgp.com']
 
 [org.gnome.desktop.peripherals.mouse]
-accel-profile='adaptive'
 middle-click-emulation=true
 
 [org.gnome.desktop.wm.preferences]
@@ -146,7 +145,7 @@ exec='xfce4-terminal'
 exec-arg='-e'
 
 [com.solus-project.budgie-wm]
-desktop-type-override='nemo'
+desktop-type-override='budgie'
 edge-tiling=true
 
 [org.gnome.software:Budgie]
@@ -159,3 +158,9 @@ highlight-current-line=false
 
 [org.ubuntubudgie.armconfig]
 runarmconfig=false
+
+[org.buddiesofbudgie.budgie-desktop-view]
+show=true
+show-home-folder=false
+show-trash-folder=false
+click-policy='double'

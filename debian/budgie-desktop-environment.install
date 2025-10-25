@@ -10,7 +10,6 @@ keycontrol /usr/share/budgie-desktop/
 launch-welcome/launch_welcome /usr/share/budgie-desktop/
 nemo-actions/*.nemo_action /usr/share/nemo/actions/
 nemo-actions/*.sh /usr/share/nemo/actions/
-nemo-autostart/* /etc/xdg/autostart/
 onboard-autostart/* /etc/xdg/autostart/
 xfce4-terminal/* /etc/xdg/xdg-budgie-desktop/xfce4/terminal
 panel_override/* /usr/share/budgie-desktop/
