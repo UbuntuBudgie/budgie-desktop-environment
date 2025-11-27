@@ -17,15 +17,6 @@ window-maximized=false
 [org.ubuntubudgie.plugins.budgie-appmenu]
 enable-powerstrip=true
 
-[org.ubuntubudgie.plugins.budgie-showtime]
-timefont='Sawasdee 75'
-datefont='Sawasdee 32'
-leftalign=false
-linespacing=-28
-
-[org.ubuntubudgie.budgie-wpreviews]
-enable-previews=false
-
 [org.onboard.auto-show]
 enabled=true
 
@@ -88,10 +79,6 @@ picture-uri='file:///usr/share/backgrounds/budgie/budgie-codename.png'
 
 [org.gtk.Settings.FileChooser:Budgie]
 sort-directories-first=true
-
-[org.gnome.mutter:Budgie]
-attach-modal-dialogs=false
-dynamic-workspaces=false
 
 [com.solus-project.budgie-panel]
 builtin-theme=false
@@ -164,3 +151,7 @@ show=true
 show-home-folder=false
 show-trash-folder=false
 click-policy='double'
+
+
+[org.gnome.settings-daemon.plugins.housekeeping]
+donation-reminder-enabled=false

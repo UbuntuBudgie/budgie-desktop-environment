@@ -38,7 +38,7 @@ Package: budgie-desktop-environment
 Architecture: all
 Section: misc
 Depends:
- budgie-desktop (>= 10.5.2),
+ budgie-desktop (>= 10.10),
  gnome-themes-extra,
  plymouth-theme-ubuntu-budgie-logo,
  plymouth-theme-ubuntu-budgie-text,
@@ -60,7 +60,6 @@ Description: Desktop environment customisation for Ubuntu Budgie
  as well as recommended packages and applications.
  Installs:
    Ubuntu Budgie panel configuration
-   plank dock customisation
    gsettings overrides
    totem thumbnailer config using ffmpegthumbnailer
    Tilix integration

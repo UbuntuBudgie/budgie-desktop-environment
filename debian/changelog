@@ -1,8 +1,26 @@
-budgie-desktop-environment (0.23.11) questing; urgency=medium
+budgie-desktop-environment (0.24.0) resolute; urgency=medium
 
+  * Remove budgie-nemo.desktop autostart conf file
   * Add budgie-desktop-view and switch from nemo-desktop
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 16 Oct 2025 23:07:35 +0100
+ -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 27 Nov 2025 18:57:50 +0000
+
+budgie-desktop-environment (0.23.1) questing; urgency=medium
+
+  * Don't show GNOME housekeeping donation popups on the budgie DE
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 08 Sep 2025 20:15:22 +0100
+
+budgie-desktop-environment (0.23.0) questing; urgency=medium
+
+  * Switch from the development wallpaper to our default plus
+    the questing mascot
+  * Adaptive mouse acceleration is now the default
+  * Alt+F11 can be used to activate a window to full-screen
+  * Font-viewer now uses the system theme by default
+  * The default icon-size in nemo has been increased slightly
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 20 Aug 2025 21:58:40 +0100
 
 budgie-desktop-environment (0.22.11) plucky; urgency=medium
 
