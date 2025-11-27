@@ -138,7 +138,7 @@ start-with-menu-bar=false
 sidebar-width=180
 
 [org.nemo.icon-view]
-default-zoom-level='larger'
+default-zoom-level='large'
 
 [org.cinnamon.desktop.default-applications.terminal]
 exec='xfce4-terminal'
