@@ -1,3 +1,10 @@
+budgie-desktop-environment (0.24.1) resolute; urgency=medium
+
+  * d/control remove unneeded budgie-desktop version restriction
+    remove unneeded dependencies on gnome-themes-extra and wmctrl
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 28 Nov 2025 13:17:49 +0000
+
 budgie-desktop-environment (0.24.0) resolute; urgency=medium
 
   * Remove budgie-nemo.desktop autostart conf file

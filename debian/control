@@ -38,12 +38,10 @@ Package: budgie-desktop-environment
 Architecture: all
 Section: misc
 Depends:
- budgie-desktop (>= 10.10),
- gnome-themes-extra,
+ budgie-desktop,
  plymouth-theme-ubuntu-budgie-logo,
  plymouth-theme-ubuntu-budgie-text,
  python3,
- wmctrl,
  xdg-user-dirs-gtk,
  dconf-cli,
  ${misc:Depends},
