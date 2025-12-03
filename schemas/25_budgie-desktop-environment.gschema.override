@@ -120,7 +120,6 @@ ignore-view-metadata=true
 switch-to-workspace-right=['<Super>Page_Down', '<Control><Alt>Right']
 switch-to-workspace-left=['<Super>Page_Up', '<Control><Alt>Left']
 toggle-fullscreen=['<Alt>F11']
-panel-run-dialog=['<Super>Return']
 
 [org.nemo.window-state]
 start-with-menu-bar=false
