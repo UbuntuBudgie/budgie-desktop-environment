@@ -1,3 +1,10 @@
+budgie-desktop-environment (0.24.2) UNRELEASED; urgency=medium
+
+  * Add plugin override for blueman - no need to use statusicon or statusnotifier which
+    crash under wayland
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 07 Dec 2025 11:32:42 +0000
+
 budgie-desktop-environment (0.24.1) resolute; urgency=medium
 
   * d/control remove unneeded budgie-desktop version restriction

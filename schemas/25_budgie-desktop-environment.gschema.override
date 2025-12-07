@@ -156,3 +156,6 @@ click-policy='double'
 
 [org.gnome.settings-daemon.plugins.housekeeping]
 donation-reminder-enabled=false
+
+[org.blueman.general]
+plugin-list=['!ShowConnected', '!StatusIcon', '!StatusNotifierItem']
