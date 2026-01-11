@@ -1,5 +1,4 @@
 #! /bin/sh
-# remove totem thumbnailer config if we added it
 # This script can be called in the following ways:
 #
 # see: dh_installdeb(1)
@@ -24,16 +23,6 @@ applications/nemo.desktop
 
 case "$1" in
        purge|remove|upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)
-
-        # postinst would have installed our version of totem.thumbnailer
-        # now that we are removing this package, lets double check that it is
-        # indeed our file that is installed - it could have been installed via
-        # totem and in this case we should just leave well alone.
-        if [ -e /usr/share/thumbnailers/totem.thumbnailer ]; then
-            if grep -q "ffmpegthumbnailer" /usr/share/thumbnailers/totem.thumbnailer; then
-                rm -f /usr/share/thumbnailers/totem.thumbnailer
-            fi
-        fi
 
         ;;
 

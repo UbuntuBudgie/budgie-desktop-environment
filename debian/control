@@ -59,7 +59,6 @@ Description: Desktop environment customisation for Ubuntu Budgie
  Installs:
    Ubuntu Budgie panel configuration
    gsettings overrides
-   totem thumbnailer config using ffmpegthumbnailer
    Tilix integration
    ubuntu and budgie-desktop gsettings overrides
    applies the default icon-theme for GTK+ applications
