@@ -1,0 +1,50 @@
+[main]
+host = https://www.transifex.com
+
+[o:ubuntu-budgie:p:installer-3:r:slide-1]
+source_file = live/desktop-provision/slides/1/slide_en_US.html
+file_filter = live/desktop-provision/slides/1/slide_<lang>.html
+source_lang = en_US
+type = HTML
+
+[o:ubuntu-budgie:p:installer-3:r:slide-2]
+source_file = live/desktop-provision/slides/2/slide_en_US.html
+file_filter = live/desktop-provision/slides/2/slide_<lang>.html
+source_lang = en_US
+type = HTML
+
+[o:ubuntu-budgie:p:installer-3:r:slide-3]
+source_file = live/desktop-provision/slides/3/slide_en_US.html
+file_filter = live/desktop-provision/slides/3/slide_<lang>.html
+source_lang = en_US
+type = HTML
+
+[o:ubuntu-budgie:p:installer-3:r:slide-4]
+source_file = live/desktop-provision/slides/4/slide_en_US.html
+file_filter = live/desktop-provision/slides/4/slide_<lang>.html
+source_lang = en_US
+type = HTML
+
+[o:ubuntu-budgie:p:installer-3:r:slide-5]
+source_file = live/desktop-provision/slides/5/slide_en_US.html
+file_filter = live/desktop-provision/slides/5/slide_<lang>.html
+source_lang = en_US
+type = HTML
+
+[o:ubuntu-budgie:p:installer-3:r:slide-6]
+source_file = live/desktop-provision/slides/6/slide_en_US.html
+file_filter = live/desktop-provision/slides/6/slide_<lang>.html
+source_lang = en_US
+type = HTML
+
+[o:ubuntu-budgie:p:installer-3:r:slide-7]
+source_file = live/desktop-provision/slides/7/slide_en_US.html
+file_filter = live/desktop-provision/slides/7/slide_<lang>.html
+source_lang = en_US
+type = HTML
+
+[o:ubuntu-budgie:p:installer-3:r:slide-8]
+source_file = live/desktop-provision/slides/8/slide_en_US.html
+file_filter = live/desktop-provision/slides/8/slide_<lang>.html
+source_lang = en_US
+type = HTML
