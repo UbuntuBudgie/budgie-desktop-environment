@@ -1,7 +1,10 @@
-budgie-desktop-environment (0.24.2~ppa1) resolute; urgency=medium
+budgie-desktop-environment (0.24.2) resolute; urgency=medium
 
   * Add plugin override for blueman - no need to use statusicon or statusnotifier which
     crash under wayland
+  * remove our version of totemthumbnailer
+  * Update our defaults.list to switch from parole to vlc
+  * d/control add ffmpegthumbnailer
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 04 Jan 2026 19:37:50 +0000
 
