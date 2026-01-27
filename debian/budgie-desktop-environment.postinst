@@ -1,5 +1,4 @@
 #!/bin/bash
-# add totemthumbnailer config if it doesn't already exist
 # This script can be called in the following ways:
 #
 # After the package was installed:
@@ -83,15 +82,6 @@ function template_cleanup () {
 
 case "$1" in
     configure)
-
-    # we want to be absolutely sure that before we copy ubuntu budgie's
-    # version of totem.thumbnailer that the user hasn't already got this
-    # file installed via totem.
-    # N.B. we are safe here to-do this because if totem is subsequently installed
-    # totem will safely overwrite our file without error
-    if [ ! -e /usr/share/thumbnailers/totem.thumbnailer ]; then
-        cp /usr/share/budgie-desktop/totem.thumbnailer /usr/share/thumbnailers/
-    fi
 
     plank_cleanup
     template_cleanup

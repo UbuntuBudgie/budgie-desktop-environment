@@ -15,6 +15,5 @@ xfce4-terminal/* /etc/xdg/xdg-budgie-desktop/xfce4/terminal
 panel_override/* /usr/share/budgie-desktop/
 schemas/25_budgie-desktop-environment.gschema.override /usr/share/glib-2.0/schemas
 showdesktop /usr/share/budgie-desktop/
-thumbnail_override/* /usr/share/budgie-desktop/
 codename-wallpapers/ubuntu-budgie-codename-wallpapers.xml /usr/share/gnome-background-properties
 codename-wallpapers/budgie-codename.png /usr/share/backgrounds/budgie/
