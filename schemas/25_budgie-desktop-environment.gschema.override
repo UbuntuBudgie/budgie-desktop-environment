@@ -39,7 +39,7 @@ titlebar-uses-system-font=false
 monospace-font-name='Noto Mono Bold 11'
 font-name='Noto Sans 11'
 document-font-name='Noto Sans 11'
-cursor-theme='DMZ-White'
+cursor-theme='Breeze_Light'
 gtk-theme='Pocillo-dark'
 icon-theme='Pocillo'
 clock-show-date=false
@@ -64,9 +64,6 @@ event-sounds=false
 [org.gnome.desktop.background:Budgie]
 show-desktop-icons=true
 picture-uri='file:///usr/share/backgrounds/budgie/budgie-codename.png'
-
-[x.dm.slick-greeter]
-background='/usr/share/backgrounds/budgie/budgie-codename.png'
 
 [org.gnome.desktop.input-sources:Budgie]
 xkb-options=['terminate:ctrl_alt_bksp']
@@ -152,7 +149,6 @@ show=true
 show-home-folder=false
 show-trash-folder=false
 click-policy='double'
-
 
 [org.gnome.settings-daemon.plugins.housekeeping]
 donation-reminder-enabled=false

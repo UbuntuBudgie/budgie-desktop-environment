@@ -48,8 +48,8 @@ Depends:
  ${python3:Depends},
 Recommends:
  budgie-quicknote-applet,
- dmz-cursor-theme,
- slick-greeter,
+ breeze-cursor-theme,
+ budgie-sddm-greeter,
  budgie-desktop-view,
  ffmpegthumbnailer
 Breaks: budgie-desktop-common (<< 0.13.0)

@@ -1,3 +1,10 @@
+budgie-desktop-environment (0.24.3) resolute; urgency=medium
+
+  * Default to Breeze Light Cursor theme
+  * Switch to budgie-sddm-theme
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 28 Jan 2026 20:14:18 +0000
+
 budgie-desktop-environment (0.24.2) resolute; urgency=medium
 
   * Add plugin override for blueman - no need to use statusicon or statusnotifier which
