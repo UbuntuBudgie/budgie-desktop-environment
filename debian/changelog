@@ -1,3 +1,11 @@
+budgie-desktop-environment (0.24.4) resolute; urgency=medium
+
+  * Re-add showtime configuration
+  * Add our raven override to enable showtime to display
+  * Add settings applications list for budgie-control-center
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 31 Jan 2026 18:56:03 +0000
+
 budgie-desktop-environment (0.24.3) resolute; urgency=medium
 
   * Default to Breeze Light Cursor theme
