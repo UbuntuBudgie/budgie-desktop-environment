@@ -1,0 +1,6 @@
+#!/bin/sh
+
+export LIVE_SESSION=1
+export UBUNTU_LIVE_SESSION=1
+
+exec /usr/bin/startbudgielabwc "$@"

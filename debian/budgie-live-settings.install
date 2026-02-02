@@ -1,2 +1,5 @@
 live/ubuntu-budgie-installer.service /usr/lib/systemd/user/
 live/desktop-provision /usr/share/
+schemas/35_budgie-desktop-live.gschema.override /usr/share/glib-2.0/schemas
+live/startbudgielabwclive /usr/bin
+live/budgie-desktop-live.desktop /usr/share/wayland-sessions

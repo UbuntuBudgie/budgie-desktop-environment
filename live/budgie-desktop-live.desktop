@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Name=Budgie Desktop (live)
+Comment=This session logs you into the Budgie Desktop live session using labwc as the window manager
+Exec=/usr/bin/startbudgielabwclive
+Icon=
+Type=Application
+DesktopNames=Budgie

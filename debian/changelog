@@ -1,3 +1,10 @@
+budgie-desktop-environment (0.24.5) resolute; urgency=medium
+
+  * Add live settings, schema config and start script for the live session
+    to autostart our live session through SDDM autostart config
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 02 Feb 2026 18:47:39 +0000
+
 budgie-desktop-environment (0.24.4) resolute; urgency=medium
 
   * Re-add showtime configuration
