@@ -156,7 +156,7 @@ donation-reminder-enabled=false
 [org.blueman.general]
 plugin-list=['!ShowConnected', '!StatusIcon', '!StatusNotifierItem']
 
-[org.ubuntubudgie.plugins.budgie-showtime]
+[org.ubuntubudgie.raven.widget.budgie-showtime]
 timefont='Sawasdee 75'
 datefont='Sawasdee 32'
 leftalign=false

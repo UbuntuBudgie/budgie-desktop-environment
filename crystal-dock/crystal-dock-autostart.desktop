@@ -1,0 +1,7 @@
+
+[Desktop Entry]
+Type=Application
+Name=crystal-dock
+Exec=crystal-dock
+NoDisplay=true
+OnlyShowIn=Budgie;

@@ -1,3 +1,11 @@
+budgie-desktop-environment (0.24.6) resolute; urgency=medium
+
+  * Fix showtime configuration - should be under the raven schema
+  * Add a versioned crystal-dock global config
+  * Add a budgie only crystal-dock autostart file
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 04 Feb 2026 21:26:14 +0000
+
 budgie-desktop-environment (0.24.5) resolute; urgency=medium
 
   * Add live settings, schema config and start script for the live session

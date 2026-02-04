@@ -2,3 +2,4 @@
 # https://gnunn1.github.io/tilix-web/manual/vteconfig/
 /etc/budgie-desktop/defaults.list usr/share/budgie-desktop/applications/defaults.list
 /etc/profile.d/vte-2.91.sh /etc/profile.d/vte.sh
+/etc/xdg/crystal-dock-2.16 /etc/xdg/crystal-dock

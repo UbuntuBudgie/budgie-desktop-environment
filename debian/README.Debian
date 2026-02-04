@@ -1,0 +1,56 @@
+Crystal Dock for Ubuntu
+=================================
+
+Default configuration handling
+------------------------------
+
+Crystal Dock uses XDG_CONFIG_DIRS to locate its default
+configuration and copies those defaults into the user's
+home directory (~/.config/crystal-dock) on first run only.
+
+Once a user configuration exists, it is never modified
+automatically by package upgrades.
+
+Versioned system defaults
+-------------------------
+
+The Crystal Dock default configuration is versioned and
+installed under:
+
+  /etc/xdg/crystal-dock-<N>
+
+where <N> is a configuration version.
+
+The unversioned path:
+
+  /etc/xdg/crystal-dock
+
+is a symbolic link pointing to the current default
+configuration directory.
+
+Each incompatible change to the default configuration
+results in a new versioned directory being installed.
+Older versions are retained to avoid modifying existing
+systems.
+
+Deprecated configuration directories
+------------------------------------
+
+Older /etc/xdg/crystal-dock-<N> directories are considered
+deprecated once a newer version is installed.
+
+They are intentionally not removed or modified
+automatically, in accordance with Debian policy regarding
+configuration files.
+
+Administrators may safely remove deprecated directories
+manually if they are no longer needed.
+
+User configuration migration
+----------------------------
+
+No automatic migration of user configuration is performed.
+
+If users wish to adopt new defaults, they must remove their
+existing ~/.config/crystal-dock directory and start Crystal
+Dock again, or manually copy configuration files as desired.
