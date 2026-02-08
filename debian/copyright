@@ -3,27 +3,18 @@ Upstream-Name: budgie-desktop-environment
 Source: https://github.com/UbuntuBudgie/budgie-desktop-environment
 
 Files: *
-Copyright: Copyright 2016-2018 David Mohammed <fossfreedom@ubuntu.com>
+Copyright: Copyright 2016-2026 David Mohammed <fossfreedom@ubuntu.com>
 License: GPL-2+
 
 Files: keycontrol/bin/gnome-custom-keybinding-setup.py
 Copyright: 2018, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2+
 
-LICENSE: GPL-2+
- This library is free software; you can redistribute it and/or
- modify it under the terms of the GNU General Public
- License as published by the Free Software Foundation; either
- version 2 of the License, or (at your option) any later version.
+License: GPL-2+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; version 2 dated June, 1991, or (at
+ your option) any later version.
  .
- This library is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- Lesser General Public License for more details.
- .
- You should have received a copy of the GNU Lesser General Public
- License along with this library; if not, write to the Free Software
- Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
- .
- On Debian systems, the complete text of the GNU General
- Public License can be found in `/usr/share/common-licenses/GPL-2'.
+ On Debian systems, the complete text of version 2 of the GNU General
+ Public License can be found in '/usr/share/common-licenses/GPL-2'.
