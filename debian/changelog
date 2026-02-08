@@ -1,3 +1,9 @@
+budgie-desktop-environment (0.24.7) resolute; urgency=medium
+
+  * Rejig our default layout
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 07 Feb 2026 23:07:26 +0000
+
 budgie-desktop-environment (0.24.6) resolute; urgency=medium
 
   * Fix showtime configuration - should be under the raven schema
