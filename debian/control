@@ -16,23 +16,12 @@ Vcs-Git: https://github.com/UbuntuBudgie/budgie-desktop-environment -b debian
 Vcs-Browser: https://github.com/UbuntuBudgie/budgie-desktop-environment/tree/debian
 
 Package: budgie-arm-environment
+Depends: ${gir:Depends}, ${misc:Depends},
 Architecture: all
-Section: misc
-Depends:
- budgie-desktop-environment,
- gir1.2-glib-2.0,
- gir1.2-gtk-3.0,
- pibootctl,
- python3,
- ${misc:Depends},
- ${python3:Depends},
-Description: ARM based desktop environment customisation for Ubuntu Budgie
- Adds a support application and settings to optimize the display and
- usage of Ubuntu Budgie on ARM based devices such as the Raspberry Pi4.
- .
- The default Ubuntu Budgie desktop environment - its layout, font sizes,
- panel and theme can be selected depending upon the display form-factor
- being used.
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ This is a transitional package. It can safely be removed.
 
 Package: budgie-desktop-environment
 Architecture: all
