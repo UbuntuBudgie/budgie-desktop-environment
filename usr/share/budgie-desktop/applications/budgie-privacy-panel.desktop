@@ -7,7 +7,7 @@ Exec=budgie-control-center privacy
 Icon=preferences-system-privacy
 Terminal=false
 Type=Application
-#NoDisplay=true
+#
 StartupNotify=true
 Categories=GNOME;GTK;Settings;DesktopSettings;X-GNOME-PersonalSettings;X-GNOME-AccountSettings;
 OnlyShowIn=Budgie

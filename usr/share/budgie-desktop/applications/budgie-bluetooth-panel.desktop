@@ -6,7 +6,7 @@ Icon=bluetooth
 Exec=budgie-control-center bluetooth
 Terminal=false
 Type=Application
-#NoDisplay=true
+#
 Categories=GTK;GNOME;Settings;X-GNOME-NetworkSettings;HardwareSettings;X-GNOME-ConnectivitySettings;
 OnlyShowIn=Budgie
 StartupNotify=true

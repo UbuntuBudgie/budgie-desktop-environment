@@ -6,7 +6,7 @@ Exec=budgie-control-center display
 Icon=preferences-desktop-display
 Terminal=false
 Type=Application
-#NoDisplay=true
+#
 StartupNotify=true
 Categories=GNOME;GTK;Settings;HardwareSettings;X-GNOME-DevicesSettings;
 OnlyShowIn=Budgie

@@ -43,4 +43,4 @@ Icon=mini.xterm
 Categories=System;TerminalEmulator;
 Keywords=shell;prompt;command;commandline;cmd;
 X-Desktop-File-Install-Version=0.24
-NoDisplay=true
+

@@ -1,0 +1,27 @@
+[Desktop Entry]
+Name[ca]=Blocatge de pantalla
+Name[en_GB]=Screen Lock
+Name[et]=Ekraanilukustus
+Name[pl]=Blokada ekranu
+Name=Screen Lock
+Comment[ca]=Configureu els paràmetres del blocatge de la pantalla
+Comment[en_GB]=Configure screen lock settings
+Comment[et]=Seadista ekraanilukustust
+Comment[pl]=Skonfiguruj ustawienia blokady ekranu
+Comment=Configure screen lock settings
+Exec=budgie-control-center lock
+# Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+Icon=system-lock-screen-symbolic
+Terminal=false
+Type=Application
+
+StartupNotify=true
+Categories=GNOME;GTK;Settings;DesktopSettings;X-GNOME-Settings-Panel;X-GNOME-PrivacySettings;
+OnlyShowIn=Budgie
+# Translators: Search terms to find the Screen Lock panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+Keywords[ca]=pantalla;bloqueig;blocatge;privadesa;seguretat;automàtic;retard;
+Keywords[en_GB]=screen;lock;privacy;security;automatic;delay;
+Keywords[et]=screen;lock;privacy;security;automatic;delay;ekraan;lukustus;lukustama;turvalisus;
+Keywords[pl]=ekran;blokada;prywatność;bezpieczeństwo;automatyczne;opóźnienie;
+Keywords=screen;lock;privacy;security;automatic;delay;
+

@@ -1,0 +1,25 @@
+[Desktop Entry]
+Name[ca]=Introducció
+Name[en_GB]=Introduction
+Name[et]=Sissejuhatus
+Name[pl]=Wstęp
+Name=Introduction
+Comment[ca]=Comenceu a usar l'escriptori Budgie
+Comment[en_GB]=Get started with Budgie Desktop
+Comment[et]=Alusta Budgie töölaua kasutamist
+Comment[pl]=Rozpocznij korzystanie z Budgie Desktop
+Comment=Get started with Budgie Desktop
+Exec=budgie-control-center introduction
+Icon=preferences-system
+Terminal=false
+Type=Application
+
+StartupNotify=true
+Categories=GNOME;GTK;Settings;DesktopSettings;X-GNOME-Settings-Panel;X-GNOME-PersonalizationSettings;
+OnlyShowIn=Budgie;
+# Translators: Search terms to find the Introduction panel
+Keywords[ca]=benvinguda;primers passos;visita guiada;primera vegada;configuració;guia;
+Keywords[en_GB]=welcome;getting started;tour;first time;setup;guide;
+Keywords[et]=welcome;getting started;tour;first time;setup;guide;sissejuhatus;juhend;tere;tulemast;
+Keywords[pl]=Witamy; Pierwsze kroki; Wycieczka; Pierwszy raz; Konfiguracja; Przewodnik;
+Keywords=welcome;getting started;tour;first time;setup;guide;

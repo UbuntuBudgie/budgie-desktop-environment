@@ -15,4 +15,4 @@ X-GNOME-Bugzilla-Component=general
 X-GNOME-Bugzilla-Version=3.26.0
 MimeType=x-scheme-handler/ghelp;x-scheme-handler/help;x-scheme-handler/info;x-scheme-handler/man;
 X-Ubuntu-Gettext-Domain=yelp
-NoDisplay=true
+
