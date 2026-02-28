@@ -1,3 +1,12 @@
+budgie-desktop-environment (0.24.9) resolute; urgency=medium
+
+  * Add 26.04 codename wallpaper and install mascot
+  * Remove obsolete keycontrol
+  * Refresh budgie-*.desktop overrides from 10.10 application equivalents
+  * Add powerstats desktop override file to ensure it appears in the menu
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 28 Feb 2026 20:20:54 +0000
+
 budgie-desktop-environment (0.24.8) resolute; urgency=medium
 
   * deprecate the budgie-arm-environment package - its not ready for
