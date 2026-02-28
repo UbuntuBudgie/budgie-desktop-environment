@@ -1,4 +1,0 @@
-[custom-keybindings/shuffler_tophalf]
-binding='<Primary><Alt>KP_8'
-command='/usr/share/budgie-desktop/windowshuffler/shuffler_nogui 1 2 0 0'
-name='Shuffler-tiling tophalf'

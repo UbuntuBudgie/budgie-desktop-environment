@@ -1,4 +1,0 @@
-[custom-keybindings/budgie-screenshot-area]
-binding='<Shift>Print'
-command='gnome-screenshot -a'
-name='Save a screenshot of an area to Pictures'

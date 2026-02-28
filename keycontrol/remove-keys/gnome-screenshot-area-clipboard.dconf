@@ -1,4 +1,0 @@
-[custom-keybindings/budgie-screenshot-area-clipboard]
-binding='<Shift><Ctrl>Print'
-command='gnome-screenshot -a -c'
-name='Copy a screenshot of an area to clipboard'

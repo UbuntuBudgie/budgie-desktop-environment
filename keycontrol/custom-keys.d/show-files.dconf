@@ -1,4 +1,0 @@
-[custom-keybindings/budgie-show-files-test]
-binding='<Super>e'
-command='nemo'
-name='Show File Browser'

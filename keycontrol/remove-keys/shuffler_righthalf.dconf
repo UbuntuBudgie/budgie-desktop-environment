@@ -1,4 +1,0 @@
-[custom-keybindings/shuffler_righthalf]
-binding='<Primary><Alt>KP_6'
-command='/usr/share/budgie-desktop/windowshuffler/shuffler_nogui 2 1 1 0'
-name='Shuffler-tiling righthalf'

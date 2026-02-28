@@ -1,4 +1,0 @@
-[custom-keybindings/shuffler_topleft_noKP]
-binding='<Super>1'
-command='/usr/share/budgie-desktop/windowshuffler/shuffler_nogui 2 2 0 0'
-name='Shuffler-tiling topleft mainkeyboard'
