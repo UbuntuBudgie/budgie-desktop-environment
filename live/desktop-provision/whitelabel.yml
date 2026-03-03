@@ -3,9 +3,11 @@ flavor: budgie
 
 pages:
   locale:
-    image: "UbuntuBudgie-Wordmark-white.svg"
+    image: "UbuntuBudgie-Wordmark-dark.svg"
+    image-dark: "UbuntuBudgie-Wordmark-dark.svg"
   try-or-install:
     image: "UbuntuBudgie-Wordmark-white.svg"
+    image-dark: "UbuntuBudgie-Wordmark-white.svg"
   accessibility:
     visible: false
   done:
