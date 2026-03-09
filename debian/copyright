@@ -6,10 +6,6 @@ Files: *
 Copyright: Copyright 2016-2026 David Mohammed <fossfreedom@ubuntu.com>
 License: GPL-2+
 
-Files: keycontrol/bin/gnome-custom-keybinding-setup.py
-Copyright: 2018, Bernard Gray <bernard.gray@gmail.com>
-License: GPL-2+
-
 License: GPL-2+
  This program is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
