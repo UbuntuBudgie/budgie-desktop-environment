@@ -1,3 +1,11 @@
+budgie-desktop-environment (0.24.11) resolute; urgency=medium
+
+  * Show slicksddm-customize in both budgie-control-center and
+    the menu
+  * Pull the latest 50% completed translations for the installer
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 09 Mar 2026 19:39:15 +0000
+
 budgie-desktop-environment (0.24.10) resolute; urgency=medium
 
   * Add dark wordmark for installer image/image-dark whitelist
