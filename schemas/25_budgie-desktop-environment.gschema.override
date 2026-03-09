@@ -17,6 +17,7 @@ window-maximized=false
 [org.ubuntubudgie.plugins.budgie-appmenu]
 enable-powerstrip=false
 enable-favorites=true
+show-terminal-apps=true
 
 [org.onboard.auto-show]
 enabled=true
