@@ -1,7 +1,7 @@
-
 [Desktop Entry]
 Type=Application
 Name=crystal-dock
-Exec=crystal-dock
+Exec=/usr/bin/crystal-dock
 NoDisplay=true
-OnlyShowIn=Budgie;
+X-GNOME-Autostart-Delay=5
+OnlyShowIn=Budgie
