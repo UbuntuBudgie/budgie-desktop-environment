@@ -1,3 +1,16 @@
+budgie-desktop-environment (0.24.13) resolute; urgency=medium
+
+  * Switch to default.target for the systemd user service to launch
+    bootstrap - SDDM doesn't support graphical-session.target
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 11 Mar 2026 22:32:47 +0000
+
+budgie-desktop-environment (0.24.12) resolute; urgency=medium
+
+  * Fix and validate installer slides from transifex
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 11 Mar 2026 18:55:27 +0000
+
 budgie-desktop-environment (0.24.11) resolute; urgency=medium
 
   * Show slicksddm-customize in both budgie-control-center and
