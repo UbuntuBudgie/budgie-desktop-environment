@@ -1,3 +1,11 @@
+budgie-desktop-environment (0.24.14) resolute; urgency=medium
+
+  * Deconflict the ubuntu-budgie-installer.service install - the
+    debian package is the master - we shouldn't be installing a separate
+    version via the package install file
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 14 Mar 2026 14:55:28 +0000
+
 budgie-desktop-environment (0.24.13) resolute; urgency=medium
 
   * Switch to default.target for the systemd user service to launch
