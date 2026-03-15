@@ -1,3 +1,9 @@
+budgie-desktop-environment (0.24.15) resolute; urgency=medium
+
+  * for the service use the correct installer name
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 15 Mar 2026 12:52:40 +0000
+
 budgie-desktop-environment (0.24.14) resolute; urgency=medium
 
   * Deconflict the ubuntu-budgie-installer.service install - the
