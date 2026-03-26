@@ -2,14 +2,13 @@
 Description=Ubuntu Budgie Installer
 After=default.target
 
-# Never run in GDM
-#Conflicts=gnome-session@gnome-login.target
-
 [Service]
 Type=oneshot
+ExecStartPre=sh -c 'until pidof budgie-session-binary > /dev/null; do sleep 1; done'
 ExecStart=sh -c "/snap/bin/ubuntu-desktop-bootstrap --try-or-install"
 ExecStopPost=sh -c "/snap/bin/ubuntu-budgie-welcome.budgie-welcome"
 Restart=no
+TimeoutStartSec=60
 
 [Install]
 WantedBy=default.target
