@@ -1,3 +1,11 @@
+budgie-desktop-environment (0.25.1) stonking; urgency=medium
+
+  * Remove UB 24.04 budgie-nemo.desktop autostart file that
+    causes crystal-dock to appear to be frozen due to nemo-desktop also
+    autostarting (LP: #2158479)
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 26 Jun 2026 20:40:11 +0100
+
 budgie-desktop-environment (0.25.0) stonking; urgency=medium
 
   * Switch codename wallpaper for a development version for this
