@@ -1,3 +1,10 @@
+budgie-desktop-environment (0.25.0) stonking; urgency=medium
+
+  * Switch codename wallpaper for a development version for this
+    cycle.
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 24 May 2026 19:34:04 +0100
+
 budgie-desktop-environment (0.24.16) resolute; urgency=medium
 
   * Wait until budgie-session-binary is detected before running the
