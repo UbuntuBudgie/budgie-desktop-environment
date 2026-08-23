@@ -1,8 +1,9 @@
-budgie-desktop-environment (0.25.2) UNRELEASED; urgency=medium
+budgie-desktop-environment (0.25.2) stonking; urgency=medium
 
   * Latest installer translations
+  * d/control add xwayland as a recommendation
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 26 Jun 2026 21:35:13 +0100
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 23 Aug 2026 21:47:13 +0100
 
 budgie-desktop-environment (0.25.1) stonking; urgency=medium
 
