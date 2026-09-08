@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=wvkbd On-Screen Keyboard
+Comment=wlroots On-Screen Keyboard for Budgie and labwc
+Exec=wvkbd-service.sh
+Icon=input-keyboard
+Type=Application
+NoDisplay=true
+AutostartCondition=GSettings org.gnome.desktop.a11y.applications screen-keyboard-enabled
+X-GNOME-AutoRestart=true
+OnlyShowIn=Budgie
+

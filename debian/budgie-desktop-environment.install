@@ -9,7 +9,9 @@ home-folder /usr/share/budgie-desktop/
 launch-welcome/launch_welcome /usr/share/budgie-desktop/
 nemo-actions/*.nemo_action /usr/share/nemo/actions/
 nemo-actions/*.sh /usr/share/nemo/actions/
-onboard-autostart/* /etc/xdg/autostart/
+wvkbd/budgie-wvkbd-start.desktop /etc/xdg/autostart/
+wvkbd/wvkbd-service.sh /usr/bin/
+wvkbd/labwc_keyfile.ini /usr/share/budgie-desktop/budgie-control-center/keyfile/
 xfce4-terminal/* /etc/xdg/xdg-budgie-desktop/xfce4/terminal
 panel_override/* /usr/share/budgie-desktop/
 raven_override/* /usr/share/budgie-desktop/raven/

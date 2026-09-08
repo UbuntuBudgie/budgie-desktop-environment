@@ -1,1 +1,2 @@
 remove-on-upgrade /etc/xdg/autostart/budgie-nemo.desktop
+remove-on-upgrade /etc/xdg/autostart/budgie-onboard-autostart.desktop

@@ -1,3 +1,14 @@
+budgie-desktop-environment (0.25.3) stonking; urgency=medium
+
+  * Replace onboard that breaks the ISO build with wvkbd
+    - install budgie-control-center override to show A11y setting and
+      keyboard shortcut
+    - install wvkbd-service.sh to be executed by autostart file
+  * Packaging
+    - remove now replaced onboard autostart file
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 24 Aug 2026 20:56:16 +0100
+
 budgie-desktop-environment (0.25.2) stonking; urgency=medium
 
   * Latest installer translations
